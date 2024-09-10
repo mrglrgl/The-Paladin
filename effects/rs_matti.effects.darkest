@@ -1,0 +1,125 @@
+
+
+
+
+////// Skills \\\\\\
+
+//// Shared \\\\
+
+// Radiant Blade
+
+// Novi Holy
+effect: .name "Matti_Nova_Desk" .target "performer" .skill_instant true .buff_ids "matti_nova_Desk" .on_hit true .on_miss true
+
+effect: .name "Matti_NovaHeal" .target "performer"	.chance 100%   .heal_percent 10% .on_hit true .on_miss false .queue true .can_crit_heal false .has_description false
+effect: .name "Matti_Corpseclear" .target "target_group" .chance 100% .kill_enemy_types corpse .on_hit true .on_miss true .queue false .can_apply_on_death true .apply_once true
+
+effect: .name "Matti_Nova_1_Desk" .target "performer" .skill_instant true .buff_ids "matti_selfheal_3_Desk" .on_hit false .on_miss false
+effect: .name "Matti_Nova_2_Desk" .target "performer" .skill_instant true .buff_ids "matti_selfheal_3_Desk" .on_hit false .on_miss false
+effect: .name "Matti_Nova_3_Desk" .target "performer" .skill_instant true .buff_ids "matti_selfheal_4_Desk" .on_hit false .on_miss false
+effect: .name "Matti_Nova_4_Desk" .target "performer" .skill_instant true .buff_ids "matti_selfheal_4_Desk" .on_hit false .on_miss false
+effect: .name "Matti_Nova_5_Desk" .target "performer" .skill_instant true .buff_ids "matti_selfheal_5_Desk" .on_hit false .on_miss false
+
+effect: .name "Matti_NovaHeal_1" .target "performer"	.chance 100%   .heal 3 .on_hit true .on_miss true	.has_description false .apply_once true
+effect: .name "Matti_NovaHeal_2" .target "performer"	.chance 100%   .heal 3 .on_hit true .on_miss true	.has_description false .apply_once true
+effect: .name "Matti_NovaHeal_3" .target "performer"	.chance 100%   .heal 4 .on_hit true .on_miss true	.has_description false .apply_once true
+effect: .name "Matti_NovaHeal_4" .target "performer"	.chance 100%   .heal 4 .on_hit true .on_miss true	.has_description false .apply_once true
+effect: .name "Matti_NovaHeal_5" .target "performer"	.chance 100%   .heal 5 .on_hit true .on_miss true	.has_description false .apply_once true
+
+
+
+// Lat Holy
+effect: .name "Matti_Doublecast_Desk" .target "performer" .buff_ids "matti_dualcast_Desk" .on_hit false .on_miss false
+
+effect: .name "Matti_LatHeal_1" .target "target"	.chance 100%   .heal 6 .on_hit true .on_miss false
+effect: .name "Matti_LatHeal_2" .target "target"	.chance 100%   .heal 7 .on_hit true .on_miss false
+effect: .name "Matti_LatHeal_3" .target "target"	.chance 100%   .heal 8 .on_hit true .on_miss false
+effect: .name "Matti_LatHeal_4" .target "target"	.chance 100%   .heal 9 .on_hit true .on_miss false
+effect: .name "Matti_LatHeal_5" .target "target"	.chance 100%   .heal 10 .on_hit true .on_miss false
+
+effect: .name "Matti_LatHeal_Exhaust" .target "performer"  .buff_ids "matti_lathealexhaust" .on_hit true .on_miss true
+
+effect: .name "Matti_Lat_A" .target "target" .chance 100% .buff_type hp_heal_amount .buff_amount -999999  .on_hit true .on_miss true .buff_source_type bsrc_vampire .duration 1	.has_description false
+effect: .name "Matti_LatSelf_1" .target "performer"	.chance 100%   .heal 3 .on_hit true .on_miss true																			.has_description false
+effect: .name "Matti_LatSelf_2" .target "performer"	.chance 100%   .heal 3 .on_hit true .on_miss true																			.has_description false
+effect: .name "Matti_LatSelf_3" .target "performer"	.chance 100%   .heal 4 .on_hit true .on_miss true																			.has_description false
+effect: .name "Matti_LatSelf_4" .target "performer"	.chance 100%   .heal 4 .on_hit true .on_miss true																			.has_description false
+effect: .name "Matti_LatSelf_5" .target "performer"	.chance 100%   .heal 5 .on_hit true .on_miss true																			.has_description false
+effect: .name "Matti_Lat_mA" .target "target" .chance 100% .buff_type hp_heal_amount .buff_amount 999999  .on_hit true .on_miss true .buff_source_type bsrc_vampire .duration 1	.has_description false
+
+effect: .name "Matti_LoH_1_Desk" .target "target" .buff_ids "matti_echo_Desk" "matti_selfheal_3_Desk" .on_hit false .on_miss false
+effect: .name "Matti_LoH_2_Desk" .target "target" .buff_ids "matti_echo_Desk" "matti_selfheal_3_Desk" .on_hit false .on_miss false
+effect: .name "Matti_LoH_3_Desk" .target "target" .buff_ids "matti_echo_Desk" "matti_selfheal_4_Desk" .on_hit false .on_miss false
+effect: .name "Matti_LoH_4_Desk" .target "target" .buff_ids "matti_echo_Desk" "matti_selfheal_4_Desk" .on_hit false .on_miss false
+effect: .name "Matti_LoH_5_Desk" .target "target" .buff_ids "matti_echo_Desk" "matti_selfheal_5_Desk" .on_hit false .on_miss false
+
+
+
+// Spirit Tether
+effect: .name "Matti_Guard"  .target "target" .guard 1 .on_hit true .on_miss true .duration 3 .queue true .has_description false
+
+effect: .name "Matti_Tether_RegenT_1" .target "target" .chance 100% .dotHpHeal 1 .duration 4	.on_hit true .on_miss true
+effect: .name "Matti_Tether_RegenT_2" .target "target" .chance 100% .dotHpHeal 2 .duration 4	.on_hit true .on_miss true
+
+effect: .name "Matti_Tether_RegenS_1" .target "performer" .chance 100% .dotHpHeal 1 .duration 4	.on_hit true .on_miss true .has_description false
+effect: .name "Matti_Tether_RegenS_2" .target "performer" .chance 100% .dotHpHeal 2 .duration 4	.on_hit true .on_miss true .has_description false
+
+effect: .name "Matti_Tether_1_Desk" .target "target" .buff_ids "matti_tether_D1" "matti_tether_DB" .on_hit false .on_miss false
+effect: .name "Matti_Tether_2_Desk" .target "target" .buff_ids "matti_tether_D2" "matti_tether_DB" .on_hit false .on_miss false
+effect: .name "Matti_Tether_3_Desk" .target "target" .buff_ids "matti_tether_D3" "matti_tether_DB" .on_hit false .on_miss false
+effect: .name "Matti_Tether_4_Desk" .target "target" .buff_ids "matti_tether_D4" "matti_tether_DB" .on_hit false .on_miss false
+effect: .name "Matti_Tether_5_Desk" .target "target" .buff_ids "matti_tether_D5" "matti_tether_DB" .on_hit false .on_miss false
+
+effect: .name "Matti_Torch5" .target "target" .chance 100% .torch_increase 5	.on_hit true .on_miss true .apply_once true .queue true .has_description false
+effect: .name "Matti_Torch6" .target "target" .chance 100% .torch_increase 7	.on_hit true .on_miss true .apply_once true .queue true .has_description false
+effect: .name "Matti_Torch7" .target "target" .chance 100% .torch_increase 6	.on_hit true .on_miss true .apply_once true .queue true .has_description false
+effect: .name "Matti_Torch8" .target "target" .chance 100% .torch_increase 8	.on_hit true .on_miss true .apply_once true .queue true .has_description false
+
+
+//
+effect: .name "Matti_Detain_Desk" .target "performer" .chance 100% .duration 1 .buff_ids "matti_detain_Desk"	 .on_hit false .on_miss false .skill_instant true
+
+effect: .name "Matti_Ally_MarkSteal" .target "performer_group_other" .chance 100% .steal_buff_stat_type tag .on_hit true .on_miss false .has_description false
+effect: .name "Matti_Target_GiveMark" .target "target" .chance 100% .steal_buff_stat_type tag .on_hit true .on_miss false .swap_source_and_target true .has_description false
+effect: .name "Matti_UnmarkSelf" .target "performer" .chance 100% .untag 1 .on_hit true .on_miss false .has_description false
+
+
+
+//
+effect: .name "Matti_FFS_Blocker"	.target "target" .chance 0%  .dotPoison 1 .duration 1	.on_hit false .on_miss false .has_description false
+effect: .name "Matti_FFS"			.target "performer" .chance 100% .buff_source_type bsrc_vampire .buff_ids "matti_skillblock" "matti_antipass_stress" .duration 1 .on_hit true .on_miss true .has_description false
+
+// Inspire
+effect: .name "Matti_RallyClear" .target "target" .unstun 1 .clear_debuff 1 .on_hit true .on_miss true .has_description false
+
+effect: .name "Matti_RallyDesk" .target "target" .buff_ids "matti_rally_Desk" "matti_buff_Desk" .on_hit false .on_miss false
+
+effect: .name "Matti_RallyTarg_1" .target "target" .buff_ids "matti_rally_Stun_1" "matti_rally_Debuff_1" .duration 3 .on_hit true .on_miss true
+effect: .name "Matti_RallyTarg_2" .target "target" .buff_ids "matti_rally_Stun_2" "matti_rally_Debuff_2" .duration 3 .on_hit true .on_miss true
+effect: .name "Matti_RallyTarg_3" .target "target" .buff_ids "matti_rally_Stun_3" "matti_rally_Debuff_3" .duration 3 .on_hit true .on_miss true
+effect: .name "Matti_RallyTarg_4" .target "target" .buff_ids "matti_rally_Stun_4" "matti_rally_Debuff_4" .duration 3 .on_hit true .on_miss true
+effect: .name "Matti_RallyTarg_5" .target "target" .buff_ids "matti_rally_Stun_5" "matti_rally_Debuff_5" .duration 3 .on_hit true .on_miss true
+
+effect: .name "Matti_RallySelf_1" .target "performer" .buff_ids "matti_rally_Stun_1" "matti_rally_Debuff_1" .duration 4 .on_hit true .on_miss true .has_description false
+effect: .name "Matti_RallySelf_2" .target "performer" .buff_ids "matti_rally_Stun_2" "matti_rally_Debuff_2" .duration 4 .on_hit true .on_miss true .has_description false
+effect: .name "Matti_RallySelf_3" .target "performer" .buff_ids "matti_rally_Stun_3" "matti_rally_Debuff_3" .duration 4 .on_hit true .on_miss true .has_description false
+effect: .name "Matti_RallySelf_4" .target "performer" .buff_ids "matti_rally_Stun_4" "matti_rally_Debuff_4" .duration 4 .on_hit true .on_miss true .has_description false
+effect: .name "Matti_RallySelf_5" .target "performer" .buff_ids "matti_rally_Stun_5" "matti_rally_Debuff_5" .duration 4 .on_hit true .on_miss true .has_description false
+
+
+// Zealous Accusation
+effect: .name "Matti_Zeal_MarkS" .target "performer" .chance 100% .buff_type tag .buff_amount 100% .duration 4	.on_hit true .on_miss true .queue true
+effect: .name "Matti_Zeal_MarkT" .target "target" 	.chance 100% .unstealth 1 .tag 1 .duration 3	.on_hit true .on_miss false .queue true
+effect: .name "Matti_Zeal_MarkSFake" .target "performer" .chance 100% .tag 1 .duration 3	.on_hit false .on_miss false
+
+effect: .name "Matti_Zeal_Buff_1" .target "performer" .chance 100% .duration 4  .combat_stat_buff 1 .protection_rating_add 20% .speed_rating_add 4	.on_hit true .on_miss true
+effect: .name "Matti_Zeal_Buff_2" .target "performer" .chance 100% .duration 4  .combat_stat_buff 1 .protection_rating_add 22% .speed_rating_add 4	.on_hit true .on_miss true
+effect: .name "Matti_Zeal_Buff_3" .target "performer" .chance 100% .duration 4  .combat_stat_buff 1 .protection_rating_add 25% .speed_rating_add 5	.on_hit true .on_miss true
+effect: .name "Matti_Zeal_Buff_4" .target "performer" .chance 100% .duration 4  .combat_stat_buff 1 .protection_rating_add 27% .speed_rating_add 5	.on_hit true .on_miss true
+effect: .name "Matti_Zeal_Buff_5" .target "performer" .chance 100% .duration 4  .combat_stat_buff 1 .protection_rating_add 30% .speed_rating_add 6	.on_hit true .on_miss true
+
+
+// Affliction
+//effect: .name "Matti_BarkStress"	.target "performer" .chance 100% .healstress 2	.on_hit true .on_miss true
+
+

@@ -1,0 +1,30 @@
+{
+   "traits":
+   [
+      {
+         "id" : "matti_spellbound",
+         "is_generated": false,
+         "overstress_type": "affliction",
+         "curio_tag" : "none",
+         "curio_tag_chance" : 0,
+         "keep_loot" : false,
+         "generate_chance_modifier" : 0.0,
+         "buff_ids" : 
+         [
+            "Matti_Spellbound_ACC8",
+            "Matti_Spellbound_CRT8",
+            "Matti_Spellbound_StunR",
+            "Matti_Spellbound_StressR",
+			"Matti_Spellbound_HA_Stress"
+         ],
+         "combat_start_turn_act_outs":
+         [
+            { "id": "nothing", "data": { "number_value": 0.0, "string_value": "" }, "chance": 19}
+         ],
+         "reaction_act_outs":
+         [
+            { "id": "block_combat_retreat", "data":{ "effect": "" }, "chance": 0.33}
+         ]
+      }
+   ]
+}

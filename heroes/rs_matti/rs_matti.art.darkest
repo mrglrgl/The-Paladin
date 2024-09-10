@@ -1,0 +1,28 @@
+commonfx: .deathfx death_medium
+
+weapon: .name "rs_matti_weapon_0" .icon "eqp_weapon_0.png"
+weapon: .name "rs_matti_weapon_1" .icon "eqp_weapon_1.png"
+weapon: .name "rs_matti_weapon_2" .icon "eqp_weapon_2.png"
+weapon: .name "rs_matti_weapon_3" .icon "eqp_weapon_3.png"
+weapon: .name "rs_matti_weapon_4" .icon "eqp_weapon_4.png"
+
+armour: .name "rs_matti_armour_0" .icon "eqp_armour_0.png"
+armour: .name "rs_matti_armour_1" .icon "eqp_armour_1.png"
+armour: .name "rs_matti_armour_2" .icon "eqp_armour_2.png"
+armour: .name "rs_matti_armour_3" .icon "eqp_armour_3.png"
+armour: .name "rs_matti_armour_4" .icon "eqp_armour_4.png"
+
+//combat_skill: .id "rsmatti_smite" 	.icon "one" 	.anim "attack_sword"	.fx "smite"				.targchestfx "blood_splatter"	.condensed_tooltip_stats true
+combat_skill: .id "rsmatti_smite" 	.icon "one" 	.anim "attack_charge"	.fx "holy_lance"		.targchestfx "blood_splatter"	.condensed_tooltip_stats true
+combat_skill: .id "rsmatti_nova" 	.icon "two" 	.anim "attack_banner" 	.fx "inspiring_cry"		.targchestfx "blood_splatter" 	.area_pos_offset 100 0 .target_area_pos_offset -100 0
+combat_skill: .id "rsmatti_loh" 	.icon "three"	.anim "attack_heal" 	.fx "battle_heal" 		.targfx "battle_heal_target" 	.can_display_performer_selection_after_turn false .condensed_tooltip_effects true .condensed_tooltip_effects_per_line 1
+combat_skill: .id "rsmatti_tether" 	.icon "four" 	.anim "attack_scroll"	.fx "bulwark_of_faith" 									.condensed_tooltip_effects true .condensed_tooltip_effects_per_line 1 .can_display_performer_selection_after_turn false
+combat_skill: .id "rsmatti_advance" .icon "five" 	.anim "attack_stun" 	.fx "intimidate" 	.targheadfx "stunning_blow_target"	.condensed_tooltip_stats true	.condensed_tooltip_effects true .condensed_tooltip_effects_per_line 1
+combat_skill: .id "rsmatti_inspire" .icon "six" 	.anim "attack_banner"	.fx "inspiring_cry" .targchestfx "gods_illumination_target"		.condensed_tooltip_effects true .condensed_tooltip_effects_per_line 1
+combat_skill: .id "rsmatti_zeal" 	.icon "seven"	.anim "attack_scroll" 	.fx "zealous_accusation" .targchestfx "brand_tainted_target"	.condensed_tooltip_effects true .condensed_tooltip_effects_per_line 2
+
+combat_move_skill: .id "move" .icon "generic_move" .anim "idle"
+
+act_out_display: .attack_friendly_anim "attack_sword" .attack_friendly_fx "smite" .attack_friendly_targchestfx "blood_splatter" .attack_friendly_sfx "/char/ally/hellion_wicked_hack"
+
+display_modifier: .disabled_popup_text_types no_damage

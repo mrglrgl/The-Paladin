@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <language id="english">
+    <entry id="hero_class_name_rs_matti"><![CDATA[Paladin]]></entry>
+	
+
+		<!--Camp Skills-->	
+	<entry id="rs_matti+str_bark_encourage"><![CDATA[...]]></entry>
+	
+	<entry id="rs_matti+str_bark_first_aid"><![CDATA[...]]></entry>
+	
+	<entry id="rs_matti+str_bark_pep_talk"><![CDATA[...]]></entry>
+	
+	<entry id="camping_skill_name_rsmatti_marching_orders"><![CDATA[ROUSE THE RABBLE]]></entry>
+	<entry id="rs_matti+str_bark_rsmatti_marching_orders"><![CDATA[Give no quarter - these fiends will give none in return!]]></entry>
+	<entry id="rs_matti+str_bark_rsmatti_marching_orders"><![CDATA[If we fight together, we will not fail!]]></entry>
+	
+	<entry id="camping_skill_name_rsmatti_militia_training"><![CDATA[MILITIA TRAINING]]></entry>
+	<entry id="rs_matti+str_bark_rsmatti_militia_training"><![CDATA[Remain vigilant! Never abandon your weapon or partner.]]></entry>
+
+		<!--Combat Skills-->
+	<entry id="combat_skill_name_rs_matti_rsmatti_smite"><![CDATA[Vanquish]]></entry>
+	<entry id="combat_skill_name_rs_matti_rsmatti_nova"><![CDATA[Novi Holy]]></entry>
+	<entry id="combat_skill_name_rs_matti_rsmatti_loh"><![CDATA[Lat Holy]]></entry>
+	<entry id="combat_skill_name_rs_matti_rsmatti_tether"><![CDATA[Beacon of Light]]></entry>
+	<entry id="combat_skill_name_rs_matti_rsmatti_advance"><![CDATA[Detain]]></entry>
+    <entry id="combat_skill_name_rs_matti_rsmatti_inspire"><![CDATA[Call to Arms]]></entry>
+	<entry id="combat_skill_name_rs_matti_rsmatti_zeal"><![CDATA[Zealous Conviction]]></entry>
+	
+    <entry id="combat_skill_name_rs_matti_move"><![CDATA[Move]]></entry>
+	
+	<entry id="upgrade_tree_name_rs_matti.rsmatti_smite"><![CDATA[Vanquish]]></entry>
+    <entry id="upgrade_tree_name_rs_matti.rsmatti_nova"><![CDATA[Novi Holy]]></entry>
+	<entry id="upgrade_tree_name_rs_matti.rsmatti_loh"><![CDATA[Lat Holy]]></entry>
+	<entry id="upgrade_tree_name_rs_matti.rsmatti_tether"><![CDATA[Beacon of Light]]></entry>
+	<entry id="upgrade_tree_name_rs_matti.rsmatti_advance"><![CDATA[Detain]]></entry>
+    <entry id="upgrade_tree_name_rs_matti.rsmatti_inspire"><![CDATA[Call to Arms]]></entry>
+	<entry id="upgrade_tree_name_rs_matti.rsmatti_zeal"><![CDATA[Zealous Conviction]]></entry>
+    
+	
+		<!-- Upgrades -->
+	<entry id="rs_matti_weapon_0"><![CDATA[Weapon 1]]></entry>
+    <entry id="rs_matti_weapon_1"><![CDATA[Weapon 2]]></entry>
+    <entry id="rs_matti_weapon_2"><![CDATA[Weapon 3]]></entry>
+    <entry id="rs_matti_weapon_3"><![CDATA[Weapon 4]]></entry>
+    <entry id="rs_matti_weapon_4"><![CDATA["Weapon 5"]]></entry>
+    <entry id="upgrade_tree_name_rs_matti.weapon"><![CDATA[Weapon]]></entry>
+    <entry id="rs_matti_armour_0"><![CDATA[Armor 1]]></entry>
+    <entry id="rs_matti_armour_1"><![CDATA[Armor 2]]></entry>
+    <entry id="rs_matti_armour_2"><![CDATA[Armor 3]]></entry>
+    <entry id="rs_matti_armour_3"><![CDATA[Armor 4]]></entry>
+    <entry id="rs_matti_armour_4"><![CDATA["Armor 5"]]></entry>
+    <entry id="upgrade_tree_name_rs_matti.armour"><![CDATA[Armor]]></entry>
+    <entry id="action_verbose_body_guild_rs_matti"><![CDATA[Matti Guild]]></entry>
+    <entry id="action_verbose_body_blacksmith_rs_matti"><![CDATA[Matti Blacksmith]]></entry>
+    <entry id="action_verbose_body_camping_trainer_rs_matti"><![CDATA[Matti Camp]]></entry>
+
+
+		<!-- Trinkets and Bobbles -->
+	
+		<!-- Random Tooltips Desk -->		
+				<!-- Trinkets -->	
+				<!-- Skills -->
+		<!-- Novi Holy -->
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_nova_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} 10%% HP per Hit]]></entry>
+	
+		<!-- Lat Holy -->
+	<entry id="buff_rule_data_tooltip_rsmatti_loh"><![CDATA[{colour_start|notable}Lat Holy{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_dualcast_desk"><![CDATA[{colour_start|notable}Usable Twice per Round{colour_end}]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_echo_desk"><![CDATA[{colour_start|notable}If non-self Target:{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_selfheal_3_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} Self 3 HP]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_selfheal_4_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} Self 4 HP]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_selfheal_5_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} Self 5 HP]]></entry>
+		
+		<!-- Spirit Tether -->
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_tether_d1"><![CDATA[{colour_start|guard}Guard{colour_end} Ally / {colour_start|notable}Torch{colour_end} +5]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_tether_d2"><![CDATA[{colour_start|guard}Guard{colour_end} Ally / {colour_start|notable}Torch{colour_end} +6]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_tether_d3"><![CDATA[{colour_start|guard}Guard{colour_end} Ally / {colour_start|notable}Torch{colour_end} +7]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_tether_d4"><![CDATA[{colour_start|guard}Guard{colour_end} Ally / {colour_start|notable}Torch{colour_end} +7]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_tether_d5"><![CDATA[{colour_start|guard}Guard{colour_end} Ally / {colour_start|notable}Torch{colour_end} +8]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_tether_DB"><![CDATA[Self & Ally:]]></entry>
+
+		<!-- Detain -->
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_detain_desk"><![CDATA[Transfer all {colour_start|mark}Hero Marks{colour_end} to Target]]></entry>
+	
+		<!-- Inspire -->
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_rally_desk"><![CDATA[Clear {colour_start|stun}Stun{colour_end}/{colour_start|debuff}Debuffs{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_buff_desk"><![CDATA[{colour_start|buff}Buff Self & Ally:{colour_end}]]></entry>
+
+
+		<!-- Camp Item -->				
+		<!-- Crit -->
+	<entry id="rs_matti+str_critbyhero"><![CDATA[Justice prevails!]]></entry>
+	<entry id="rs_matti+str_critbyhero"><![CDATA[We stand as one!]]></entry>
+	<entry id="rs_matti+str_critbyhero"><![CDATA[And STAY out!]]></entry>
+	<entry id="rs_matti+str_critbyhero"><![CDATA[Stop right there, villainous scum!]]></entry>
+	<entry id="rs_matti+str_critbyhero"><![CDATA[Your reign of terror ends here!]]></entry>
+	<entry id="rs_matti+str_critbyhero"><![CDATA[Didn't see THAT coming, did you?]]></entry>
+	<entry id="rs_matti+str_critbyhero"><![CDATA[Fall, you monster!]]></entry>
+
+	<entry id="str_affliction_name_matti_spellbound"><![CDATA[Spellbound]]></entry>
+
+	<entry id="str_afflicted_matti_spellbound"><![CDATA[Justice demands retribution!]]></entry>
+	<entry id="str_afflicted_matti_spellbound"><![CDATA[The Light forgives. I do not.]]></entry>
+	<entry id="str_afflicted_matti_spellbound"><![CDATA[I hear the cries of the weak, pleading for justice!]]></entry>
+	<entry id="str_heart_attack_matti_spellbound"><![CDATA[What was I…?]]></entry>
+	<entry id="str_bark_stress_camp_matti_spellbound"><![CDATA[...]]></entry>
+	<entry id="str_roster_list_matti_spellbound_bark"><![CDATA[And where are YOU off to? How suspicious...]]></entry>
+
+
+	
+		<!-- Death's Door --
+    <entry id="rs_matti+str_bark_deathsdoor"><![CDATA[Ugh...]]></entry>
+	<entry id="rs_matti+str_bark_deathsdoor"><![CDATA[Not again...]]></entry>
+	<entry id="rs_matti+str_bark_deathsdoorsurvive"><![CDATA[You're a thousand years too late to kill me.]]></entry>
+	<entry id="rs_matti+str_bark_deathsdoorsurvive"><![CDATA[*Flicks cigarette* Back to the grindstone...]]></entry>
+	<entry id="rs_matti+str_bark_deathsdoorsurvive_ally"><![CDATA[Rise once more!]]></entry>
+	
+		<!-- When being hit --
+	<entry id="rs_matti+str_bark_bigwound"><![CDATA[Is that all?]]></entry>
+	<entry id="rs_matti+str_bark_bigwound"><![CDATA[*Snorts* Is that it?]]></entry>
+	<entry id="rs_matti+str_bark_bigwound"><![CDATA[That almost hurt.]]></entry>
+	
+	<entry id="rs_matti+str_bark_bleeddot"><![CDATA[A little blood won't stop me!]]></entry>
+	<entry id="rs_matti+str_bark_bleeddot"><![CDATA[It's just a flesh wound.]]></entry>
+	<entry id="rs_matti+str_bark_bleeddot"><![CDATA[Stop being so concerned.]]></entry>
+	
+	<entry id="rs_matti+str_bark_poisondot"><![CDATA[The pain merely enhances my focus.]]></entry>
+    <entry id="rs_matti+str_bark_poisondot"><![CDATA[You expected me to writhe in pain?]]></entry>
+    <entry id="rs_matti+str_bark_poisondot"><![CDATA[I won't succumb to trickery!]]></entry>
+	
+	<entry id="rs_matti+str_bark_bigwound_ally"><![CDATA[Pull yourself together.]]></entry>
+	<entry id="rs_matti+str_bark_bigwound_ally"><![CDATA[You'll be fine, walk it off.]]></entry>
+	-->
+	
+		<!-- On being moved -->
+	<entry id="rs_matti+str_combat_knockback"><![CDATA[]]></entry>
+		<!--
+	<entry id="rs_matti+str_combat_wastingtime"><![CDATA[This is boring. Finish them already!]]></entry>
+	-->
+	
+		<!-- Light --
+	<entry id="rs_matti+str_bark_torch_0"><![CDATA[They fight harder in the dark? Good.]]></entry>
+	<entry id="rs_matti+str_bark_torch_0"><![CDATA[Stay in my shadow.]]></entry>
+    <entry id="rs_matti+str_bark_torch_1"><![CDATA[What horrors stalk beyond the dying flame?]]></entry>
+    <entry id="rs_matti+str_bark_torch_1"><![CDATA[Come out, come out, wherever you are...]]></entry>
+    <entry id="rs_matti+str_bark_torch_2"><![CDATA[And now the fun begins!]]></entry>
+	<entry id="rs_matti+str_bark_torch_2"><![CDATA[Not all that glitters is gold.]]></entry>
+	-->
+	
+		<!-- Moving --
+	<entry id="rs_matti+str_bark_stopmoving"><![CDATA[What's the holdup?]]></entry>
+	<entry id="rs_matti+str_bark_stopmoving"><![CDATA[Make it quick.]]></entry>
+	<entry id="rs_matti+str_bark_startmoving"><![CDATA[About time we got moving.]]></entry>
+	<entry id="rs_matti+str_bark_startmoving"><![CDATA[Forward, minions!]]></entry>
+	-->
+	
+		<!-- Stress Increases --
+	<entry id="rs_matti+str_bark_increasingstress"><![CDATA[Another shinigami's trick?]]></entry>
+	<entry id="rs_matti+str_bark_increasingstress"><![CDATA[How cliche.]]></entry>
+	<entry id="rs_matti+str_bark_increasingstress"><![CDATA[Oh! That's a new one.]]></entry>
+	<entry id="rs_matti+str_bark_increasingstress"><![CDATA[Oh no. I'm sooo scared.]]></entry>
+	<entry id="rs_matti+str_bark_increasingstress"><![CDATA[Could you use your imagination a bit?]]></entry>
+	-->
+
+		<!-- Camping Barks Misc --
+    <entry id="rs_matti+str_bark_stress_partyhigh"><![CDATA[I knew you rabble were unreliable, and still I'm disappointed.]]></entry>
+    <entry id="rs_matti+str_bark_stress_partyhigh"><![CDATA[You rabble are weak, in body and spirit.]]></entry>
+	<entry id="rs_matti+str_bark_stress_partyhigh"><![CDATA[Vermin have more courage than you lot.]]></entry>
+	<entry id="rs_matti+str_bark_stress_partyhigh"><![CDATA[Why are you all so afraid?]]></entry>
+
+    <entry id="rs_matti+str_bark_stress_partylow"><![CDATA[Why did you bring me along again?]]></entry>
+    <entry id="rs_matti+str_bark_stress_partylow"><![CDATA[You know, I could make things more interesting... no?]]></entry>
+	<entry id="rs_matti+str_bark_stress_partylow"><![CDATA[Our enemy isn't trying very hard.]]></entry>
+    <entry id="rs_matti+str_bark_stress_partylow"><![CDATA[I wish something fun would happen.]]></entry>
+	
+    <entry id="rs_matti+str_bark_hp_partylow"><![CDATA[Why are humans so frail? *sigh*]]></entry>
+    <entry id="rs_matti+str_bark_hp_partylow"><![CDATA[If you can't take a hit, I'd recommend dodging.]]></entry>
+    <entry id="rs_matti+str_bark_hp_partylow"><![CDATA[Must I really babysit you?]]></entry>
+    <entry id="rs_matti+str_bark_hp_partylow"><![CDATA[Can't you fend for yourselves for once?]]></entry>
+	
+    <entry id="rs_matti+str_bark_hp_partyhigh"><![CDATA[You can hold your own, at least.]]></entry>
+    <entry id="rs_matti+str_bark_hp_partyhigh"><![CDATA[You can hold your own, I'll give you that.]]></entry>
+    <entry id="rs_matti+str_bark_hp_partyhigh"><![CDATA[All thanks to my efforts, of course!]]></entry>
+    <entry id="rs_matti+str_bark_hp_partyhigh"><![CDATA[You all know who to thank for our fortune!]]></entry>
+
+    <entry id="rs_matti+str_bark_hp_selflow"><![CDATA[Huh, that one actually got me.]]></entry>
+    <entry id="rs_matti+str_bark_hp_selflow"><![CDATA[It'll take more than this to get rid of me.]]></entry>
+    <entry id="rs_matti+str_bark_hp_selflow"><![CDATA[*winces* Don't worry, I'm fine.]]></entry>
+    <entry id="rs_matti+str_bark_hp_selflow"><![CDATA[I just need a pick-me-up.]]></entry>
+
+    <entry id="rs_matti+str_bark_hp_selfhigh"><![CDATA[Not a scratch, see?]]></entry>
+    <entry id="rs_matti+str_bark_hp_selfhigh"><![CDATA[You know, they could at least TRY to hurt me.]]></entry>
+    <entry id="rs_matti+str_bark_hp_selfhigh"><![CDATA[Compared to what I've been through, this is nothing.]]></entry>
+    <entry id="rs_matti+str_bark_hp_selfhigh"><![CDATA[*flexes* Peak condition, as always.]]></entry>
+
+    <entry id="rs_matti+str_bark_stress_selflow"><![CDATA[*yawns*]]></entry>
+    <entry id="rs_matti+str_bark_stress_selflow"><![CDATA[Wake me if anything interesting happens.]]></entry>
+    <entry id="rs_matti+str_bark_stress_selflow"><![CDATA[*snores*]]></entry>
+    <entry id="rs_matti+str_bark_stress_selflow"><![CDATA[I'm thinking of starting an incident. Anyone want in?]]></entry>
+
+    <entry id="rs_matti+str_bark_stress_selfhigh"><![CDATA[If this continues... hehehe...]]></entry>
+    <entry id="rs_matti+str_bark_stress_selfhigh"><![CDATA[Things are heating up...]]></entry>
+    <entry id="rs_matti+str_bark_stress_selfhigh"><![CDATA[So close... I can feel it...]]></entry>
+    <entry id="rs_matti+str_bark_stress_selfhigh"><![CDATA[Go on. Push me further... see what happens...]]></entry>
+
+    <entry id="rs_matti+str_bark_party_great_condition"><![CDATA[The end is in sight... pity.]]></entry>
+    <entry id="rs_matti+str_bark_party_great_condition"><![CDATA[I'm not gonna throw, okay?]]></entry>
+    <entry id="rs_matti+str_bark_party_great_condition"><![CDATA[This has been almost TOO easy.]]></entry>
+    <entry id="rs_matti+str_bark_party_great_condition"><![CDATA[Remind me why I'm here again?]]></entry>
+
+    <entry id="rs_matti+str_bark_party_poor_condition"><![CDATA[If you're just going to burden me, head back now.]]></entry>
+	<entry id="rs_matti+str_bark_party_poor_condition"><![CDATA[Keep this up, and you're headed to an early grave.]]></entry>
+    <entry id="rs_matti+str_bark_party_poor_condition"><![CDATA[I'm tired of carrying you sods.]]></entry>
+    <entry id="rs_matti+str_bark_party_poor_condition"><![CDATA[If you want to die so badly, I could help.]]></entry>
+
+    <entry id="rs_matti+str_bark_firewood_low"><![CDATA[Out of firewood, but at least that's less to carry.]]></entry>
+    <entry id="rs_matti+str_bark_firewood_low"><![CDATA[No, my sword does NOT create fire.]]></entry>
+	
+    <entry id="rs_matti+str_bark_provisions_low"><![CDATA[I hear night sparrows taste excellent when grilled.]]></entry>
+    <entry id="rs_matti+str_bark_provisions_low"><![CDATA[Who ate my share?]]></entry>
+    <entry id="rs_matti+str_bark_provisions_low"><![CDATA[Step away from the hat.]]></entry>
+    <entry id="rs_matti+str_bark_provisions_low"><![CDATA[Was that the last of the tinned catfish? ...good riddance.]]></entry>
+
+    <entry id="rs_matti+str_bark_provisions_high"><![CDATA[More interesting fare than back home, at least.]]></entry>
+    <entry id="rs_matti+str_bark_provisions_high"><![CDATA[I don't even recognize half these provisions!]]></entry>
+    <entry id="rs_matti+str_bark_provisions_high"><![CDATA[Abundant food and mediocre company... acceptable.]]></entry>
+    <entry id="rs_matti+str_bark_provisions_high"><![CDATA[Mediocre food, but at least we have a lot of it.]]></entry>
+	
+    <entry id="rs_matti+str_bark_firewood_high"><![CDATA[So much wood! What do you say to a bonfire?]]></entry>
+    <entry id="rs_matti+str_bark_firewood_high"><![CDATA[Stack the logs higher, we have plenty to spare.]]></entry>
+	
+	<entry id="rs_matti+str_bark_companionship"><![CDATA[This stone can absorb earthquakes. Wanna see?]]></entry>
+	
+	<entry id="rs_matti+str_bark_hobby"><![CDATA[This stone can absorb earthquakes. Wanna see?]]></entry>
+	-->
+	
+		<!-- Roster Barks --
+	<entry id="rs_matti+str_stagecoach_idle"><![CDATA[I excel at demolition, too.]]></entry>
+    <entry id="rs_matti+str_stagecoach_idle"><![CDATA[Wow. Reminds me of that miko's shrine after I...]]></entry>
+    <entry id="rs_matti+str_stagecoach_idle"><![CDATA[I hope you don't expect me to do carpentry.]]></entry>
+	<entry id="rs_matti+str_stagecoach_idle"><![CDATA[What happened, an earthquake? I didn't do it.]]></entry>
+	<entry id="rs_matti+str_stagecoach_idle"><![CDATA[So, what's here for me to fight?]]></entry>
+	<entry id="rs_matti+str_stagecoach_idle"><![CDATA[I hear you have a demonic infestation?]]></entry>
+	
+	<entry id="rs_matti+str_roster_list_low_stress_bark"><![CDATA[I'm bored, gimme something to do.]]></entry>
+	<entry id="rs_matti+str_roster_list_low_stress_bark"><![CDATA[I came here to fight, not laze about.]]></entry>
+	<entry id="rs_matti+str_roster_list_low_stress_bark"><![CDATA[If you need a mountain razed, I can do that too.]]></entry>
+    <entry id="rs_matti+str_roster_list_low_stress_bark"><![CDATA[It's like heaven here. Er, I didn't mean that in a good way.]]></entry>
+	
+    <entry id="rs_matti+str_roster_list_medium_stress_bark"><![CDATA[Why so concerned?]]></entry>
+    <entry id="rs_matti+str_roster_list_medium_stress_bark"><![CDATA[The shrine collapsed? Wasn't me this time.]]></entry>
+    <entry id="rs_matti+str_roster_list_medium_stress_bark"><![CDATA[I haven't seen anything horrific enough.]]></entry>
+	<entry id="rs_matti+str_roster_list_medium_stress_bark"><![CDATA[I heard you had demons here, but all I've seen are pigs.]]></entry>
+	
+    <entry id="rs_matti+str_roster_list_high_stress_bark"><![CDATA[Send me in again... heheheh...]]></entry>
+    <entry id="rs_matti+str_roster_list_high_stress_bark"><![CDATA[Fine, coop me up. See what happens.]]></entry>
+	<entry id="rs_matti+str_roster_list_high_stress_bark"><![CDATA[Ufufu...]]></entry>
+	<entry id="rs_matti+str_roster_list_high_stress_bark"><![CDATA[A good rampage will clear my head.]]></entry>
+		
+    <entry id="rs_matti+str_roster_list_darkest_dungeon_survivor_bark"><![CDATA[Of all the horrors, THAT one was awfully ugly.]]></entry>
+    <entry id="rs_matti+str_roster_list_darkest_dungeon_survivor_bark"><![CDATA[Finally, a sense of peace.]]></entry>
+    <entry id="rs_matti+str_roster_list_darkest_dungeon_survivor_bark"><![CDATA[*stretches* What a perfect day!]]></entry>
+	-->
+	
+		<!-- Destress Activites -->
+	
+				<!-- Bar --
+	<entry id="rs_matti+str_bar_committed"><![CDATA[Bring me your strongest!]]></entry>
+    <entry id="rs_matti+str_bar_committed"><![CDATA[Fetch me a bigger mug.]]></entry>
+    <entry id="rs_matti+str_bar_committed"><![CDATA[Any local specials?]]></entry>
+    <entry id="rs_matti+str_bar_committed"><![CDATA[You expect me to get drunk off this swill?]]></entry>
+	
+	<entry id="rs_matti+str_roster_list_bar_bark"><![CDATA[Another "on the rocks" joke, and I'm sending you to Hell.]]></entry>
+    <entry id="rs_matti+str_roster_list_bar_bark"><![CDATA[Oi, ugly! Bet I can drink you under the table!]]></entry>
+    <entry id="rs_matti+str_roster_list_bar_bark"><![CDATA[If I don't feel this one in the morning, you'll be sorry.]]></entry>
+	-->
+				<!-- Gambling --
+    <entry id="rs_matti+str_gambling_committed"><![CDATA[That's new, how do I play?]]></entry>
+    <entry id="rs_matti+str_gambling_committed"><![CDATA[One chip. It's all I'll need to clean up tonight.]]></entry>
+    <entry id="rs_matti+str_gambling_committed"><![CDATA[I'll wager this purse I can land a sto- what, you don't trust me?]]></entry>
+	<entry id="rs_matti+str_gambling_committed"><![CDATA[I prefer to wager lives, but this will suffice.]]></entry>
+	
+	<entry id="rs_matti+str_roster_list_gambling_bark"><![CDATA[Beginner's luck, I assure you.]]></entry>
+    <entry id="rs_matti+str_roster_list_gambling_bark"><![CDATA[Called your bluff.]]></entry>
+    <entry id="rs_matti+str_roster_list_gambling_bark"><![CDATA[This game seems a bit simple.]]></entry>
+	-->
+				<!-- Brothel --
+    <entry id="rs_matti+str_brothel_committed"><![CDATA[No, I don't want to see the men.]]></entry>
+    <entry id="rs_matti+str_brothel_committed"><![CDATA[I hope you can satisfy me.]]></entry>
+	<entry id="rs_matti+str_brothel_committed"><![CDATA[I'll try not to break the floor this time.]]></entry>
+	<entry id="rs_matti+str_brothel_committed"><![CDATA[Got anyone... feisty?]]></entry>
+	
+	<entry id="rs_matti+str_roster_list_brothel_bark"><![CDATA[*snuggles* So soft ~]]></entry>
+    <entry id="rs_matti+str_roster_list_brothel_bark"><![CDATA[Ooh, you're cute ~]]></entry>
+	-->
+		<!-- Boss Barks -->
+				<!-- Hag --
+	<entry id="rs_matti+str_prisoner_damage_cauldron_full"><![CDATA[You know my flesh is toxic, right?]]></entry>
+    <entry id="rs_matti+str_prisoner_damage_cauldron_full"><![CDATA[Get me out of this infernal cookpot!]]></entry>
+    <entry id="rs_matti+str_prisoner_damage_cauldron_full"><![CDATA[Stop making jokes and get me out!]]></entry>
+    <entry id="rs_matti+str_prisoner_damage_cauldron_full"><![CDATA[Smack the damn pot already!]]></entry>
+	-->
+	
+				<!-- Siren --
+    <entry id="rs_matti+str_control_before_turn_siren"><![CDATA[Why not? I've nothing better to do.]]></entry>
+    <entry id="rs_matti+str_control_before_turn_siren"><![CDATA[Hmhmhm~]]></entry>
+    <entry id="rs_matti+str_control_before_turn_siren"><![CDATA[I was getting bored of them anyways.]]></entry>
+    <entry id="rs_matti+str_control_before_turn_siren"><![CDATA[A proposition, you say?]]></entry>
+	
+    <entry id="rs_matti+str_control_return_siren"><![CDATA[Sorry. You're cute, but WAY too clingy.]]></entry>
+    <entry id="rs_matti+str_control_return_siren"><![CDATA[Sorry, got a little carried away.]]></entry>
+	<entry id="rs_matti+str_control_return_siren"><![CDATA[Sorry, not my type.]]></entry>
+    <entry id="rs_matti+str_control_return_siren"><![CDATA[No hard feelings, right?]]></entry>
+	-->
+	
+				<!-- Drowned Crew --
+    <entry id="rs_matti+str_prisoner_damage_drowned_anchored"><![CDATA[Dammit, I can't swim!]]></entry>
+    <entry id="rs_matti+str_prisoner_damage_drowned_anchored"><![CDATA[Stones don't float like that!]]></entry>
+    <entry id="rs_matti+str_prisoner_damage_drowned_anchored"><![CDATA[Rid me of this infernal anchor!]]></entry>
+	-->
+	
+				<!-- Wilbur --
+	<entry id="rs_matti+str_monster_attack_obliterate_enraged"><![CDATA[Fair enough, I suppose.]]></entry>
+    <entry id="rs_matti+str_monster_attack_obliterate_enraged"><![CDATA[Protecting your little friend, huh?]]></entry>
+    <entry id="rs_matti+str_monster_attack_obliterate_enraged"><![CDATA[Ow! Fine, deal with the small one later!]]></entry>
+	-->
+	
+				<!-- Cannon --
+    <entry id="rs_matti+str_monster_attack_light_fuse"><![CDATA[Get down, NOW!]]></entry>
+    <entry id="rs_matti+str_monster_attack_light_fuse"><![CDATA[Oh dear.]]></entry>
+    <entry id="rs_matti+str_monster_attack_light_fuse"><![CDATA[Well, THAT'S gonna hurt.]]></entry>
+    <entry id="rs_matti+str_monster_attack_light_fuse"><![CDATA[...that's not danmaku, is it.]]></entry>
+	-->
+	
+				<!-- Prophet --
+    <entry id="rs_matti+str_monster_attack_prophet_mark"><![CDATA[Stay back, incoming!]]></entry>
+    <entry id="rs_matti+str_monster_attack_prophet_mark"><![CDATA[Hey, that's MY thing!]]></entry>
+	<entry id="rs_matti+str_monster_attack_prophet_mark"><![CDATA[So much for originality...]]></entry>
+	<entry id="rs_matti+str_monster_attack_prophet_mark"><![CDATA[Poser.]]></entry>
+	-->
+	
+				<!-- Necromancer --
+    <entry id="rs_matti+str_monster_attack_unholy_smite"><![CDATA[Oi, hands off!]]></entry>
+    <entry id="rs_matti+str_monster_attack_unholy_judgement"><![CDATA[Now why'd you have to remind me of that?]]></entry>
+    <entry id="rs_matti+str_monster_attack_unholy_curse"><![CDATA[...what was that?]]></entry>
+	-->
+	
+				<!-- Heart of Darkness -->
+	<entry id="rs_matti+str_monster_user_selected_targets_kill_pill"><![CDATA[...whatever.]]></entry>
+	
+				<!-- Sunward Mod --
+	<entry id="rs_matti+str_monster_attack_bozu_nothing"><![CDATA[Well, what are you waiting for?]]></entry>
+    <entry id="rs_matti+str_monster_attack_bozu_nothing"><![CDATA[Come at me, I don't have all day!]]></entry>
+	<entry id="rs_matti+str_monster_attack_catfish_wave"><![CDATA[The torch? And why should I care?]]></entry>
+	<entry id="rs_matti+str_monster_attack_catfish_wave"><![CDATA[Stop playing games. Your opponent's right here.]]></entry>
+	<entry id="rs_matti+str_monster_attack_catfish_lunge"><![CDATA[Do that again, and you'll see stars instead of torchlight.]]></entry>
+    <entry id="rs_matti+str_monster_attack_yurei_free"><![CDATA[The afterlife is harsh. Be safe.]]></entry>
+    <entry id="rs_matti+str_monster_attack_yurei_free"><![CDATA[Such a pity.]]></entry>
+	<entry id="rs_matti+str_monster_attack_lion_cry"><![CDATA[Don't cry, I'm sending you next.]]></entry>
+	<entry id="rs_matti+str_monster_attack_lion_cry"><![CDATA[Just doing my job. Trust me, I don't like it either.]]></entry>
+	<entry id="rs_matti+str_monster_user_selected_targets_lion_roar"><![CDATA[How dare you talk back to me!]]></entry>
+	<entry id="rs_matti+str_monster_user_selected_targets_lion_roar"><![CDATA[Shut it, before I ram a Keystone into your backside!]]></entry>
+	<entry id="rs_matti+str_monster_user_selected_targets_lion_roar"><![CDATA[SILENCE!]]></entry>
+	-->
+	
+		<!-- Skill Barks -->
+	
+		<!-- Crossmod Skill Reactions -->
+				<!-- Tenshi -->
+	<entry id="rs_matti+str_tenshi_ult_spellcard_react"><![CDATA[]]></entry>
+	<entry id="rs_matti+str_tenshi_earthquake_spellcard_react"><![CDATA[]]></entry>
+	
+				<!-- Miko by The Necromancer --
+	<entry id="rs_matti+str_miko_spellcard_react"><![CDATA[Pffft. You call that a spellcard?]]></entry>
+	<entry id="rs_matti+str_miko_spellcard_react"><![CDATA[...was that supposed to be impressive?]]></entry>
+	<entry id="rs_matti+str_miko_spellcard_react"><![CDATA[Less flashy than I remember.]]></entry>
+	<entry id="rs_matti+str_miko_spellcard_react"><![CDATA[You're not trying, right?]]></entry>
+	<entry id="rs_matti+str_miko_spellcard_react"><![CDATA[Trying to make them surrender out of pity?]]></entry>
+	-->
+	
+				<!-- Maid by The Necromancer --
+	<entry id="rs_matti+str_the_world_react"><![CDATA[(They really aren't worth using that...)]]></entry>
+	<entry id="rs_matti+str_the_world_react"><![CDATA[(Fine, just leave some for me.)]]></entry>
+	<entry id="rs_matti+str_the_world_react"><![CDATA[(You need to slow down and relax.)]]></entry>
+	<entry id="rs_matti+str_the_world_react"><![CDATA[(Well, at least I won't have to wait.)]]></entry>
+	<entry id="rs_matti+str_the_world_react"><![CDATA[(Killjoy.)]]></entry>
+	-->
+	
+				<!-- Magician by Necro --
+	<entry id="rs_matti+str_master_spark_react"><![CDATA[I could do that too. If I felt like it.]]></entry>
+	<entry id="rs_matti+str_master_spark_react"><![CDATA[What, you can't spam it?]]></entry>
+	<entry id="rs_matti+str_master_spark_react"><![CDATA[Effective, if inelegant.]]></entry>
+	<entry id="rs_matti+str_master_spark_react"><![CDATA[You call THAT a laser?]]></entry>
+	-->
+	
+		<!-- Crimson Court -->
+			<!-- Prisoner --
+	<entry id="rs_matti+str_prisoner_help_me"><![CDATA[This isn't what it looks like, I swear.]]></entry>
+    <entry id="rs_matti+str_prisoner_rescue_thanks"><![CDATA[Keep quiet about this, and I'll help you.]]></entry>
+	-->
+	
+	
+		<!-- Buff shit -->
+	<entry id="buff_bsrc_vampire"><![CDATA[Special]]></entry>
+	<entry id="tray_icon_tooltip_health_damage_blocks_duration_format"><![CDATA[%d Blocks Remain {colour_start|skill_unselectable}(%d Rounds){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_combat_stat_add_damage_low"><![CDATA[%+d DMG]]></entry>
+	<entry id="buff_stat_tooltip_stress_heal_received_percent_hero_crit"><![CDATA[%+d%% {colour_start|stress}Stress Healed{colour_end} from CRITs]]></entry>
+	<entry id="buff_stat_tooltip_stress_heal_received_percent_hero_killing_blow"><![CDATA[%+d%% {colour_start|stress}Stress Healed{colour_end} from Kills]]></entry>
+	
+		<!-- Compatibility -->
+	<entry id="buff_rule_data_tooltip_farm"><![CDATA[Farmstead]]></entry>
+
+	
+  </language>
+
+</root>
+

@@ -1,0 +1,406 @@
+{
+   "buffs":
+   [
+	  {
+         "id" : "matti_Pin_PROT",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_Pin_Healing",
+         "stat_type" : "hp_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_Pin_PROT_R1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_rank",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		"has_description" : false
+      },
+	  {
+         "id" : "matti_Pin_Healing_R1",
+         "stat_type" : "hp_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_rank",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		"has_description" : false
+      },
+	  {
+         "id" : "matti_Pin_PROT_R2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_rank",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		"has_description" : false
+      },
+	  {
+         "id" : "matti_Pin_Healing_R2",
+         "stat_type" : "hp_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_rank",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		"has_description" : false
+      },
+	  {
+         "id" : "matti_Pin_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_Pin_desk",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_Elta_Healing",
+         "stat_type" : "hp_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_Elta_HolyL",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "rsmatti_nova"
+         }
+      },
+	  {
+         "id" : "matti_Elta_HolyH",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "rsmatti_nova"
+         }
+      },
+	  {
+         "id" : "matti_Nimi_ACC",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_Nimi_SPD",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_Aus_MDGH",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.35,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		"has_description" : false
+      },
+	  {
+         "id" : "matti_Aus_CRT_Mark",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+      },
+	  {
+         "id" : "matti_Aus_CRT_S2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterSize",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_Aus_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_Aus_desk",
+         "amount" : -0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_Orn_Move",
+         "stat_type" : "move_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_Orn_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_Orn_desk",
+         "amount" : -0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_cc_critr",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_cc_ripostehit_afflicted",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "riposte_on_hit_chance",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "afflicted",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		"has_description" : false
+      },
+	  {
+         "id" : "matti_cc_ripostehit_marked",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "riposte_on_hit_chance",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         },
+		"has_description" : false
+      },
+	  {
+         "id" : "matti_cc_ripostehit_guarding",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "riposte_on_hit_chance",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_guarding",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		"has_description" : false
+      },
+	  {
+         "id" : "matti_cc_ripostemiss_afflicted",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "riposte_on_miss_chance",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "afflicted",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		"has_description" : false
+      },
+	  {
+         "id" : "matti_cc_ripostemiss_marked",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "riposte_on_miss_chance",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         },
+		"has_description" : false
+      },
+	  {
+         "id" : "matti_cc_ripostemiss_guarding",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "riposte_on_miss_chance",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_guarding",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		"has_description" : false
+      },
+	  {
+         "id" : "matti_cc_Desk_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_cc_desk_1",
+         "amount" : -0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "torch_setting",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "matti_amg_rule"
+         }
+      },
+	  {
+         "id" : "matti_cc_Desk_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_cc_desk_2",
+         "amount" : -0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_cc_Desk_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_cc_desk_3",
+         "amount" : -0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "torch_setting",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "matti_rbuff_rule"
+         }
+      },
+	  {
+         "id" : "matti_TPHOLDER_Weald",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_TPHOLDER_desk",
+         "amount" : -0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "weald"
+         }
+      },
+	  {
+         "id" : "matti_TPHOLDER_Warrens",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_TPHOLDER_desk",
+         "amount" : -0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "warrens"
+         }
+      }
+   ]
+}

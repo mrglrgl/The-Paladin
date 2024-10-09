@@ -17,6 +17,9 @@
 	
 	<entry id="camping_skill_name_rsmatti_militia_training"><![CDATA[MILITIA TRAINING]]></entry>
 	<entry id="rs_matti+str_bark_rsmatti_militia_training"><![CDATA[Remain vigilant! Never abandon your weapon or partner.]]></entry>
+	
+	<entry id="camping_skill_name_rsmatti_patrol"><![CDATA[CHURCHMOUSE PATROL]]></entry>
+	<entry id="rs_matti+str_bark_rsmatti_patrol"><![CDATA[Where've you been? I was getting worried...]]></entry>
 
 		<!--Combat Skills-->
 	<entry id="combat_skill_name_rs_matti_rsmatti_smite"><![CDATA[Vanquish]]></entry>
@@ -57,11 +60,49 @@
 
 
 		<!-- Trinkets and Bobbles -->
+	<entry id="camping_skill_effect_loot_matti_camp_mice"><![CDATA[Retrieve a {colour_start|notable}Churchmouse{colour_end} Trinket
+{colour_start|skill_unselectable}Each region has 1-2 unique Mice{colour_end}]]></entry>
+		
+	<entry id="trinket_rarity_mattimouse"><![CDATA[Churchmouse]]></entry>
+	<entry id="trinket_rarity_mattimouse_common"><![CDATA[Churchmouse]]></entry>
+	<entry id="trinket_rarity_mattimouse_uncommon"><![CDATA[Churchmouse]]></entry>
+	<entry id="trinket_rarity_mattimouse_rare"><![CDATA[Churchmouse]]></entry>
+	<entry id="trinket_rarity_mattimouse_very_rare"><![CDATA[Churchmouse]]></entry>
+	
+	<entry id="str_inventory_title_trinketmatti_trinket_1"><![CDATA[Pin & Elta, Vanguard]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_matti_Pin_desk"><![CDATA[2x Values in Rank 2
+3x Values in Rank 1]]></entry>
+	<entry id="str_inventory_title_trinketmatti_trinket_2"><![CDATA[Elta, Medic]]></entry>
+	
+	<entry id="str_inventory_title_trinketmatti_trinket_3"><![CDATA[Nimi, Archer]]></entry>
+	<entry id="str_inventory_title_trinketmatti_trinket_4"><![CDATA[Aus, Axewielder]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_matti_Aus_desk"><![CDATA[+35%% max DMG]]></entry>
+		
+	<entry id="str_inventory_title_trinketmatti_trinket_5"><![CDATA[Orn, Oakspear]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_matti_Orn_desk"><![CDATA[On Attack Hit: {colour_start|debuff}Steal{colour_end} 2 SPD]]></entry>
+	<entry id="str_inventory_set_title_matti_set_weald"><![CDATA[Weald Set]]></entry>
+	
+	<entry id="str_inventory_title_trinketmatti_trinket_6"><![CDATA[Meg, Rosemage]]></entry>
+	<entry id="str_inventory_title_trinketmatti_trinket_7"><![CDATA[Varo, Commander]]></entry>
+	<entry id="str_inventory_set_title_matti_set_warrens"><![CDATA[Warrens Set]]></entry>
+		
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_TPHOLDER_desk"><![CDATA[{colour_start|notable}Effects coming Soon!{colour_end}
+Found]]></entry>
+		
+	
+	<entry id="str_inventory_title_trinketmatti_trinket_cc"><![CDATA[Bloodied Sigil]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_matti_cc_desk_1"><![CDATA[{colour_start|riposte}Passive Riposte{colour_end} while]]></entry>
+		<entry id="buff_rule_data_tooltip_matti_amg_rule"><![CDATA[{colour_start|mark}Marked{colour_end}/{colour_start|guard}Guarding{colour_end}/{colour_start|mark}Afflicted{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_matti_cc_desk_2"><![CDATA[{colour_start|skill_unselectable} ACC base: 140 / DMG mod: -65%%{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_matti_cc_desk_3"><![CDATA[{colour_start|riposte}On Riposte:{colour_end} {colour_start|buff}Buff Self:{colour_end}]]></entry>
+		<entry id="buff_rule_data_tooltip_matti_rbuff_rule"><![CDATA[+7% DMG/{colour_start|healhp}Healing{colour_end} Done]]></entry>
+		<entry id="str_inventory_set_title_cc_set_matti"><![CDATA["Justice demands retribution."]]></entry>
 	
 		<!-- Random Tooltips Desk -->		
 				<!-- Trinkets -->	
 				<!-- Skills -->
 		<!-- Novi Holy -->
+	<entry id="buff_rule_data_tooltip_rsmatti_nova"><![CDATA[Novi Holy]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_matti_nova_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} 10%% HP per Hit]]></entry>
 	
 		<!-- Lat Holy -->
@@ -408,9 +449,10 @@
 	<entry id="buff_stat_tooltip_combat_stat_add_damage_low"><![CDATA[%+d DMG]]></entry>
 	<entry id="buff_stat_tooltip_stress_heal_received_percent_hero_crit"><![CDATA[%+d%% {colour_start|stress}Stress Healed{colour_end} from CRITs]]></entry>
 	<entry id="buff_stat_tooltip_stress_heal_received_percent_hero_killing_blow"><![CDATA[%+d%% {colour_start|stress}Stress Healed{colour_end} from Kills]]></entry>
+	<entry id="buff_rule_tooltip_torch_setting"><![CDATA[%s %s]]></entry>
 	
 		<!-- Compatibility -->
-	<entry id="buff_rule_data_tooltip_farm"><![CDATA[Farmstead]]></entry>
+	
 
 	
   </language>

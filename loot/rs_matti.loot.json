@@ -1,0 +1,26 @@
+{
+   "loot_tables" :
+   [
+	{
+         "id" : "matti_camp_mice",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "trinket", "chances" : 1, "data" : { "rarity" : "mattimouse" }}
+           
+         ]
+	},
+	{
+         "id" : "matti_loot_mice",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 24, "data" : { }},
+            { "type" : "trinket", "chances" : 1, "data" : { "rarity" : "mattimouse" }}
+         ]
+	}  
+   ]
+}

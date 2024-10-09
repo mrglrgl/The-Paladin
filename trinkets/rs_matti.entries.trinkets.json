@@ -1,0 +1,136 @@
+{
+   "entries":
+   [
+      {
+         "id" : "matti_trinket_1",
+         "buffs" : 
+         [	
+			"matti_Pin_PROT",
+			"matti_Pin_Healing",
+			"matti_Pin_PROT_R1",
+			"matti_Pin_Healing_R1",
+			"matti_Pin_PROT_R2",
+			"matti_Pin_Healing_R2",
+			"matti_Pin_Desk"
+         ],
+         "hero_class_requirements":
+         [
+            "rs_matti"
+         ],
+         "rarity" : "mattimouse",
+		 "visual_rarity" : "mattimouse_common",
+         "price" : 0,
+         "limit" : 1,
+         "origin_dungeon" : "ruins"
+      },
+	  {
+         "id" : "matti_trinket_2",
+         "buffs" : 
+         [	
+			"matti_Elta_Healing",
+			"matti_Elta_HolyL",
+			"matti_Elta_HolyH",
+			"matti_spawnblock"
+         ],
+         "hero_class_requirements":
+         [
+            "rs_matti"
+         ],
+         "rarity" : "mattimouse",
+		 "visual_rarity" : "mattimouse_common",
+         "price" : 0,
+         "limit" : 1,
+         "origin_dungeon" : "ruins"
+      },
+	  {
+         "id" : "matti_trinket_3",
+         "buffs" : 
+         [	
+			"matti_TPHOLDER_Weald"
+         ],
+         "hero_class_requirements":
+         [
+            "rs_matti"
+         ],
+         "set_id" : "matti_set_weald",
+         "rarity" : "mattimouse",
+		 "visual_rarity" : "mattimouse_uncommon",
+         "price" : 0,
+         "limit" : 1,
+         "origin_dungeon" : "weald"
+      },
+	  {
+         "id" : "matti_trinket_4",
+         "buffs" : 
+         [	
+			"matti_TPHOLDER_Weald"
+         ],
+         "hero_class_requirements":
+         [
+            "rs_matti"
+         ],
+         "set_id" : "matti_set_weald",
+         "rarity" : "mattimouse",
+		 "visual_rarity" : "mattimouse_uncommon",
+         "price" : 0,
+         "limit" : 1,
+         "origin_dungeon" : "weald"
+      },
+	  {
+         "id" : "matti_trinket_5",
+         "buffs" : 
+         [	
+			"matti_Orn_Move",
+			"matti_Orn_Desk"
+         ],
+         "hero_class_requirements":
+         [
+            "rs_matti"
+         ],
+         "rarity" : "mattimouse",
+		 "visual_rarity" : "mattimouse_rare",
+         "price" : 0,
+         "limit" : 1,
+         "origin_dungeon" : "cove",
+		 "attack_skill_additional_effects":
+		 [
+		     "Matti_Trip_Self",
+			 "Matti_Trip_Targ"
+		 ]
+      },
+	  {
+         "id" : "matti_trinket_6",
+         "buffs" : 
+         [	
+			"matti_TPHOLDER_Warrens"
+         ],
+         "hero_class_requirements":
+         [
+            "rs_matti"
+         ],
+		 "set_id" : "matti_set_warrens",
+         "rarity" : "mattimouse",
+		 "visual_rarity" : "mattimouse_very_rare",
+         "price" : 0,
+         "limit" : 1,
+         "origin_dungeon" : "warrens"
+      },
+	  {
+         "id" : "matti_trinket_7",
+         "buffs" : 
+         [	
+			"matti_TPHOLDER_Warrens"
+         ],
+         "hero_class_requirements":
+         [
+            "rs_matti"
+         ],
+		 "set_id" : "matti_set_warrens",
+         "rarity" : "mattimouse",
+		 "visual_rarity" : "mattimouse_very_rare",
+         "price" : 0,
+         "limit" : 1,
+         "origin_dungeon" : "warrens"
+      }
+   ]
+}

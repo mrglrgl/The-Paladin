@@ -192,6 +192,45 @@
          }
       },
 	  {
+         "id" : "matti_stacking_Heal",
+         "stat_type" : "hp_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_stacking_DMGL",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_stacking_DMGH",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
          "id" : "Matti_Camp_DMGL_Guarded",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_low",

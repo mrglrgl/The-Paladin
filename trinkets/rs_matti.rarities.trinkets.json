@@ -1,0 +1,30 @@
+{
+   "rarities":
+   [
+        {
+            "id": "mattimouse",
+            "award_category": "trophy",
+            "insert_before": "crow"
+        },
+		{
+            "id": "mattimouse_very_rare",
+            "award_category": "trophy",
+            "insert_before": "crow"
+        },
+		{
+            "id": "mattimouse_rare",
+            "award_category": "trophy",
+            "insert_before": "crow"
+        },
+		{
+            "id": "mattimouse_uncommon",
+            "award_category": "trophy",
+            "insert_before": "crow"
+        },
+		{
+            "id": "mattimouse_common",
+            "award_category": "trophy",
+            "insert_before": "crow"
+        }
+   ]
+}

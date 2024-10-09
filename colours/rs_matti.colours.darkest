@@ -1,0 +1,5 @@
+colour: .id "invisible" .rgba 0 0 0 0
+colour: .id "mattimouse_uncommon"				.rgba 96 149 75 255
+colour: .id "mattimouse_common"					.rgba 168 168 168 255
+colour: .id "mattimouse_rare"					.rgba 59 97 167 255
+colour: .id "mattimouse_very_rare"				.rgba 194 69 0 255

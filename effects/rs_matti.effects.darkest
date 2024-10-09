@@ -112,14 +112,20 @@ effect: .name "Matti_Zeal_MarkS" .target "performer" .chance 100% .buff_type tag
 effect: .name "Matti_Zeal_MarkT" .target "target" 	.chance 100% .unstealth 1 .tag 1 .duration 3	.on_hit true .on_miss false .queue true
 effect: .name "Matti_Zeal_MarkSFake" .target "performer" .chance 100% .tag 1 .duration 3	.on_hit false .on_miss false
 
-effect: .name "Matti_Zeal_Buff_1" .target "performer" .chance 100% .duration 4  .combat_stat_buff 1 .protection_rating_add 20% .speed_rating_add 4	.on_hit true .on_miss true
-effect: .name "Matti_Zeal_Buff_2" .target "performer" .chance 100% .duration 4  .combat_stat_buff 1 .protection_rating_add 22% .speed_rating_add 4	.on_hit true .on_miss true
-effect: .name "Matti_Zeal_Buff_3" .target "performer" .chance 100% .duration 4  .combat_stat_buff 1 .protection_rating_add 25% .speed_rating_add 5	.on_hit true .on_miss true
-effect: .name "Matti_Zeal_Buff_4" .target "performer" .chance 100% .duration 4  .combat_stat_buff 1 .protection_rating_add 27% .speed_rating_add 5	.on_hit true .on_miss true
-effect: .name "Matti_Zeal_Buff_5" .target "performer" .chance 100% .duration 4  .combat_stat_buff 1 .protection_rating_add 30% .speed_rating_add 6	.on_hit true .on_miss true
+effect: .name "Matti_Zeal_Buff_1" .target "performer" .chance 100% .duration 4 .combat_stat_buff 1 .protection_rating_add 25% .speed_rating_add 4	.on_hit true .on_miss true .buff_source_type bsrc_stun
+effect: .name "Matti_Zeal_Buff_2" .target "performer" .chance 100% .duration 4 .combat_stat_buff 1 .protection_rating_add 27% .speed_rating_add 4	.on_hit true .on_miss true .buff_source_type bsrc_stun
+effect: .name "Matti_Zeal_Buff_3" .target "performer" .chance 100% .duration 4 .combat_stat_buff 1 .protection_rating_add 29% .speed_rating_add 5	.on_hit true .on_miss true .buff_source_type bsrc_stun
+effect: .name "Matti_Zeal_Buff_4" .target "performer" .chance 100% .duration 4 .combat_stat_buff 1 .protection_rating_add 31% .speed_rating_add 5	.on_hit true .on_miss true .buff_source_type bsrc_stun
+effect: .name "Matti_Zeal_Buff_5" .target "performer" .chance 100% .duration 4 .combat_stat_buff 1 .protection_rating_add 33% .speed_rating_add 6	.on_hit true .on_miss true .buff_source_type bsrc_stun
+
 
 
 // Affliction
 //effect: .name "Matti_BarkStress"	.target "performer" .chance 100% .healstress 2	.on_hit true .on_miss true
 
+// Trinkets
+effect: .name "Matti_Riposte_Buff" .target "performer" .buff_ids "matti_stacking_Heal" "matti_stacking_DMGL" "matti_stacking_DMGH" .duration 8 .on_hit true .on_miss true
+
+effect: .name "Matti_Trip_Self" .target "performer" .chance 100% .duration 4  .combat_stat_buff 1 .speed_rating_add 2	.on_hit true .on_miss false .has_description false
+effect: .name "Matti_Trip_Targ" .target "target" 	.chance 999% .duration 3  .combat_stat_buff 1 .speed_rating_add -2	.on_hit true .on_miss false .has_description false
 

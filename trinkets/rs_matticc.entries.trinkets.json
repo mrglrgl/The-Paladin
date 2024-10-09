@@ -1,0 +1,30 @@
+{
+   "entries":
+   [
+      {
+         "id" : "matti_trinket_cc",
+         "buffs" : 
+         [	
+			"matti_cc_critr",
+			"matti_cc_ripostehit_afflicted",
+			"matti_cc_ripostehit_marked",
+			"matti_cc_ripostehit_guarding",
+			"matti_cc_ripostemiss_afflicted",
+			"matti_cc_ripostemiss_marked",
+			"matti_cc_ripostemiss_guarding",
+			"matti_cc_Desk_1",
+			"matti_cc_Desk_2",
+			"matti_cc_Desk_3"
+         ],
+         "hero_class_requirements":
+         [
+            "rs_matti"
+         ],
+         "set_id" : "cc_set_matti",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+      }
+   ]
+}

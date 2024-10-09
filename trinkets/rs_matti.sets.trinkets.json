@@ -1,0 +1,29 @@
+{
+   "sets":
+   [
+	  {
+         "id" : "matti_set_weald",
+         "buffs" : 
+         [
+         ]
+      },
+	  {
+         "id" : "matti_set_weald",
+         "buffs" : 
+         [
+         ]
+      },
+	  {
+         "id" : "matti_set_warrens",
+         "buffs" : 
+         [
+         ]
+      },
+	  {
+         "id" : "cc_set_matti",
+         "buffs" : 
+         [
+         ]
+      }
+   ]
+}

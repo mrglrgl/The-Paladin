@@ -184,9 +184,9 @@
          }
       },
 	  {
-         "id" : "matti_rally_Desk",
+         "id" : "matti_party_Desk",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "matti_rally_desk",
+         "stat_sub_type" : "matti_party_desk",
          "amount" : -0.01,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -197,9 +197,100 @@
          }
       },
 	  {
-         "id" : "matti_buff_Desk",
+         "id" : "matti_rally_Desk_A1",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "matti_buff_desk",
+         "stat_sub_type" : "matti_rally_desk_A1",
+         "amount" : -0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_rally_Desk_A2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_rally_desk_A2",
+         "amount" : -0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_rally_Desk_A3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_rally_desk_A3",
+         "amount" : -0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_rally_Desk_A4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_rally_desk_A4",
+         "amount" : -0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_rally_Desk_A5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_rally_desk_A5",
+         "amount" : -0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_rally_Desk_B1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_rally_desk_B1",
+         "amount" : -0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_rally_Desk_B2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_rally_desk_B2",
+         "amount" : -0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_rally_Desk_B3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_rally_desk_B3",
          "amount" : -0.01,
          "remove_if_not_active" : false,
          "rule_type" : "always",

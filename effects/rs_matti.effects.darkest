@@ -90,38 +90,62 @@ effect: .name "Matti_FFS_Blocker"	.target "target" .chance 0%  .dotPoison 1 .dur
 effect: .name "Matti_FFS"			.target "performer" .chance 100% .buff_source_type bsrc_vampire .buff_ids "matti_skillblock" "matti_antipass_stress" .duration 1 .on_hit true .on_miss true .has_description false
 
 // Inspire
-effect: .name "Matti_RallyClear" .target "target" .unstun 1 .clear_debuff 1 .on_hit true .on_miss true .has_description false
+effect: .name "Matti_RallyClear" .target "performer_group_other" .unstun 1 .on_hit true .on_miss true .has_description false
 
-effect: .name "Matti_RallyDesk" .target "target" .buff_ids "matti_rally_Desk" "matti_buff_Desk" .on_hit false .on_miss false
+effect: .name "Matti_RallyDesk_1" .target "performer" .skill_instant true .buff_ids "matti_party_Desk" "matti_rally_Desk_A1" "matti_rally_Desk_B1" .on_hit false .on_miss false
+effect: .name "Matti_RallyDesk_2" .target "performer" .skill_instant true .buff_ids "matti_party_Desk" "matti_rally_Desk_A2" "matti_rally_Desk_B1" .on_hit false .on_miss false
+effect: .name "Matti_RallyDesk_3" .target "performer" .skill_instant true .buff_ids "matti_party_Desk" "matti_rally_Desk_A3" "matti_rally_Desk_B2" .on_hit false .on_miss false
+effect: .name "Matti_RallyDesk_4" .target "performer" .skill_instant true .buff_ids "matti_party_Desk" "matti_rally_Desk_A4" "matti_rally_Desk_B2" .on_hit false .on_miss false
+effect: .name "Matti_RallyDesk_5" .target "performer" .skill_instant true .buff_ids "matti_party_Desk" "matti_rally_Desk_A5" "matti_rally_Desk_B3" .on_hit false .on_miss false
 
-effect: .name "Matti_RallyTarg_1" .target "target" .buff_ids "matti_rally_Stun_1" "matti_rally_Debuff_1" .duration 3 .on_hit true .on_miss true
-effect: .name "Matti_RallyTarg_2" .target "target" .buff_ids "matti_rally_Stun_2" "matti_rally_Debuff_2" .duration 3 .on_hit true .on_miss true
-effect: .name "Matti_RallyTarg_3" .target "target" .buff_ids "matti_rally_Stun_3" "matti_rally_Debuff_3" .duration 3 .on_hit true .on_miss true
-effect: .name "Matti_RallyTarg_4" .target "target" .buff_ids "matti_rally_Stun_4" "matti_rally_Debuff_4" .duration 3 .on_hit true .on_miss true
-effect: .name "Matti_RallyTarg_5" .target "target" .buff_ids "matti_rally_Stun_5" "matti_rally_Debuff_5" .duration 3 .on_hit true .on_miss true
+effect: .name "Matti_RallyBuff_1" .target "performer_group" .buff_ids "matti_rally_Stun_1" .duration 4 .on_hit true .on_miss true .has_description false
+effect: .name "Matti_RallyBuff_2" .target "performer_group" .buff_ids "matti_rally_Stun_2" .duration 4 .on_hit true .on_miss true .has_description false
+effect: .name "Matti_RallyBuff_3" .target "performer_group" .buff_ids "matti_rally_Stun_3" .duration 4 .on_hit true .on_miss true .has_description false
+effect: .name "Matti_RallyBuff_4" .target "performer_group" .buff_ids "matti_rally_Stun_4" .duration 4 .on_hit true .on_miss true .has_description false
+effect: .name "Matti_RallyBuff_5" .target "performer_group" .buff_ids "matti_rally_Stun_5" .duration 4 .on_hit true .on_miss true .has_description false
 
-effect: .name "Matti_RallySelf_1" .target "performer" .buff_ids "matti_rally_Stun_1" "matti_rally_Debuff_1" .duration 4 .on_hit true .on_miss true .has_description false
-effect: .name "Matti_RallySelf_2" .target "performer" .buff_ids "matti_rally_Stun_2" "matti_rally_Debuff_2" .duration 4 .on_hit true .on_miss true .has_description false
-effect: .name "Matti_RallySelf_3" .target "performer" .buff_ids "matti_rally_Stun_3" "matti_rally_Debuff_3" .duration 4 .on_hit true .on_miss true .has_description false
-effect: .name "Matti_RallySelf_4" .target "performer" .buff_ids "matti_rally_Stun_4" "matti_rally_Debuff_4" .duration 4 .on_hit true .on_miss true .has_description false
-effect: .name "Matti_RallySelf_5" .target "performer" .buff_ids "matti_rally_Stun_5" "matti_rally_Debuff_5" .duration 4 .on_hit true .on_miss true .has_description false
 
+// Stress Heal Effects
+effect: .name "Matti_Rally_1"	.target "performer_group_other" .chance 100% .healstress 4	.on_hit true .on_miss true .has_description false
+effect: .name "Matti_Rally_2"	.target "performer_group_other" .chance 100% .healstress 5	.on_hit true .on_miss true .has_description false
+effect: .name "Matti_Rally_3"	.target "performer_group_other" .chance 100% .healstress 6	.on_hit true .on_miss true .has_description false
+
+// R1 Circuit.  Block Effects if not in R1.
+effect: .name "Matti_Rally_R1sA"	.target "performer" .buff_ids "matti_Rally_not_R1A" .duration 1 .on_hit true .on_miss true .has_description false .buff_source_type bsrc_notspecified
+effect: .name "Matti_Rally_R1sB"	.target "performer" .buff_ids "matti_Rally_not_R1B" .duration 1 .on_hit true .on_miss true .has_description false .buff_source_type bsrc_notspecified
+
+// R2 Circuit.  Block Effects if not in R2.  Block Receiving Effect if in R1.
+effect: .name "Matti_Rally_R2sA"	.target "performer" 			.buff_ids "matti_Rally_not_R2A"		.duration 1 .on_hit true .on_miss true .has_description false .buff_source_type bsrc_notspecified
+effect: .name "Matti_Rally_R2oA"	.target "performer_group_other"	.buff_ids "matti_RallyBlock_R1A"	.duration 1 .on_hit true .on_miss true .has_description false .buff_source_type bsrc_notspecified
+effect: .name "Matti_Rally_R2oB" 	.target "performer_group_other"	.buff_ids "matti_RallyBlock_R1B"	.duration 1 .on_hit true .on_miss true .has_description false .buff_source_type bsrc_notspecified
+effect: .name "Matti_Rally_R2sB"	.target "performer" 			.buff_ids "matti_Rally_not_R2B"		.duration 1 .on_hit true .on_miss true .has_description false .buff_source_type bsrc_notspecified
+
+// R3 Circuit.  Block Effects if not in R3.  Block Receiving Effect if in R1 or 2.
+effect: .name "Matti_Rally_R3sA"	.target "performer" 			.buff_ids "matti_Rally_not_R3A"							.duration 1 .on_hit true .on_miss true .has_description false .buff_source_type bsrc_notspecified
+effect: .name "Matti_Rally_R3oA"	.target "performer_group_other"	.buff_ids "matti_RallyBlock_R1A" "matti_RallyBlock_R2A"	.duration 1 .on_hit true .on_miss true .has_description false .buff_source_type bsrc_notspecified
+effect: .name "Matti_Rally_R3oB" 	.target "performer_group_other"	.buff_ids "matti_RallyBlock_R1B" "matti_RallyBlock_R2B"	.duration 1 .on_hit true .on_miss true .has_description false .buff_source_type bsrc_notspecified
+effect: .name "Matti_Rally_R3sB"	.target "performer" 			.buff_ids "matti_Rally_not_R3B"							.duration 1 .on_hit true .on_miss true .has_description false .buff_source_type bsrc_notspecified
+
+// No R4 Circuit, because nothing happens in R4
 
 // Zealous Accusation
 effect: .name "Matti_Zeal_MarkS" .target "performer" .chance 100% .buff_type tag .buff_amount 100% .duration 4	.on_hit true .on_miss true .queue true
 effect: .name "Matti_Zeal_MarkT" .target "target" 	.chance 100% .unstealth 1 .tag 1 .duration 3	.on_hit true .on_miss false .queue true
 effect: .name "Matti_Zeal_MarkSFake" .target "performer" .chance 100% .tag 1 .duration 3	.on_hit false .on_miss false
 
-effect: .name "Matti_Zeal_Buff_1" .target "performer" .chance 100% .duration 4 .combat_stat_buff 1 .protection_rating_add 25% .speed_rating_add 4	.on_hit true .on_miss true .buff_source_type bsrc_stun
-effect: .name "Matti_Zeal_Buff_2" .target "performer" .chance 100% .duration 4 .combat_stat_buff 1 .protection_rating_add 27% .speed_rating_add 4	.on_hit true .on_miss true .buff_source_type bsrc_stun
-effect: .name "Matti_Zeal_Buff_3" .target "performer" .chance 100% .duration 4 .combat_stat_buff 1 .protection_rating_add 29% .speed_rating_add 5	.on_hit true .on_miss true .buff_source_type bsrc_stun
-effect: .name "Matti_Zeal_Buff_4" .target "performer" .chance 100% .duration 4 .combat_stat_buff 1 .protection_rating_add 31% .speed_rating_add 5	.on_hit true .on_miss true .buff_source_type bsrc_stun
-effect: .name "Matti_Zeal_Buff_5" .target "performer" .chance 100% .duration 4 .combat_stat_buff 1 .protection_rating_add 33% .speed_rating_add 6	.on_hit true .on_miss true .buff_source_type bsrc_stun
+effect: .name "Matti_Zeal_Buff_1" .target "performer" .chance 100% .duration 4 .combat_stat_buff 1 .protection_rating_add 25% .speed_rating_add 3	.on_hit true .on_miss true
+effect: .name "Matti_Zeal_Buff_2" .target "performer" .chance 100% .duration 4 .combat_stat_buff 1 .protection_rating_add 27% .speed_rating_add 3	.on_hit true .on_miss true
+effect: .name "Matti_Zeal_Buff_3" .target "performer" .chance 100% .duration 4 .combat_stat_buff 1 .protection_rating_add 29% .speed_rating_add 4	.on_hit true .on_miss true
+effect: .name "Matti_Zeal_Buff_4" .target "performer" .chance 100% .duration 4 .combat_stat_buff 1 .protection_rating_add 31% .speed_rating_add 4	.on_hit true .on_miss true
+effect: .name "Matti_Zeal_Buff_5" .target "performer" .chance 100% .duration 4 .combat_stat_buff 1 .protection_rating_add 33% .speed_rating_add 5	.on_hit true .on_miss true
 
 
 
 // Affliction
 //effect: .name "Matti_BarkStress"	.target "performer" .chance 100% .healstress 2	.on_hit true .on_miss true
+effect: .name "Matti_SusMiss"	.target "target" .chance 100% .buff_ids "matti_sus_ACC" "matti_sus_CRT"		"matti_sus_Horror"	.duration 2 .on_hit true .on_miss true
+effect: .name "Matti_SusDef"	.target "target" .chance 100% .buff_ids "matti_sus_DODGE" "matti_sus_PROT"	"matti_sus_Horror"	.duration 2 .on_hit true .on_miss true
+effect: .name "Matti_SusRally"	.target "target" .chance 100% .buff_ids "matti_sus_DMGL" "matti_sus_DMGH"	"matti_sus_Horror"	.duration 2 .on_hit true .on_miss true
 
 // Trinkets
 effect: .name "Matti_Riposte_Buff" .target "performer" .buff_ids "matti_stacking_Heal" "matti_stacking_DMGL" "matti_stacking_DMGH" .duration 8 .on_hit true .on_miss true
@@ -129,3 +153,6 @@ effect: .name "Matti_Riposte_Buff" .target "performer" .buff_ids "matti_stacking
 effect: .name "Matti_Trip_Self" .target "performer" .chance 100% .duration 4  .combat_stat_buff 1 .speed_rating_add 2	.on_hit true .on_miss false .has_description false
 effect: .name "Matti_Trip_Targ" .target "target" 	.chance 999% .duration 3  .combat_stat_buff 1 .speed_rating_add -2	.on_hit true .on_miss false .has_description false
 
+// Nazrin
+effect: .name "Matti_Nazrin_Loot"	.target "performer" .chance 100% .summon_count 1 .summon_limits 1 .summon_can_spawn_loot true .summon_monsters matti_nazrin_s0_A .summon_chances 1.0 .summon_does_roll_initiatives 0 .on_hit true .on_miss true .has_description false
+effect: .name "matti_s0_wipe"		.target "performer" .chance 1000% .kill_enemy_types matti_nazrin_s0 .on_hit true .on_miss true

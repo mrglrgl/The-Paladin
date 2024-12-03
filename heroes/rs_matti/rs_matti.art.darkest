@@ -16,8 +16,8 @@ combat_skill: .id "rsmatti_smite" 	.icon "one" 	.anim "attack_charge"	.fx "holy_
 combat_skill: .id "rsmatti_nova" 	.icon "two" 	.anim "attack_banner" 	.fx "inspiring_cry"		.targchestfx "blood_splatter" 	.area_pos_offset 100 0 .target_area_pos_offset -100 0
 combat_skill: .id "rsmatti_loh" 	.icon "three"	.anim "attack_heal" 	.fx "battle_heal" 		.targfx "battle_heal_target" 	.can_display_performer_selection_after_turn false .condensed_tooltip_effects true .condensed_tooltip_effects_per_line 1
 combat_skill: .id "rsmatti_tether" 	.icon "four" 	.anim "attack_scroll"	.fx "bulwark_of_faith" 									.condensed_tooltip_effects true .condensed_tooltip_effects_per_line 1 .can_display_performer_selection_after_turn false
-combat_skill: .id "rsmatti_advance" .icon "five" 	.anim "attack_stun" 	.fx "intimidate" 	.targheadfx "stunning_blow_target"	.condensed_tooltip_stats true	.condensed_tooltip_effects true .condensed_tooltip_effects_per_line 1
-combat_skill: .id "rsmatti_inspire" .icon "six" 	.anim "attack_banner"	.fx "inspiring_cry" .targchestfx "gods_illumination_target"		.condensed_tooltip_effects true .condensed_tooltip_effects_per_line 1
+combat_skill: .id "rsmatti_advance" .icon "five" 	.anim "attack_stun" 	.fx "intimidate" 		.targheadfx "stunning_blow_target"	.condensed_tooltip_stats true	.condensed_tooltip_effects true .condensed_tooltip_effects_per_line 1
+combat_skill: .id "rsmatti_inspire" .icon "six" 	.anim "attack_stun"		.fx "cripple_them" 		.targchestfx "cripple_them_target"		.condensed_tooltip_stats true	.condensed_tooltip_effects true .condensed_tooltip_effects_per_line 1
 combat_skill: .id "rsmatti_zeal" 	.icon "seven"	.anim "attack_scroll" 	.fx "zealous_accusation" .targchestfx "brand_tainted_target"	.condensed_tooltip_effects true .condensed_tooltip_effects_per_line 2
 
 combat_move_skill: .id "move" .icon "generic_move" .anim "idle"

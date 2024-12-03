@@ -1,0 +1,69 @@
+{
+   "loot_tables" :
+   [
+
+   
+	
+   {
+         "id" : "Matti_Nazrin_Food",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+			{ "type" : "item", "chances" : 1, "data" : { "type" : "provision", "id" : "", "amount" : 1 }}
+           
+         ]
+      },
+	  {
+         "id" : "Matti_Nazrin_Trinket",
+         "difficulty" : 0,
+         "dungeon" : "courtyard",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 19, "data" : { }},
+            { "type" : "trinket", "chances" : 1, "data" : { "rarity" : "crimson_court" }}
+         ]
+      },
+	  {
+         "id" : "Matti_Nazrin_Trinket",
+         "difficulty" : 0,
+         "dungeon" : "farm",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 19, "data" : { }},
+            { "type" : "trinket", "chances" : 1, "data" : { "rarity" : "comet" }}
+         ]
+      },
+	  {
+         "id" : "Matti_Nazrin_Trinket",
+         "difficulty" : 0,
+         "dungeon" : "ship",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 19, "data" : { }},
+            { "type" : "trinket", "chances" : 1, "data" : { "rarity" : "sakura" }}
+         ]
+      },
+	  {
+         "id" : "Matti_Nazrin_Trinket",
+         "difficulty" : 0,
+         "dungeon" : "vmt_mine",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 19, "data" : { }},
+            { "type" : "trinket", "chances" : 1, "data" : { "rarity" : "trinket_vermintide" }}
+         ]
+      },
+	  {
+         "id" : "Matti_Nazrin_Trinket",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 19, "data" : { }},
+            { "type" : "trinket", "chances" : 1, "data" : { "rarity" : "collector" }}
+         ]
+      }
+   ]
+}

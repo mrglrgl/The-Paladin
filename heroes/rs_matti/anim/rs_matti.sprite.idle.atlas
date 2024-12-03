@@ -1,223 +1,153 @@
 
 rs_matti.sprite.idle.png
-size: 679,549
+size: 1345,1345
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-back
-  rotate: false
-  xy: 400, 217
-  size: 141, 152
-  orig: 141, 152
-  offset: 0, 0
-  index: -1
-belt
+Bag
   rotate: true
-  xy: 358, 371
-  size: 176, 76
-  orig: 176, 76
+  xy: 284, 37
+  size: 379, 456
+  orig: 379, 456
   offset: 0, 0
   index: -1
-chest
+Chest
   rotate: true
-  xy: 229, 191
-  size: 162, 169
-  orig: 162, 169
+  xy: 1103, 279
+  size: 258, 206
+  orig: 258, 206
   offset: 0, 0
   index: -1
-helm
-  rotate: false
-  xy: 543, 397
-  size: 134, 150
-  orig: 134, 150
-  offset: 0, 0
-  index: -1
-left_arm
-  rotate: false
-  xy: 395, 4
-  size: 81, 100
-  orig: 81, 100
-  offset: 0, 0
-  index: -1
-left_beltpouch
-  rotate: false
-  xy: 458, 117
-  size: 53, 98
-  orig: 53, 98
-  offset: 0, 0
-  index: -1
-left_boot
-  rotate: false
-  xy: 590, 113
-  size: 77, 77
-  orig: 77, 77
-  offset: 0, 0
-  index: -1
-left_foot
-  rotate: false
-  xy: 590, 324
-  size: 78, 71
-  orig: 78, 71
-  offset: 0, 0
-  index: -1
-left_gauntlet
-  rotate: false
-  xy: 164, 99
-  size: 138, 89
-  orig: 138, 89
-  offset: 0, 0
-  index: -1
-left_leg
+Face
   rotate: true
-  xy: 543, 276
-  size: 55, 42
-  orig: 55, 42
+  xy: 1174, 1147
+  size: 196, 169
+  orig: 196, 169
   offset: 0, 0
   index: -1
-left_pauldron
+Hair
+  rotate: true
+  xy: 275, 418
+  size: 345, 280
+  orig: 345, 280
+  offset: 0, 0
+  index: -1
+Hair_L
   rotate: false
-  xy: 323, 2
-  size: 70, 98
-  orig: 70, 98
+  xy: 742, 27
+  size: 138, 250
+  orig: 138, 250
   offset: 0, 0
   index: -1
-left_tasset01
+L Arm
+  rotate: true
+  xy: 2, 539
+  size: 224, 271
+  orig: 224, 271
+  offset: 0, 0
+  index: -1
+L Ear
   rotate: false
-  xy: 490, 373
-  size: 47, 49
-  orig: 47, 49
+  xy: 193, 2
+  size: 89, 95
+  orig: 89, 95
   offset: 0, 0
   index: -1
-left_tasset02
+L Leg
+  rotate: true
+  xy: 593, 731
+  size: 171, 512
+  orig: 171, 512
+  offset: 0, 0
+  index: -1
+L Shoulder
   rotate: false
-  xy: 436, 371
-  size: 52, 51
-  orig: 52, 51
+  xy: 742, 315
+  size: 158, 158
+  orig: 158, 158
   offset: 0, 0
   index: -1
-left_tasset03
-  rotate: true
-  xy: 613, 266
-  size: 56, 62
-  orig: 56, 62
-  offset: 0, 0
-  index: -1
-neck
+R Arm
   rotate: false
-  xy: 2, 4
-  size: 118, 91
-  orig: 118, 91
+  xy: 2, 765
+  size: 589, 578
+  orig: 589, 578
   offset: 0, 0
   index: -1
-right_arm
+R Ear
   rotate: true
-  xy: 613, 192
-  size: 72, 58
-  orig: 72, 58
+  xy: 193, 468
+  size: 69, 79
+  orig: 69, 79
   offset: 0, 0
   index: -1
-right_beltpouch
+R Leg
   rotate: false
-  xy: 478, 21
-  size: 73, 94
-  orig: 73, 94
+  xy: 2, 39
+  size: 189, 498
+  orig: 189, 498
   offset: 0, 0
   index: -1
-right_boot
+R Shoulder
   rotate: true
-  xy: 304, 102
-  size: 87, 79
-  orig: 87, 79
+  xy: 557, 421
+  size: 116, 153
+  orig: 116, 153
   offset: 0, 0
   index: -1
-right_foot
+Scarf
   rotate: true
-  xy: 385, 106
-  size: 83, 71
-  orig: 83, 71
+  xy: 557, 543
+  size: 186, 169
+  orig: 186, 169
   offset: 0, 0
   index: -1
-right_gauntlet
+Shield
+  rotate: true
+  xy: 742, 475
+  size: 254, 359
+  orig: 254, 359
+  offset: 0, 0
+  index: -1
+Shirt
   rotate: false
-  xy: 122, 5
-  size: 89, 90
-  orig: 89, 90
+  xy: 1108, 879
+  size: 228, 266
+  orig: 228, 266
   offset: 0, 0
   index: -1
-right_glove
-  rotate: true
-  xy: 543, 217
-  size: 57, 68
-  orig: 57, 68
-  offset: 0, 0
-  index: -1
-right_leg
-  rotate: true
-  xy: 543, 333
-  size: 62, 44
-  orig: 62, 44
-  offset: 0, 0
-  index: -1
-right_pauldron
-  rotate: true
-  xy: 213, 2
-  size: 95, 108
-  orig: 95, 108
-  offset: 0, 0
-  index: -1
-right_tasset01
+Skirt Plate
   rotate: false
-  xy: 513, 135
-  size: 75, 80
-  orig: 75, 80
+  xy: 882, 28
+  size: 421, 249
+  orig: 421, 249
   offset: 0, 0
   index: -1
-right_tasset02
-  rotate: true
-  xy: 610, 34
-  size: 77, 56
-  orig: 77, 56
-  offset: 0, 0
-  index: -1
-right_tasset03
-  rotate: true
-  xy: 553, 5
-  size: 72, 55
-  orig: 72, 55
-  offset: 0, 0
-  index: -1
-right_thumb
+Skirt Ruffles
   rotate: false
-  xy: 553, 79
-  size: 33, 54
-  orig: 33, 54
+  xy: 593, 1183
+  size: 579, 160
+  orig: 579, 160
+  offset: 0, 0
+  index: -1
+Tail
+  rotate: false
+  xy: 1107, 539
+  size: 225, 338
+  orig: 225, 338
   offset: 0, 0
   index: -1
 shadow
   rotate: true
-  xy: 164, 190
-  size: 357, 63
-  orig: 357, 63
+  xy: 193, 99
+  size: 367, 74
+  orig: 367, 74
   offset: 0, 0
   index: -1
-sword
+skirt
   rotate: false
-  xy: 2, 97
-  size: 160, 450
-  orig: 160, 450
-  offset: 0, 0
-  index: -1
-tunic
-  rotate: false
-  xy: 229, 355
-  size: 127, 192
-  orig: 127, 192
-  offset: 0, 0
-  index: -1
-visor
-  rotate: true
-  xy: 436, 424
-  size: 123, 104
-  orig: 123, 104
+  xy: 593, 904
+  size: 513, 277
+  orig: 513, 277
   offset: 0, 0
   index: -1

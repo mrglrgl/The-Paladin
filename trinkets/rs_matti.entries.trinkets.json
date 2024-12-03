@@ -63,7 +63,8 @@
          "id" : "matti_trinket_4",
          "buffs" : 
          [	
-			"matti_TPHOLDER_Weald"
+			"matti_Aus_Move",
+			"matti_Aus_Desk"
          ],
          "hero_class_requirements":
          [
@@ -74,14 +75,25 @@
 		 "visual_rarity" : "mattimouse_uncommon",
          "price" : 0,
          "limit" : 1,
-         "origin_dungeon" : "weald"
+         "origin_dungeon" : "weald",
+		 "attack_skill_additional_effects":
+		 [
+		     "Matti_Trip_Self",
+			 "Matti_Trip_Targ"
+		 ]
       },
 	  {
          "id" : "matti_trinket_5",
          "buffs" : 
          [	
-			"matti_Orn_Move",
-			"matti_Orn_Desk"
+			"matti_Orn_DMGL_R4",
+			"matti_Orn_DMGH_R4",
+			"matti_Orn_CRT_R4",
+			"matti_Orn_DMGL_R3",
+			"matti_Orn_DMGH_R3",
+			"matti_Orn_CRT_R3",
+			"matti_Orn_Desk_1",
+			"matti_Orn_Desk_2"
          ],
          "hero_class_requirements":
          [
@@ -91,12 +103,7 @@
 		 "visual_rarity" : "mattimouse_rare",
          "price" : 0,
          "limit" : 1,
-         "origin_dungeon" : "cove",
-		 "attack_skill_additional_effects":
-		 [
-		     "Matti_Trip_Self",
-			 "Matti_Trip_Targ"
-		 ]
+         "origin_dungeon" : "cove"
       },
 	  {
          "id" : "matti_trinket_6",
@@ -131,6 +138,28 @@
          "price" : 0,
          "limit" : 1,
          "origin_dungeon" : "warrens"
+      },
+	  {
+         "id" : "matti_trinket_SI",
+         "buffs" : 
+         [	
+			"matti_Nazrin_Scouting",
+			"matti_Nazrin_Desk_1",
+			"matti_Nazrin_Desk_2"
+         ],
+         "hero_class_requirements":
+         [
+            "rs_matti"
+         ],
+         "rarity" : "mattimouse",
+		 "visual_rarity" : "mattimouse_sakura",
+         "price" : 0,
+         "limit" : 1,
+         "origin_dungeon" : "ship",
+		 "kill_performer_additional_effects":
+		 [
+		     "Matti_Nazrin_Loot"
+		 ]
       }
    ]
 }

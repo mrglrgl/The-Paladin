@@ -7,6 +7,11 @@
             "insert_before": "crow"
         },
 		{
+            "id": "mattimouse_sakura",
+            "award_category": "trophy",
+            "insert_before": "crow"
+        },
+		{
             "id": "mattimouse_very_rare",
             "award_category": "trophy",
             "insert_before": "crow"

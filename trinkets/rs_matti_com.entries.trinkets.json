@@ -1,0 +1,20 @@
+{
+   "entries":
+   [
+      {
+         "id" : "matti_trinket_COM",
+         "buffs" : 
+         [
+			
+         ],
+         "hero_class_requirements":
+         [
+            "rs_matti"
+         ],
+		 "rarity" : "comet",
+         "shard" : 35,
+         "limit" : 1,
+         "origin_dungeon" : ""
+	  }
+   ]
+}

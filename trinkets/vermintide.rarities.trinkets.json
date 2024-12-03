@@ -1,0 +1,30 @@
+{
+    "rarities":
+    [
+        {
+            "id": "trinket_vermintide",
+            "award_category": "battle",
+            "insert_before": "trophy"
+        },
+        {
+            "id": "vmt_very_rare",
+            "award_category": "battle",
+            "insert_before": "trophy"
+        },
+        {
+            "id": "vmt_gutterrunner",
+            "award_category": "battle",
+            "insert_before": "trophy"
+        },
+        {
+            "id": "vmt_ratogre",
+            "award_category": "battle",
+            "insert_before": "trophy"
+        },
+        {
+            "id": "vmt_hybrid",
+            "award_category": "battle",
+            "insert_before": "trophy"
+        }
+    ]
+}

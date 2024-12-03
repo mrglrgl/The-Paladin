@@ -27,7 +27,7 @@
 	<entry id="combat_skill_name_rs_matti_rsmatti_loh"><![CDATA[Lat Holy]]></entry>
 	<entry id="combat_skill_name_rs_matti_rsmatti_tether"><![CDATA[Beacon of Light]]></entry>
 	<entry id="combat_skill_name_rs_matti_rsmatti_advance"><![CDATA[Detain]]></entry>
-    <entry id="combat_skill_name_rs_matti_rsmatti_inspire"><![CDATA[Call to Arms]]></entry>
+    <entry id="combat_skill_name_rs_matti_rsmatti_inspire"><![CDATA[Defiance]]></entry>
 	<entry id="combat_skill_name_rs_matti_rsmatti_zeal"><![CDATA[Zealous Conviction]]></entry>
 	
     <entry id="combat_skill_name_rs_matti_move"><![CDATA[Move]]></entry>
@@ -37,7 +37,7 @@
 	<entry id="upgrade_tree_name_rs_matti.rsmatti_loh"><![CDATA[Lat Holy]]></entry>
 	<entry id="upgrade_tree_name_rs_matti.rsmatti_tether"><![CDATA[Beacon of Light]]></entry>
 	<entry id="upgrade_tree_name_rs_matti.rsmatti_advance"><![CDATA[Detain]]></entry>
-    <entry id="upgrade_tree_name_rs_matti.rsmatti_inspire"><![CDATA[Call to Arms]]></entry>
+    <entry id="upgrade_tree_name_rs_matti.rsmatti_inspire"><![CDATA[Defiance]]></entry>
 	<entry id="upgrade_tree_name_rs_matti.rsmatti_zeal"><![CDATA[Zealous Conviction]]></entry>
     
 	
@@ -68,6 +68,7 @@
 	<entry id="trinket_rarity_mattimouse_uncommon"><![CDATA[Churchmouse]]></entry>
 	<entry id="trinket_rarity_mattimouse_rare"><![CDATA[Churchmouse]]></entry>
 	<entry id="trinket_rarity_mattimouse_very_rare"><![CDATA[Churchmouse]]></entry>
+	<entry id="trinket_rarity_mattimouse_sakura"><![CDATA[Churchmouse]]></entry>
 	
 	<entry id="str_inventory_title_trinketmatti_trinket_1"><![CDATA[Pin & Elta, Vanguard]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_matti_Pin_desk"><![CDATA[2x Values in Rank 2
@@ -76,11 +77,14 @@
 	
 	<entry id="str_inventory_title_trinketmatti_trinket_3"><![CDATA[Nimi, Archer]]></entry>
 	<entry id="str_inventory_title_trinketmatti_trinket_4"><![CDATA[Aus, Axewielder]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_matti_Aus_desk"><![CDATA[+35%% max DMG]]></entry>
-		
-	<entry id="str_inventory_title_trinketmatti_trinket_5"><![CDATA[Orn, Oakspear]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_matti_Orn_desk"><![CDATA[On Attack Hit: {colour_start|debuff}Steal{colour_end} 2 SPD]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_matti_Aus2_desk"><![CDATA[+35%% max DMG]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_matti_Aus_desk"><![CDATA[On Attack Hit: {colour_start|debuff}Steal{colour_end} 2 SPD]]></entry>
 	<entry id="str_inventory_set_title_matti_set_weald"><![CDATA[Weald Set]]></entry>
+		
+	<entry id="str_inventory_title_trinketmatti_trinket_5"><![CDATA[Orn, Dragoon]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_matti_Orn_desk_1"><![CDATA[+66%% DMG/CRT]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_matti_Orn_desk_2"><![CDATA[+33%% DMG/CRT]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_matti_Orn_desk_3"><![CDATA[{colour_start|notable}Vanquish:{colour_end} {colour_start|move}Forward{colour_end} 3]]></entry>
 	
 	<entry id="str_inventory_title_trinketmatti_trinket_6"><![CDATA[Meg, Rosemage]]></entry>
 	<entry id="str_inventory_title_trinketmatti_trinket_7"><![CDATA[Varo, Commander]]></entry>
@@ -89,11 +93,18 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_matti_TPHOLDER_desk"><![CDATA[{colour_start|notable}Effects coming Soon!{colour_end}
 Found]]></entry>
 		
+	<entry id="str_inventory_title_trinketmatti_trinket_SI"><![CDATA[Nazrin, Collector]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_matti_Nazrin_desk_1"><![CDATA[On Kill: Loot 1 Food]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_matti_Nazrin_desk_2"><![CDATA[Loot 1 {colour_start|notable}Regional Trinket{colour_end} from {colour_start|attacktype}Another Class{colour_end} {colour_start|skill_unselectable}(5%%){colour_end}]]></entry>
+	
+	<entry id="str_inventory_title_trinketmatti_trinket_COM"><![CDATA[False Radiance]]></entry>
 	
 	<entry id="str_inventory_title_trinketmatti_trinket_cc"><![CDATA[Bloodied Sigil]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_matti_cc_desk_1"><![CDATA[{colour_start|riposte}Passive Riposte{colour_end} while]]></entry>
 		<entry id="buff_rule_data_tooltip_matti_amg_rule"><![CDATA[{colour_start|mark}Marked{colour_end}/{colour_start|guard}Guarding{colour_end}/{colour_start|mark}Afflicted{colour_end}]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_matti_cc_desk_2"><![CDATA[{colour_start|skill_unselectable} ACC base: 140 / DMG mod: -65%%{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_matti_cc_desk_4"><![CDATA[
+{colour_start|notable}If Churchmouse trinket equipped:{colour_end}]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_matti_cc_desk_3"><![CDATA[{colour_start|riposte}On Riposte:{colour_end} {colour_start|buff}Buff Self:{colour_end}]]></entry>
 		<entry id="buff_rule_data_tooltip_matti_rbuff_rule"><![CDATA[+7% DMG/{colour_start|healhp}Healing{colour_end} Done]]></entry>
 		<entry id="str_inventory_set_title_cc_set_matti"><![CDATA["Justice demands retribution."]]></entry>
@@ -126,8 +137,15 @@ Found]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_matti_detain_desk"><![CDATA[Transfer all {colour_start|mark}Hero Marks{colour_end} to Target]]></entry>
 	
 		<!-- Inspire -->
-	<entry id="buff_stat_tooltip_upgrade_discount_matti_rally_desk"><![CDATA[Clear {colour_start|stun}Stun{colour_end}/{colour_start|debuff}Debuffs{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_matti_buff_desk"><![CDATA[{colour_start|buff}Buff Self & Ally:{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_party_desk"><![CDATA[All Heroes:]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_rally_desk_A1"><![CDATA[Clear {colour_start|stun}Stun{colour_end} / +25%% {colour_start|stun}Stun{colour_end} Resist]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_rally_desk_A2"><![CDATA[Clear {colour_start|stun}Stun{colour_end} / +27%% {colour_start|stun}Stun{colour_end} Resist]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_rally_desk_A3"><![CDATA[Clear {colour_start|stun}Stun{colour_end} / +29%% {colour_start|stun}Stun{colour_end} Resist]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_rally_desk_A4"><![CDATA[Clear {colour_start|stun}Stun{colour_end} / +31%% {colour_start|stun}Stun{colour_end} Resist]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_rally_desk_A5"><![CDATA[Clear {colour_start|stun}Stun{colour_end} / +33%% {colour_start|stun}Stun{colour_end} Resist]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_rally_desk_B1"><![CDATA[{colour_start|stress}Stress{colour_end} -4 if behind {colour_start|specificclass}Paladin{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_rally_desk_B2"><![CDATA[{colour_start|stress}Stress{colour_end} -5 if behind {colour_start|specificclass}Paladin{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_rally_desk_B3"><![CDATA[{colour_start|stress}Stress{colour_end} -6 if behind {colour_start|specificclass}Paladin{colour_end}]]></entry>
 
 
 		<!-- Camp Item -->				
@@ -148,6 +166,10 @@ Found]]></entry>
 	<entry id="str_heart_attack_matti_spellbound"><![CDATA[What was I…?]]></entry>
 	<entry id="str_bark_stress_camp_matti_spellbound"><![CDATA[...]]></entry>
 	<entry id="str_roster_list_matti_spellbound_bark"><![CDATA[And where are YOU off to? How suspicious...]]></entry>
+	
+	<entry id="rs_matti+str_comment_self_hit_matti_spellbound"><![CDATA[...]]></entry>
+	<entry id="rs_matti+str_comment_ally_hit_matti_spellbound"><![CDATA[...]]></entry>
+	<entry id="rs_matti+str_comment_ally_attack_missed_matti_spellbound"><![CDATA[...]]></entry>
 
 
 	

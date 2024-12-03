@@ -202,6 +202,32 @@
          }
       },
 	  {
+         "id" : "matti_Aus2_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_Aus2_desk",
+         "amount" : -0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_Aus_Move",
+         "stat_type" : "move_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
          "id" : "matti_Aus_Desk",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "matti_Aus_desk",
@@ -215,10 +241,120 @@
          }
       },
 	  {
-         "id" : "matti_Orn_Move",
-         "stat_type" : "move_chance",
-         "stat_sub_type" : "",
-         "amount" : 0.4,
+         "id" : "matti_Orn_DMGL_R4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.66,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_rank",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 3,
+            "string" : ""
+         },
+		"has_description" : false
+      },
+	  {
+         "id" : "matti_Orn_DMGH_R4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.66,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_rank",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 3,
+            "string" : ""
+         },
+		"has_description" : false
+      },
+	  {
+         "id" : "matti_Orn_CRT_R4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.66,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_rank",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 3,
+            "string" : ""
+         },
+		"has_description" : false
+      },
+	  {
+         "id" : "matti_Orn_DMGL_R3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.33,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_rank",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : ""
+         },
+		"has_description" : false
+      },
+	  {
+         "id" : "matti_Orn_DMGH_R3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.33,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_rank",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : ""
+         },
+		"has_description" : false
+      },
+	  {
+         "id" : "matti_Orn_CRT_R3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.33,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_rank",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : ""
+         },
+		"has_description" : false
+      },
+	  {
+         "id" : "matti_Orn_Desk_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_Orn_desk_1",
+         "amount" : -0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_rank",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 3,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_Orn_Desk_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_Orn_desk_2",
+         "amount" : -0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_rank",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_Orn_Desk_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_Orn_desk_3",
+         "amount" : -0.01,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -228,9 +364,35 @@
          }
       },
 	  {
-         "id" : "matti_Orn_Desk",
+         "id" : "matti_Nazrin_Scouting",
+         "stat_type" : "scouting_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_Nazrin_Desk_1",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "matti_Orn_desk",
+         "stat_sub_type" : "matti_Nazrin_desk_1",
+         "amount" : -0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_Nazrin_Desk_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_Nazrin_desk_2",
          "amount" : -0.01,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -374,6 +536,19 @@
          "rule_data" : {
             "float" : 0,
             "string" : "matti_rbuff_rule"
+         }
+      },
+	  {
+         "id" : "matti_cc_Desk_4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_cc_desk_4",
+         "amount" : -0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
          }
       },
 	  {

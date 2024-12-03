@@ -65,7 +65,7 @@
          "id" : "matti_rally_Stun_1",
          "stat_type" : "resistance",
          "stat_sub_type" : "stun",
-         "amount" : 0.2,
+         "amount" : 0.25,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -78,7 +78,7 @@
          "id" : "matti_rally_Stun_2",
          "stat_type" : "resistance",
          "stat_sub_type" : "stun",
-         "amount" : 0.22,
+         "amount" : 0.27,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -91,7 +91,7 @@
          "id" : "matti_rally_Stun_3",
          "stat_type" : "resistance",
          "stat_sub_type" : "stun",
-         "amount" : 0.25,
+         "amount" : 0.29,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -104,7 +104,7 @@
          "id" : "matti_rally_Stun_4",
          "stat_type" : "resistance",
          "stat_sub_type" : "stun",
-         "amount" : 0.27,
+         "amount" : 0.31,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -117,7 +117,7 @@
          "id" : "matti_rally_Stun_5",
          "stat_type" : "resistance",
          "stat_sub_type" : "stun",
-         "amount" : 0.3,
+         "amount" : 0.33,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -190,6 +190,146 @@
             "float" : 0,
             "string" : ""
          }
+      },
+	  {
+         "id" : "matti_Rally_not_R1A",
+         "stat_type" : "stress_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : -50,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_rank",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		"is_clear_debuff_valid": false
+      },
+	  {
+         "id" : "matti_Rally_not_R2A",
+         "stat_type" : "stress_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : -50,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_rank",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		"is_clear_debuff_valid": false
+      },
+	  {
+         "id" : "matti_Rally_not_R3A",
+         "stat_type" : "stress_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : -50,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_rank",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 2,
+            "string" : ""
+         },
+		"is_clear_debuff_valid": false
+      },
+	  {
+         "id" : "matti_Rally_not_R1B",
+         "stat_type" : "stress_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 50,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_rank",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		"is_clear_debuff_valid": false
+      },
+	  {
+         "id" : "matti_Rally_not_R2B",
+         "stat_type" : "stress_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 50,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_rank",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		"is_clear_debuff_valid": false
+      },
+	  {
+         "id" : "matti_Rally_not_R3B",
+         "stat_type" : "stress_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 50,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_rank",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 2,
+            "string" : ""
+         },
+		"is_clear_debuff_valid": false
+      },
+	  {
+         "id" : "matti_RallyBlock_R1A",
+         "stat_type" : "stress_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -50,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_rank",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		"is_clear_debuff_valid": false
+      },
+	  {
+         "id" : "matti_RallyBlock_R2A",
+         "stat_type" : "stress_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -50,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_rank",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		"is_clear_debuff_valid": false
+      },
+	  {
+         "id" : "matti_RallyBlock_R1B",
+         "stat_type" : "stress_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 50,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_rank",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		"is_clear_debuff_valid": false
+      },
+	  {
+         "id" : "matti_RallyBlock_R2B",
+         "stat_type" : "stress_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 50,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_rank",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		"is_clear_debuff_valid": false
       },
 	  {
          "id" : "matti_stacking_Heal",
@@ -320,6 +460,72 @@
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_sus_ACC",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_sus_CRT",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.08,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_sus_DMGL",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_sus_DMGH",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      }
+	  ,
+	  {
+         "id" : "matti_sus_Horror",
+         "stat_type" : "stress_dot",
+         "stat_sub_type" : "",
+         "amount" : 3,
+         "remove_if_not_active" : true,
+         "rule_type" : "afflicted",
+         "is_false_rule" : true,
          "rule_data" : {
             "float" : 0,
             "string" : ""

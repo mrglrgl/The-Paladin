@@ -19,11 +19,13 @@
          ],
          "combat_start_turn_act_outs":
          [
-            { "id": "nothing", "data": { "number_value": 0.0, "string_value": "" }, "chance": 19}
+            { "id": "nothing", "data": { "number_value": 0.0, "string_value": "" }, "chance": 8}
          ],
          "reaction_act_outs":
          [
-            { "id": "block_combat_retreat", "data":{ "effect": "" }, "chance": 0.33}
+			{ "id": "comment_self_hit", "data":{ "effect": "Matti_SusRally" }, "chance": 0.1},
+			{ "id": "comment_ally_hit", "data":{ "effect": "Matti_SusDef" }, "chance": 0.25},
+			{ "id": "comment_ally_attack_missed", "data":{ "effect": "Matti_SusMiss" }, "chance": 0.25}
          ]
       }
    ]

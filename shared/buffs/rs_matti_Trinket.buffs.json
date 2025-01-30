@@ -565,6 +565,19 @@
          }
       },
 	  {
+         "id" : "matti_TPHOLDER_Cove",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_TPHOLDER_desk",
+         "amount" : -0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "cove"
+         }
+      },
+	  {
          "id" : "matti_TPHOLDER_Warrens",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "matti_TPHOLDER_desk",

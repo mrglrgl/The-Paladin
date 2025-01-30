@@ -5,7 +5,7 @@
          "id" : "matti_trinket_COM",
          "buffs" : 
          [
-			
+			"matti_spawnblock"
          ],
          "hero_class_requirements":
          [

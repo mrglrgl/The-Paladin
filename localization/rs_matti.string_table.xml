@@ -27,7 +27,7 @@
 	<entry id="combat_skill_name_rs_matti_rsmatti_loh"><![CDATA[Lat Holy]]></entry>
 	<entry id="combat_skill_name_rs_matti_rsmatti_tether"><![CDATA[Beacon of Light]]></entry>
 	<entry id="combat_skill_name_rs_matti_rsmatti_advance"><![CDATA[Detain]]></entry>
-    <entry id="combat_skill_name_rs_matti_rsmatti_inspire"><![CDATA[Defiance]]></entry>
+    <entry id="combat_skill_name_rs_matti_rsmatti_inspire"><![CDATA[Uprising]]></entry>
 	<entry id="combat_skill_name_rs_matti_rsmatti_zeal"><![CDATA[Zealous Conviction]]></entry>
 	
     <entry id="combat_skill_name_rs_matti_move"><![CDATA[Move]]></entry>
@@ -37,7 +37,7 @@
 	<entry id="upgrade_tree_name_rs_matti.rsmatti_loh"><![CDATA[Lat Holy]]></entry>
 	<entry id="upgrade_tree_name_rs_matti.rsmatti_tether"><![CDATA[Beacon of Light]]></entry>
 	<entry id="upgrade_tree_name_rs_matti.rsmatti_advance"><![CDATA[Detain]]></entry>
-    <entry id="upgrade_tree_name_rs_matti.rsmatti_inspire"><![CDATA[Defiance]]></entry>
+    <entry id="upgrade_tree_name_rs_matti.rsmatti_inspire"><![CDATA[Uprising]]></entry>
 	<entry id="upgrade_tree_name_rs_matti.rsmatti_zeal"><![CDATA[Zealous Conviction]]></entry>
     
 	
@@ -60,7 +60,7 @@
 
 
 		<!-- Trinkets and Bobbles -->
-	<entry id="camping_skill_effect_loot_matti_camp_mice"><![CDATA[Retrieve a {colour_start|notable}Churchmouse{colour_end} Trinket
+	<entry id="camping_skill_effect_loot_matti_camp_mice"><![CDATA[Find a {colour_start|notable}Churchmouse{colour_end} Trinket
 {colour_start|skill_unselectable}Each region has 1-2 unique Mice{colour_end}]]></entry>
 		
 	<entry id="trinket_rarity_mattimouse"><![CDATA[Churchmouse]]></entry>
@@ -95,7 +95,7 @@ Found]]></entry>
 		
 	<entry id="str_inventory_title_trinketmatti_trinket_SI"><![CDATA[Nazrin, Collector]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_matti_Nazrin_desk_1"><![CDATA[On Kill: Loot 1 Food]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_matti_Nazrin_desk_2"><![CDATA[Loot 1 {colour_start|notable}Regional Trinket{colour_end} from {colour_start|attacktype}Another Class{colour_end} {colour_start|skill_unselectable}(5%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_matti_Nazrin_desk_2"><![CDATA[On Kill: Loot 1 {colour_start|notable}Regional Trinket{colour_end} from {colour_start|attacktype}Another Class{colour_end} {colour_start|skill_unselectable}(8%%){colour_end}]]></entry>
 	
 	<entry id="str_inventory_title_trinketmatti_trinket_COM"><![CDATA[False Radiance]]></entry>
 	
@@ -115,6 +115,8 @@ Found]]></entry>
 		<!-- Novi Holy -->
 	<entry id="buff_rule_data_tooltip_rsmatti_nova"><![CDATA[Novi Holy]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_matti_nova_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} 10%% HP per Hit]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_corpseclear_desk"><![CDATA[Clear all Corpses]]></entry>
 	
 		<!-- Lat Holy -->
 	<entry id="buff_rule_data_tooltip_rsmatti_loh"><![CDATA[{colour_start|notable}Lat Holy{colour_end}]]></entry>
@@ -137,6 +139,57 @@ Found]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_matti_detain_desk"><![CDATA[Transfer all {colour_start|mark}Hero Marks{colour_end} to Target]]></entry>
 	
 		<!-- Inspire -->
+			<!-- Skill -->
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_riot_1_desk"><![CDATA[{colour_start|mark}Mark{colour_end} Target / {colour_start|notable}Torch{colour_end} +5]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_riot_2_desk"><![CDATA[{colour_start|mark}Mark{colour_end} Target / {colour_start|notable}Torch{colour_end} +6]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_riot_3_desk"><![CDATA[{colour_start|mark}Mark{colour_end} Target / {colour_start|notable}Torch{colour_end} +7]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_riot_4_desk"><![CDATA[{colour_start|mark}Mark{colour_end} Target / {colour_start|notable}Torch{colour_end} +7]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_riot_5_desk"><![CDATA[{colour_start|mark}Mark{colour_end} Target / {colour_start|notable}Torch{colour_end} +8]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_ripoStats_1_desk"><![CDATA[{colour_start|riposte}Activate Riposte{colour_end} {colour_start|skill_unselectable}(Battle / ACC: 140 / DMG mod: -65%%){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_ripoStats_2_desk"><![CDATA[{colour_start|riposte}Activate Riposte{colour_end} {colour_start|skill_unselectable}(Battle / ACC: 145 / DMG mod: -65%%){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_ripoStats_3_desk"><![CDATA[{colour_start|riposte}Activate Riposte{colour_end} {colour_start|skill_unselectable}(Battle / ACC: 150 / DMG mod: -65%%){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_ripoStats_4_desk"><![CDATA[{colour_start|riposte}Activate Riposte{colour_end} {colour_start|skill_unselectable}(Battle / ACC: 155 / DMG mod: -65%%){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_ripoStats_5_desk"><![CDATA[{colour_start|riposte}Activate Riposte{colour_end} {colour_start|skill_unselectable}(Battle / ACC: 160 / DMG mod: -65%%){colour_end}]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_ripoEffect_1_desk"><![CDATA[{colour_start|stun}Stun{colour_end} vs {colour_start|mark}Marked{colour_end} {colour_start|skill_unselectable}(110%% base){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_ripoEffect_2_desk"><![CDATA[{colour_start|stun}Stun{colour_end} vs {colour_start|mark}Marked{colour_end} {colour_start|skill_unselectable}(120%% base){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_ripoEffect_3_desk"><![CDATA[{colour_start|stun}Stun{colour_end} vs {colour_start|mark}Marked{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_ripoEffect_4_desk"><![CDATA[{colour_start|stun}Stun{colour_end} vs {colour_start|mark}Marked{colour_end} {colour_start|skill_unselectable}(140%% base){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_ripoEffect_5_desk"><![CDATA[{colour_start|stun}Stun{colour_end} vs {colour_start|mark}Marked{colour_end} {colour_start|skill_unselectable}(150%% base){colour_end}]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_ripoHoly_desk"><![CDATA[{colour_start|buff}Buff{colour_end} next {colour_start|attacktype}Holy{colour_end} Skill: +15%% DMG/{colour_start|healhp}Healing{colour_end} Done]]></entry>
+
+			<!-- Riposte Tray -->
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_ripoStats_1_tray"><![CDATA[{colour_start|skill_unselectable}(1 Battle){colour_end}
+ACC base: 140
+DMG mod: -65%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_ripoStats_2_tray"><![CDATA[{colour_start|skill_unselectable}(1 Battle){colour_end}
+ACC base: 145
+DMG mod: -65%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_ripoStats_3_tray"><![CDATA[{colour_start|skill_unselectable}(1 Battle){colour_end}
+ACC base: 150
+DMG mod: -65%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_ripoStats_4_tray"><![CDATA[{colour_start|skill_unselectable}(1 Battle){colour_end}
+ACC base: 155
+DMG mod: -65%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_ripoStats_5_tray"><![CDATA[{colour_start|skill_unselectable}(1 Battle){colour_end}
+ACC base: 160
+DMG mod: -65%%]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_ripoHoly_Tray_desk"><![CDATA[{colour_start|buff}Buff{colour_end} next {colour_start|attacktype}Holy{colour_end} Skill:
++15%% DMG/{colour_start|healhp}Healing{colour_end} Done]]></entry>
+	
+			<!-- Buff Tray -->
+	<entry id="buff_rule_data_tooltip_rsmatti_holyskill"><![CDATA[Next {colour_start|attacktype}Holy{colour_end} Skill]]></entry>
+	<entry id="buff_stat_tooltip_quirk_tag_evolution_duration_matti_HolyAmp_Tray_desk"><![CDATA[%+d%% DMG/{colour_start|healhp}Healing{colour_end} Done]]></entry>
+	
+	
+			<!-- Deprecated -->
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_avatar_desk_A"><![CDATA[{colour_start|debuff}Transfer to{colour_end} {colour_start|buff}each Ally:{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_avatar_desk_B"><![CDATA[15%% PROT / 10 DODGE]]></entry>
+	
 	<entry id="buff_stat_tooltip_upgrade_discount_matti_party_desk"><![CDATA[All Heroes:]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_matti_rally_desk_A1"><![CDATA[Clear {colour_start|stun}Stun{colour_end} / +25%% {colour_start|stun}Stun{colour_end} Resist]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_matti_rally_desk_A2"><![CDATA[Clear {colour_start|stun}Stun{colour_end} / +27%% {colour_start|stun}Stun{colour_end} Resist]]></entry>
@@ -466,6 +519,7 @@ Found]]></entry>
 	
 	
 		<!-- Buff shit -->
+	<entry id="tray_icon_tooltip_buff_duration_till_removed_format"><![CDATA[%s]]></entry>
 	<entry id="buff_bsrc_vampire"><![CDATA[Special]]></entry>
 	<entry id="tray_icon_tooltip_health_damage_blocks_duration_format"><![CDATA[%d Blocks Remain {colour_start|skill_unselectable}(%d Rounds){colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_combat_stat_add_damage_low"><![CDATA[%+d DMG]]></entry>

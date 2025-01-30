@@ -21,7 +21,7 @@
          "dungeon" : "courtyard",
          "entries" :
          [
-            { "type" : "nothing", "chances" : 19, "data" : { }},
+            { "type" : "nothing", "chances" : 12, "data" : { }},
             { "type" : "trinket", "chances" : 1, "data" : { "rarity" : "crimson_court" }}
          ]
       },
@@ -31,7 +31,7 @@
          "dungeon" : "farm",
          "entries" :
          [
-            { "type" : "nothing", "chances" : 19, "data" : { }},
+            { "type" : "nothing", "chances" : 12, "data" : { }},
             { "type" : "trinket", "chances" : 1, "data" : { "rarity" : "comet" }}
          ]
       },
@@ -41,7 +41,7 @@
          "dungeon" : "ship",
          "entries" :
          [
-            { "type" : "nothing", "chances" : 19, "data" : { }},
+            { "type" : "nothing", "chances" : 12, "data" : { }},
             { "type" : "trinket", "chances" : 1, "data" : { "rarity" : "sakura" }}
          ]
       },
@@ -51,7 +51,27 @@
          "dungeon" : "vmt_mine",
          "entries" :
          [
-            { "type" : "nothing", "chances" : 19, "data" : { }},
+            { "type" : "nothing", "chances" : 12, "data" : { }},
+            { "type" : "trinket", "chances" : 1, "data" : { "rarity" : "trinket_vermintide" }}
+         ]
+      },
+	  {
+         "id" : "Matti_Nazrin_Trinket",
+         "difficulty" : 0,
+         "dungeon" : "vmt_sewer",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 12, "data" : { }},
+            { "type" : "trinket", "chances" : 1, "data" : { "rarity" : "trinket_vermintide" }}
+         ]
+      },
+	  {
+         "id" : "Matti_Nazrin_Trinket",
+         "difficulty" : 0,
+         "dungeon" : "vmt_town",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 12, "data" : { }},
             { "type" : "trinket", "chances" : 1, "data" : { "rarity" : "trinket_vermintide" }}
          ]
       },
@@ -61,7 +81,7 @@
          "dungeon" : "",
          "entries" :
          [
-            { "type" : "nothing", "chances" : 19, "data" : { }},
+            { "type" : "nothing", "chances" : 12, "data" : { }},
             { "type" : "trinket", "chances" : 1, "data" : { "rarity" : "collector" }}
          ]
       }

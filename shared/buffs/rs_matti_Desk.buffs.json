@@ -41,6 +41,19 @@
          }
       },
 	  {
+         "id" : "matti_corpseclear_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_corpseclear_desk",
+         "amount" : -0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
          "id" : "matti_selfheal_3_Desk",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "matti_selfheal_3_desk",
@@ -188,6 +201,397 @@
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "matti_party_desk",
          "amount" : -0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_riot_1_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_riot_1_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_riot_2_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_riot_2_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_riot_3_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_riot_3_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_riot_4_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_riot_4_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_riot_5_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_riot_5_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_ripoStats_1_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_ripoStats_1_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_ripoStats_2_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_ripoStats_2_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_ripoStats_3_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_ripoStats_3_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_ripoStats_4_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_ripoStats_4_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_ripoStats_5_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_ripoStats_5_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_ripoStats_1_Tray",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_ripoStats_1_tray",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_ripoStats_2_Tray",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_ripoStats_2_tray",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_ripoStats_3_Tray",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_ripoStats_3_tray",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_ripoStats_4_Tray",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_ripoStats_4_tray",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_ripoStats_5_Tray",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_ripoStats_5_tray",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_ripoEffect_1_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_ripoEffect_1_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_ripoEffect_2_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_ripoEffect_2_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_ripoEffect_3_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_ripoEffect_3_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_ripoEffect_4_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_ripoEffect_4_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_ripoEffect_5_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_ripoEffect_5_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_ripoEffect_1_Tray",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_ripoEffect_1_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_ripoEffect_2_Tray",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_ripoEffect_2_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_ripoEffect_3_Tray",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_ripoEffect_3_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_ripoEffect_4_Tray",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_ripoEffect_4_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_ripoEffect_5_Tray",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_ripoEffect_5_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_ripoHoly_Tray_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_ripoHoly_Tray_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_ripoHoly_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_ripoHoly_desk",
+         "amount" : 15,
+         "remove_if_not_active" : false,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_HolyAmp_Tray_Desk",
+         "stat_type" : "quirk_tag_evolution_duration",
+         "stat_sub_type" : "matti_HolyAmp_Tray_desk",
+         "amount" : 15,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "rsmatti_holyskill"
+         },
+			"remove_on_battle_complete": true
+      },
+	  {
+         "id" : "matti_avatar_Desk_A",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_avatar_desk_A",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_avatar_Desk_B",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_avatar_desk_B",
+         "amount" : 0.01,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,

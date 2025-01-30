@@ -1,7 +1,7 @@
 
 -------------------------------------------------------------------------------
-Parsing project file - C:\Users\danaw167\Desktop\Matti Mod\project.xml
-Mod Data Directory = c:/Users/danaw167/Desktop/Matti Mod/
+Parsing project file - C:\Users\danaw\Desktop\Matti Mod\project.xml
+Mod Data Directory = c:/Users/danaw/Desktop/Matti Mod/
 
 -------------------------------------------------------------------------------
 Processing Map Files files...
@@ -14,7 +14,7 @@ Building Languages
 Exporting .loc2 files
 
 -------------------------------------------------------------------------------
-Searching for preview icon file c:/Users/danaw167/Desktop/Matti Mod/preview_icon.png...FOUND!
+Searching for preview icon file c:/Users/danaw/Desktop/Matti Mod/preview_icon.png...FOUND!
 <UploadMode> - Set to dont_submit
 
 
@@ -202,5 +202,5 @@ project.xml
 *******************************************************************************
 WARNING MOD WILL NOT BE UPLOADED
 *******************************************************************************
-Saving project file C:\Users\danaw167\Desktop\Matti Mod\project.xml
+Saving project file C:\Users\danaw\Desktop\Matti Mod\project.xml
 

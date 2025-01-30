@@ -60,11 +60,12 @@
          "origin_dungeon" : "weald"
       },
 	  {
-         "id" : "matti_trinket_4",
+         "id" : "matti_trinket_45",
          "buffs" : 
          [	
 			"matti_Aus_Move",
-			"matti_Aus_Desk"
+			"matti_Aus_Desk",
+			"matti_spawnbock"
          ],
          "hero_class_requirements":
          [
@@ -83,7 +84,24 @@
 		 ]
       },
 	  {
-         "id" : "matti_trinket_5",
+         "id" : "matti_trinket_4",
+         "buffs" : 
+         [	
+			"matti_TPHOLDER_Weald"
+         ],
+         "hero_class_requirements":
+         [
+            "rs_matti"
+         ],
+         "set_id" : "matti_set_weald",
+         "rarity" : "mattimouse",
+		 "visual_rarity" : "mattimouse_uncommon",
+         "price" : 0,
+         "limit" : 1,
+         "origin_dungeon" : "weald"
+      },
+	  {
+         "id" : "matti_trinket_55",
          "buffs" : 
          [	
 			"matti_Orn_DMGL_R4",
@@ -93,7 +111,24 @@
 			"matti_Orn_DMGH_R3",
 			"matti_Orn_CRT_R3",
 			"matti_Orn_Desk_1",
-			"matti_Orn_Desk_2"
+			"matti_Orn_Desk_2",
+			"matti_spawnblock"
+         ],
+         "hero_class_requirements":
+         [
+            "rs_matti"
+         ],
+         "rarity" : "mattimouse",
+		 "visual_rarity" : "mattimouse_rare",
+         "price" : 0,
+         "limit" : 1,
+         "origin_dungeon" : "cove"
+      },
+	  {
+         "id" : "matti_trinket_5",
+         "buffs" : 
+         [	
+			"matti_TPHOLDER_Cove"
          ],
          "hero_class_requirements":
          [

@@ -1,20 +1,20 @@
 
 rs_matti.sprite.defend.png
-size: 721,361
+size: 1162,936
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-defend
-  rotate: true
-  xy: 2, 22
-  size: 337, 652
-  orig: 337, 652
+Matti_defend
+  rotate: false
+  xy: 2, 2
+  size: 1082, 932
+  orig: 1082, 932
   offset: 0, 0
   index: -1
 shadow
   rotate: true
-  xy: 656, 2
-  size: 357, 63
-  orig: 357, 63
+  xy: 1086, 567
+  size: 367, 74
+  orig: 367, 74
   offset: 0, 0
   index: -1

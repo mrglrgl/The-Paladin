@@ -1,20 +1,41 @@
 
 rs_matti.sprite.camp.png
-size: 517,364
+size: 887,822
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-camp
+matti
   rotate: true
   xy: 2, 2
-  size: 360, 448
-  orig: 360, 448
+  size: 818, 738
+  orig: 818, 738
+  offset: 0, 0
+  index: -1
+rat1
+  rotate: true
+  xy: 742, 17
+  size: 129, 138
+  orig: 129, 138
+  offset: 0, 0
+  index: -1
+rat2
+  rotate: false
+  xy: 742, 316
+  size: 143, 135
+  orig: 143, 135
+  offset: 0, 0
+  index: -1
+rat3
+  rotate: true
+  xy: 742, 148
+  size: 166, 109
+  orig: 166, 109
   offset: 0, 0
   index: -1
 shadow
   rotate: true
-  xy: 452, 5
-  size: 357, 63
-  orig: 357, 63
+  xy: 742, 453
+  size: 367, 74
+  orig: 367, 74
   offset: 0, 0
   index: -1

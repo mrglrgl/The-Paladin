@@ -12,7 +12,7 @@ armour: .name "rs_matti_armour_2" .icon "eqp_armour_2.png"
 armour: .name "rs_matti_armour_3" .icon "eqp_armour_3.png"
 armour: .name "rs_matti_armour_4" .icon "eqp_armour_4.png"
 
-combat_skill: .id "rsmatti_smite" 	.icon "one" 	.anim "attack_charge"	.fx "holy_lance"		.targchestfx "blood_splatter"
+combat_skill: .id "rsmatti_smite" 	.icon "one" 	.anim "attack_charge"	.fx "holy_lance"		.targchestfx "blood_splatter"	.condensed_tooltip_stats true
 combat_skill: .id "rsmatti_nova" 	.icon "two" 	.anim "attack_banner" 	.fx "inspiring_cry"		.targchestfx "blood_splatter" 	.area_pos_offset 100 0 .target_area_pos_offset -100 0
 combat_skill: .id "rsmatti_loh" 	.icon "three"	.anim "attack_heal" 	.fx "battle_heal" 		.targfx "battle_heal_target" 	.can_display_performer_selection_after_turn false .condensed_tooltip_effects true .condensed_tooltip_effects_per_line 1
 combat_skill: .id "rsmatti_tether" 	.icon "four" 	.anim "attack_scroll"	.fx "bulwark_of_faith" 									.condensed_tooltip_effects true .condensed_tooltip_effects_per_line 1 .can_display_performer_selection_after_turn false

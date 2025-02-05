@@ -11,11 +11,12 @@ armour: .name "rs_matti_armour_2" .def 15% .prot 0 .hp 35 .spd 0 .upgradeRequire
 armour: .name "rs_matti_armour_3" .def 20% .prot 0 .hp 40 .spd 0 .upgradeRequirementCode 2
 armour: .name "rs_matti_armour_4" .def 25% .prot 0 .hp 45 .spd 0 .upgradeRequirementCode 3
 
-combat_skill: .id "rsmatti_smite" .level 0 .type "melee" .atk 90%	.dmg 0% .crit 5% .launch 4321 .target 123 .move 0 1 .is_crit_valid True .effect "Matti_MarkKill_1"
-combat_skill: .id "rsmatti_smite" .level 1 .type "melee" .atk 95%	.dmg 0% .crit 6% .launch 4321 .target 123 .move 0 1 .is_crit_valid True .effect "Matti_MarkKill_2"
-combat_skill: .id "rsmatti_smite" .level 2 .type "melee" .atk 100%	.dmg 0% .crit 7% .launch 4321 .target 123 .move 0 1 .is_crit_valid True .effect "Matti_MarkKill_3"
-combat_skill: .id "rsmatti_smite" .level 3 .type "melee" .atk 105%	.dmg 0% .crit 8% .launch 4321 .target 123 .move 0 1 .is_crit_valid True .effect "Matti_MarkKill_4"
-combat_skill: .id "rsmatti_smite" .level 4 .type "melee" .atk 110%	.dmg 0% .crit 9% .launch 4321 .target 123 .move 0 1 .is_crit_valid True .effect "Matti_MarkKill_5"
+combat_skill: .id "rsmatti_smite" .level 0 .type "melee" .atk 90%	.dmg 0% .crit 5% .launch 4321 .target 123 .move 0 1 .is_crit_valid True .effect "HM Dmg Marked 1"
+combat_skill: .id "rsmatti_smite" .level 1 .type "melee" .atk 95%	.dmg 0% .crit 6% .launch 4321 .target 123 .move 0 1 .is_crit_valid True .effect "HM Dmg Marked 1"
+combat_skill: .id "rsmatti_smite" .level 2 .type "melee" .atk 100%	.dmg 0% .crit 7% .launch 4321 .target 123 .move 0 1 .is_crit_valid True .effect "HM Dmg Marked 1"
+combat_skill: .id "rsmatti_smite" .level 3 .type "melee" .atk 105%	.dmg 0% .crit 8% .launch 4321 .target 123 .move 0 1 .is_crit_valid True .effect "HM Dmg Marked 1"
+combat_skill: .id "rsmatti_smite" .level 4 .type "melee" .atk 110%	.dmg 0% .crit 9% .launch 4321 .target 123 .move 0 1 .is_crit_valid True .effect "HM Dmg Marked 1"
+combat_skill: .id "rsmatti_smite" .ignore_protection true
 
 combat_skill: .id "rsmatti_nova" .level 0 .type "melee" .atk 90% .dmg -25% .crit 0% .launch 21 .target ~12 .is_crit_valid True .effect "Matti_Corpseclear" "Matti_NovaHeal_1" "Matti_Nova_1_Desk" "Matti_HolyAmp_Reset"
 combat_skill: .id "rsmatti_nova" .level 1 .type "melee" .atk 95% .dmg -25% .crit 0% .launch 21 .target ~12 .is_crit_valid True .effect "Matti_Corpseclear" "Matti_NovaHeal_2" "Matti_Nova_2_Desk" "Matti_HolyAmp_Reset"

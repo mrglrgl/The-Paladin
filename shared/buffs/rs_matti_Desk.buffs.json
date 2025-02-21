@@ -197,10 +197,140 @@
          }
       },
 	  {
+         "id" : "matti_FFS_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_FFS_desk",
+         "amount" : -0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
          "id" : "matti_party_Desk",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "matti_party_desk",
          "amount" : -0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_Avenge_A1_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_Avenge_A1_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_Avenge_A2_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_Avenge_A2_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_Avenge_A3_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_Avenge_A3_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_Avenge_A4_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_Avenge_A4_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_Avenge_A5_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_Avenge_A5_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_Avenge_B_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_Avenge_B_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_Freeaction_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_Freeaction_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_begin_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_begin_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_cancel_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_cancel_desk",
+         "amount" : 0.01,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -696,6 +826,97 @@
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "matti_rally_desk_B3",
          "amount" : -0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_Zeal_Desk_A",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_Zeal_desk_A",
+         "amount" : -0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_Zeal_Desk_B",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_Zeal_desk_B",
+         "amount" : -0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_Zeal_Desk_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_Zeal_desk_1",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_Zeal_Desk_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_Zeal_desk_2",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_Zeal_Desk_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_Zeal_desk_3",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_Zeal_Desk_4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_Zeal_desk_4",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_Zeal_Desk_5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_Zeal_desk_5",
+         "amount" : 0.01,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,

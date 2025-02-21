@@ -5,16 +5,18 @@
 ////// Skills \\\\\\
 
 //// Shared \\\\
-effect: .name "Matti_HolyAmp_Reset" 		.target "performer"  .chance 100% .steal_buff_source_type bsrc_stun .on_hit true .on_miss true .apply_once true .queue true .has_description false
+effect: .name "Matti_HolyAmp_Reset" .target "performer" .chance 100% .steal_buff_source_type bsrc_stun .on_hit true .on_miss true .apply_once true .queue true .has_description false
+effect: .name "Matti_AP"			.target "performer" .chance 100% .skill_instant true .buff_ids "matti_AP" .duration 1  .on_hit true .on_miss true .has_description false
+effect: .name "Matti_FFS_Blocker"	.target "target" .chance 0%  .dotPoison 1 .duration 1	.on_hit false .on_miss false .has_description false
+effect: .name "Matti_FFS"			.target "performer" .chance 100% .buff_source_type bsrc_vampire .buff_ids "matti_skillblock" "matti_antipass_stress" .duration 1 .on_hit true .on_miss true .has_description false
+
+effect: .name "Matti_Modeto_A"	.target "performer" .set_mode matti_Avenge	.chance 100%	.on_hit true .on_miss true .has_description false .apply_once true
+effect: .name "Matti_Modeto_AF"	.target "performer" .set_mode matti_AvengeF .chance 100%	.on_hit true .on_miss true .has_description false .apply_once true
+effect: .name "Matti_Modeto_D"	.target "performer" .set_mode matti_Default	.chance 100%	.on_hit true .on_miss true .has_description false .apply_once true
+effect: .name "Matti_Modeto_DF"	.target "performer" .set_mode matti_DefaultF .chance 100%	.on_hit true .on_miss true .has_description false .apply_once true
 
 
 //// Vanquish \\\\
-effect: .name "Matti_MarkKill_1"	.target "performer" .chance 100% .keyStatus "tagged"	.combat_stat_buff 1 .damage_low_add 4	.damage_high_add 4	.on_hit true .on_miss false
-effect: .name "Matti_MarkKill_2"	.target "performer" .chance 100% .keyStatus "tagged"	.combat_stat_buff 1 .damage_low_add 5	.damage_high_add 5	.on_hit true .on_miss false
-effect: .name "Matti_MarkKill_3"	.target "performer" .chance 100% .keyStatus "tagged"	.combat_stat_buff 1 .damage_low_add 6	.damage_high_add 6	.on_hit true .on_miss false
-effect: .name "Matti_MarkKill_4"	.target "performer" .chance 100% .keyStatus "tagged"	.combat_stat_buff 1 .damage_low_add 7	.damage_high_add 7	.on_hit true .on_miss false
-effect: .name "Matti_MarkKill_5"	.target "performer" .chance 100% .keyStatus "tagged"	.combat_stat_buff 1 .damage_low_add 8	.damage_high_add 8	.on_hit true .on_miss false
-
 
 //// Novi Holy \\\\
 effect: .name "Matti_Nova_Desk" .target "performer" .skill_instant true .buff_ids "matti_nova_Desk" .on_hit true .on_miss true
@@ -87,7 +89,7 @@ effect: .name "Matti_Torch8" .target "target" .chance 100% .torch_increase 8	.on
 
 
 //// Detain \\\\
-effect: .name "Matti_Detain_Desk" .target "performer" .chance 100% .duration 1 .buff_ids "matti_detain_Desk"	 .on_hit false .on_miss false .skill_instant true
+effect: .name "Matti_Detain_Desk" .target "performer" .chance 100% .duration 1 .buff_ids "matti_detain_Desk" "matti_FFS_Desk"	 .on_hit false .on_miss false .skill_instant true
 
 effect: .name "Matti_Ally_MarkSteal" .target "performer_group_other" .chance 100% .steal_buff_stat_type tag .on_hit true .on_miss false .has_description false
 effect: .name "Matti_Target_GiveMark" .target "target" .chance 100% .steal_buff_stat_type tag .on_hit true .on_miss false .swap_source_and_target true .has_description false
@@ -95,12 +97,39 @@ effect: .name "Matti_UnmarkSelf" .target "performer" .chance 100% .untag 1 .on_h
 
 
 
-//
-effect: .name "Matti_FFS_Blocker"	.target "target" .chance 0%  .dotPoison 1 .duration 1	.on_hit false .on_miss false .has_description false
-effect: .name "Matti_FFS"			.target "performer" .chance 100% .buff_source_type bsrc_vampire .buff_ids "matti_skillblock" "matti_antipass_stress" .duration 1 .on_hit true .on_miss true .has_description false
-
-
 //// Uprising \\\\
+effect: .name "Matti_Avenge_1"  .target "performer" .chance 100% .buff_ids "Matti_Reflect_1" "Matti_HP10" "Matti_NoDODGE" "Matti_NoPROT"	.buff_source_type bsrc_flashback_start .duration -1 .on_hit true .on_miss true .has_description false
+effect: .name "Matti_Avenge_2"  .target "performer" .chance 100% .buff_ids "Matti_Reflect_2" "Matti_HP12" "Matti_NoDODGE" "Matti_NoPROT"	.buff_source_type bsrc_flashback_start .duration -1 .on_hit true .on_miss true .has_description false
+effect: .name "Matti_Avenge_3"  .target "performer" .chance 100% .buff_ids "Matti_Reflect_3" "Matti_HP14" "Matti_NoDODGE" "Matti_NoPROT"	.buff_source_type bsrc_flashback_start .duration -1 .on_hit true .on_miss true .has_description false
+effect: .name "Matti_Avenge_4"  .target "performer" .chance 100% .buff_ids "Matti_Reflect_4" "Matti_HP16" "Matti_NoDODGE" "Matti_NoPROT"	.buff_source_type bsrc_flashback_start .duration -1 .on_hit true .on_miss true .has_description false
+effect: .name "Matti_Avenge_5"  .target "performer" .chance 100% .buff_ids "Matti_Reflect_5" "Matti_HP18" "Matti_NoDODGE" "Matti_NoPROT"	.buff_source_type bsrc_flashback_start .duration -1 .on_hit true .on_miss true .has_description false
+
+effect: .name "Matti_Toggle_Desk"  .target "performer" .chance 100% .buff_ids "matti_Freeaction_Desk" .on_hit false .on_miss false .skill_instant true
+
+effect: .name "Matti_Avenge_Desk_1"  .target "performer" .chance 100% .buff_ids "matti_begin_Desk" "matti_Avenge_A1_Desk" "matti_Avenge_B_Desk" "matti_ripoStats_1_Desk" "matti_ripoHoly_Desk" .on_hit false .on_miss false .skill_instant true
+effect: .name "Matti_Avenge_Desk_2"  .target "performer" .chance 100% .buff_ids "matti_begin_Desk" "matti_Avenge_A2_Desk" "matti_Avenge_B_Desk" "matti_ripoStats_2_Desk" "matti_ripoHoly_Desk" .on_hit false .on_miss false .skill_instant true
+effect: .name "Matti_Avenge_Desk_3"  .target "performer" .chance 100% .buff_ids "matti_begin_Desk" "matti_Avenge_A3_Desk" "matti_Avenge_B_Desk" "matti_ripoStats_3_Desk" "matti_ripoHoly_Desk" .on_hit false .on_miss false .skill_instant true
+effect: .name "Matti_Avenge_Desk_4"  .target "performer" .chance 100% .buff_ids "matti_begin_Desk" "matti_Avenge_A4_Desk" "matti_Avenge_B_Desk" "matti_ripoStats_4_Desk" "matti_ripoHoly_Desk" .on_hit false .on_miss false .skill_instant true
+effect: .name "Matti_Avenge_Desk_5"  .target "performer" .chance 100% .buff_ids "matti_begin_Desk" "matti_Avenge_A5_Desk" "matti_Avenge_B_Desk" "matti_ripoStats_5_Desk" "matti_ripoHoly_Desk" .on_hit false .on_miss false .skill_instant true
+
+effect: .name "Matti_Cancel_Desk"  .target "performer" .chance 100% .buff_ids "matti_cancel_Desk" .on_hit false .on_miss false .skill_instant true
+
+effect: .name "Matti_Avenge_Cancel" .target "performer" .chance 100% .clear_riposte 1 .steal_buff_source_type bsrc_flashback_start	.on_hit true .on_miss true .has_description false
+
+effect: .name "Matti_Riposte_Tray_1"  .target "performer" .chance 100% .buff_ids 					"matti_ripoStats_1_Tray" "matti_ripoHoly_Tray_Desk"	.buff_source_type bsrc_riposte .duration -1 .on_hit true .on_miss true .has_description false
+effect: .name "Matti_Riposte_Tray_2"  .target "performer" .chance 100% .buff_ids "matti_ripoACC_2"	"matti_ripoStats_2_Tray" "matti_ripoHoly_Tray_Desk"	.buff_source_type bsrc_riposte .duration -1 .on_hit true .on_miss true .has_description false
+effect: .name "Matti_Riposte_Tray_3"  .target "performer" .chance 100% .buff_ids "matti_ripoACC_3"	"matti_ripoStats_3_Tray" "matti_ripoHoly_Tray_Desk"	.buff_source_type bsrc_riposte .duration -1 .on_hit true .on_miss true .has_description false
+effect: .name "Matti_Riposte_Tray_4"  .target "performer" .chance 100% .buff_ids "matti_ripoACC_4"	"matti_ripoStats_4_Tray" "matti_ripoHoly_Tray_Desk"	.buff_source_type bsrc_riposte .duration -1 .on_hit true .on_miss true .has_description false
+effect: .name "Matti_Riposte_Tray_5"  .target "performer" .chance 100% .buff_ids "matti_ripoACC_5"	"matti_ripoStats_5_Tray" "matti_ripoHoly_Tray_Desk"	.buff_source_type bsrc_riposte .duration -1 .on_hit true .on_miss true .has_description false
+
+effect: .name "Matti_Riposte_1"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100%	.duration -1	.on_hit true .on_miss true .has_description false
+effect: .name "Matti_Riposte_2"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100%	.duration -1	.on_hit true .on_miss true .has_description false
+effect: .name "Matti_Riposte_3"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100%	.duration -1	.on_hit true .on_miss true .has_description false
+effect: .name "Matti_Riposte_4"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100%	.duration -1	.on_hit true .on_miss true .has_description false
+effect: .name "Matti_Riposte_5"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100%	.duration -1	.on_hit true .on_miss true .has_description false
+
+
+
 effect: .name "Matti_Riot_1_Desk"  .target "performer" .skill_instant true .buff_ids "matti_riot_1_Desk" .on_hit false .on_miss false
 effect: .name "Matti_Riot_2_Desk"  .target "performer" .skill_instant true .buff_ids "matti_riot_2_Desk" .on_hit false .on_miss false
 effect: .name "Matti_Riot_3_Desk"  .target "performer" .skill_instant true .buff_ids "matti_riot_3_Desk" .on_hit false .on_miss false
@@ -118,17 +147,17 @@ effect: .name "Matti_Riposte_Desk_5"  .target "performer" .chance 100% .buff_ids
 
 effect: .name "Matti_ripoReset" .target "performer" .chance 100% .clear_riposte 1	.on_hit true .on_miss true .has_description false
 
-effect: .name "Matti_Riposte_Tray_1"  .target "performer" .chance 100% .buff_ids "matti_ripoEffect_1" 					"matti_ripoStats_1_Tray" "matti_ripoEffect_1_Tray" "matti_ripoHoly_Tray_Desk"	.buff_source_type bsrc_riposte .duration -1 .on_hit true .on_miss true .has_description false
-effect: .name "Matti_Riposte_Tray_2"  .target "performer" .chance 100% .buff_ids "matti_ripoEffect_2" "matti_ripoACC_2" "matti_ripoStats_2_Tray" "matti_ripoEffect_2_Tray" "matti_ripoHoly_Tray_Desk"	.buff_source_type bsrc_riposte .duration -1 .on_hit true .on_miss true .has_description false
-effect: .name "Matti_Riposte_Tray_3"  .target "performer" .chance 100% .buff_ids "matti_ripoEffect_3" "matti_ripoACC_3" "matti_ripoStats_3_Tray" "matti_ripoEffect_3_Tray" "matti_ripoHoly_Tray_Desk"	.buff_source_type bsrc_riposte .duration -1 .on_hit true .on_miss true .has_description false
-effect: .name "Matti_Riposte_Tray_4"  .target "performer" .chance 100% .buff_ids "matti_ripoEffect_4" "matti_ripoACC_4" "matti_ripoStats_4_Tray" "matti_ripoEffect_4_Tray" "matti_ripoHoly_Tray_Desk"	.buff_source_type bsrc_riposte .duration -1 .on_hit true .on_miss true .has_description false
-effect: .name "Matti_Riposte_Tray_5"  .target "performer" .chance 100% .buff_ids "matti_ripoEffect_5" "matti_ripoACC_5" "matti_ripoStats_5_Tray" "matti_ripoEffect_5_Tray" "matti_ripoHoly_Tray_Desk"	.buff_source_type bsrc_riposte .duration -1 .on_hit true .on_miss true .has_description false
+//effect: .name "Matti_Riposte_Tray_1"  .target "performer" .chance 100% .buff_ids "matti_ripoEffect_1" 					"matti_ripoStats_1_Tray" "matti_ripoEffect_1_Tray" "matti_ripoHoly_Tray_Desk"	.buff_source_type bsrc_riposte .duration -1 .on_hit true .on_miss true .has_description false
+//effect: .name "Matti_Riposte_Tray_2"  .target "performer" .chance 100% .buff_ids "matti_ripoEffect_2" "matti_ripoACC_2" "matti_ripoStats_2_Tray" "matti_ripoEffect_2_Tray" "matti_ripoHoly_Tray_Desk"	.buff_source_type bsrc_riposte .duration -1 .on_hit true .on_miss true .has_description false
+//effect: .name "Matti_Riposte_Tray_3"  .target "performer" .chance 100% .buff_ids "matti_ripoEffect_3" "matti_ripoACC_3" "matti_ripoStats_3_Tray" "matti_ripoEffect_3_Tray" "matti_ripoHoly_Tray_Desk"	.buff_source_type bsrc_riposte .duration -1 .on_hit true .on_miss true .has_description false
+//effect: .name "Matti_Riposte_Tray_4"  .target "performer" .chance 100% .buff_ids "matti_ripoEffect_4" "matti_ripoACC_4" "matti_ripoStats_4_Tray" "matti_ripoEffect_4_Tray" "matti_ripoHoly_Tray_Desk"	.buff_source_type bsrc_riposte .duration -1 .on_hit true .on_miss true .has_description false
+//effect: .name "Matti_Riposte_Tray_5"  .target "performer" .chance 100% .buff_ids "matti_ripoEffect_5" "matti_ripoACC_5" "matti_ripoStats_5_Tray" "matti_ripoEffect_5_Tray" "matti_ripoHoly_Tray_Desk"	.buff_source_type bsrc_riposte .duration -1 .on_hit true .on_miss true .has_description false
 
-effect: .name "Matti_Riposte_1"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100%	.duration -1	.on_hit true .on_miss true .has_description false
-effect: .name "Matti_Riposte_2"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100%	.duration -1	.on_hit true .on_miss true .has_description false
-effect: .name "Matti_Riposte_3"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100%	.duration -1	.on_hit true .on_miss true .has_description false
-effect: .name "Matti_Riposte_4"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100%	.duration -1	.on_hit true .on_miss true .has_description false
-effect: .name "Matti_Riposte_5"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100%	.duration -1	.on_hit true .on_miss true .has_description false
+//effect: .name "Matti_Riposte_1"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100%	.duration -1	.on_hit true .on_miss true .has_description false
+//effect: .name "Matti_Riposte_2"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100%	.duration -1	.on_hit true .on_miss true .has_description false
+//effect: .name "Matti_Riposte_3"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100%	.duration -1	.on_hit true .on_miss true .has_description false
+//effect: .name "Matti_Riposte_4"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100%	.duration -1	.on_hit true .on_miss true .has_description false
+//effect: .name "Matti_Riposte_5"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100%	.duration -1	.on_hit true .on_miss true .has_description false
 
 effect: .name "Matti_Riposte_Buff" .target "performer" .buff_ids "matti_HolyUp_NoviHeal" "matti_HolyUp_LatHeal" "matti_HolyUp_DMGL" "matti_HolyUp_DMGH" "matti_HolyAmp_Tray_Desk" .buff_duration_type till_removed .on_hit true .on_miss true .buff_source_type bsrc_stun
 
@@ -188,15 +217,22 @@ effect: .name "Matti_Rally_R3sB"	.target "performer" 			.buff_ids "matti_Rally_n
 // No R4 Circuit, because nothing happens in R4
 
 //// Zealous Accusation \\\\
-effect: .name "Matti_Zeal_MarkS" .target "performer" .chance 100% .buff_type tag .buff_amount 100% .duration 4	.on_hit true .on_miss true .queue true
-effect: .name "Matti_Zeal_MarkT" .target "target" 	.chance 100% .unstealth 1 .tag 1 .duration 3	.on_hit true .on_miss false .queue true
-effect: .name "Matti_Zeal_MarkSFake" .target "performer" .chance 100% .tag 1 .duration 3	.on_hit false .on_miss false
+effect: .name "Matti_Zeal_Desk_A" .target "performer" .skill_instant true .buff_ids "matti_Zeal_Desk_A" "matti_Zeal_Desk_B" .on_hit false .on_miss false
 
-effect: .name "Matti_Zeal_Buff_1" .target "performer" .chance 100% .duration 4 .combat_stat_buff 1 .protection_rating_add 25% .speed_rating_add 3	.on_hit true .on_miss true
-effect: .name "Matti_Zeal_Buff_2" .target "performer" .chance 100% .duration 4 .combat_stat_buff 1 .protection_rating_add 27% .speed_rating_add 3	.on_hit true .on_miss true
-effect: .name "Matti_Zeal_Buff_3" .target "performer" .chance 100% .duration 4 .combat_stat_buff 1 .protection_rating_add 29% .speed_rating_add 4	.on_hit true .on_miss true
-effect: .name "Matti_Zeal_Buff_4" .target "performer" .chance 100% .duration 4 .combat_stat_buff 1 .protection_rating_add 31% .speed_rating_add 4	.on_hit true .on_miss true
-effect: .name "Matti_Zeal_Buff_5" .target "performer" .chance 100% .duration 4 .combat_stat_buff 1 .protection_rating_add 33% .speed_rating_add 5	.on_hit true .on_miss true
+effect: .name "Matti_Zeal_Desk_1" .target "performer" .buff_ids "matti_Zeal_Desk_1" .on_hit false .on_miss false
+effect: .name "Matti_Zeal_Desk_2" .target "performer" .buff_ids "matti_Zeal_Desk_2" .on_hit false .on_miss false
+effect: .name "Matti_Zeal_Desk_3" .target "performer" .buff_ids "matti_Zeal_Desk_3" .on_hit false .on_miss false
+effect: .name "Matti_Zeal_Desk_4" .target "performer" .buff_ids "matti_Zeal_Desk_4" .on_hit false .on_miss false
+effect: .name "Matti_Zeal_Desk_5" .target "performer" .buff_ids "matti_Zeal_Desk_5" .on_hit false .on_miss false
+
+effect: .name "Matti_Zeal_MarkS" .target "performer" .chance 100% .buff_type tag .buff_amount 100% .duration 4	.on_hit true .on_miss true .queue true
+effect: .name "Matti_Zeal_MarkT" .target "target" 	.chance 100% .unstealth 1 .tag 1 .duration 3	.on_hit true .on_miss false .queue true .has_description false
+
+effect: .name "Matti_Zeal_Buff_1" .target "performer" .chance 100% .duration 4 .combat_stat_buff 1 .protection_rating_add 25% .speed_rating_add 3	.on_hit true .on_miss true .has_description false
+effect: .name "Matti_Zeal_Buff_2" .target "performer" .chance 100% .duration 4 .combat_stat_buff 1 .protection_rating_add 27% .speed_rating_add 3	.on_hit true .on_miss true .has_description false
+effect: .name "Matti_Zeal_Buff_3" .target "performer" .chance 100% .duration 4 .combat_stat_buff 1 .protection_rating_add 29% .speed_rating_add 4	.on_hit true .on_miss true .has_description false
+effect: .name "Matti_Zeal_Buff_4" .target "performer" .chance 100% .duration 4 .combat_stat_buff 1 .protection_rating_add 31% .speed_rating_add 4	.on_hit true .on_miss true .has_description false
+effect: .name "Matti_Zeal_Buff_5" .target "performer" .chance 100% .duration 4 .combat_stat_buff 1 .protection_rating_add 33% .speed_rating_add 5	.on_hit true .on_miss true .has_description false
 
 
 

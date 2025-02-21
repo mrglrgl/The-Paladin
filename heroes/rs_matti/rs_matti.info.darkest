@@ -1,10 +1,10 @@
 resistances: .stun 50% .poison 30% .bleed 40% .disease 30% .move 30% .debuff 40% .death_blow 67% .trap 10%
 crit: .effects "on_crit_prot"
-weapon: .name "rs_matti_weapon_0" .atk 0% .dmg 4 7 .crit 4% .spd 5
-weapon: .name "rs_matti_weapon_1" .atk 0% .dmg 5 8 .crit 5% .spd 5 .upgradeRequirementCode 0
-weapon: .name "rs_matti_weapon_2" .atk 0% .dmg 6 10 .crit 6% .spd 6 .upgradeRequirementCode 1
-weapon: .name "rs_matti_weapon_3" .atk 0% .dmg 6 11 .crit 7% .spd 6 .upgradeRequirementCode 2
-weapon: .name "rs_matti_weapon_4" .atk 0% .dmg 7 13 .crit 8% .spd 7 .upgradeRequirementCode 3
+weapon: .name "rs_matti_weapon_0" .atk 0% .dmg 5 8 .crit 4% .spd 5
+weapon: .name "rs_matti_weapon_1" .atk 0% .dmg 6 9 .crit 5% .spd 5 .upgradeRequirementCode 0
+weapon: .name "rs_matti_weapon_2" .atk 0% .dmg 6 11 .crit 6% .spd 6 .upgradeRequirementCode 1
+weapon: .name "rs_matti_weapon_3" .atk 0% .dmg 7 12 .crit 7% .spd 6 .upgradeRequirementCode 2
+weapon: .name "rs_matti_weapon_4" .atk 0% .dmg 8 13 .crit 8% .spd 7 .upgradeRequirementCode 3
 armour: .name "rs_matti_armour_0" .def 5% .prot 0 .hp 25 .spd 0
 armour: .name "rs_matti_armour_1" .def 10% .prot 0 .hp 30 .spd 0 .upgradeRequirementCode 0
 armour: .name "rs_matti_armour_2" .def 15% .prot 0 .hp 35 .spd 0 .upgradeRequirementCode 1
@@ -16,94 +16,71 @@ combat_skill: .id "rsmatti_smite" .level 1 .type "melee" .atk 95%	.dmg 0% .crit 
 combat_skill: .id "rsmatti_smite" .level 2 .type "melee" .atk 100%	.dmg 0% .crit 7% .launch 4321 .target 123 .move 0 1 .is_crit_valid True .effect "HM Dmg Marked 1"
 combat_skill: .id "rsmatti_smite" .level 3 .type "melee" .atk 105%	.dmg 0% .crit 8% .launch 4321 .target 123 .move 0 1 .is_crit_valid True .effect "HM Dmg Marked 1"
 combat_skill: .id "rsmatti_smite" .level 4 .type "melee" .atk 110%	.dmg 0% .crit 9% .launch 4321 .target 123 .move 0 1 .is_crit_valid True .effect "HM Dmg Marked 1"
-combat_skill: .id "rsmatti_smite" .ignore_protection true
+combat_skill: .id "rsmatti_smite" .valid_modes matti_Default matti_Avenge .effect "Matti_AP" "Matti_FFS_Blocker"
 
 combat_skill: .id "rsmatti_nova" .level 0 .type "melee" .atk 90% .dmg -25% .crit 0% .launch 21 .target ~12 .is_crit_valid True .effect "Matti_Corpseclear" "Matti_NovaHeal_1" "Matti_Nova_1_Desk" "Matti_HolyAmp_Reset"
 combat_skill: .id "rsmatti_nova" .level 1 .type "melee" .atk 95% .dmg -25% .crit 0% .launch 21 .target ~12 .is_crit_valid True .effect "Matti_Corpseclear" "Matti_NovaHeal_2" "Matti_Nova_2_Desk" "Matti_HolyAmp_Reset"
 combat_skill: .id "rsmatti_nova" .level 2 .type "melee" .atk 100% .dmg -25% .crit 0% .launch 21 .target ~12 .is_crit_valid True .effect "Matti_Corpseclear" "Matti_NovaHeal_3" "Matti_Nova_3_Desk" "Matti_HolyAmp_Reset"
 combat_skill: .id "rsmatti_nova" .level 3 .type "melee" .atk 105% .dmg -25% .crit 0% .launch 21 .target ~12 .is_crit_valid True .effect "Matti_Corpseclear" "Matti_NovaHeal_4" "Matti_Nova_4_Desk" "Matti_HolyAmp_Reset"
 combat_skill: .id "rsmatti_nova" .level 4 .type "melee" .atk 110% .dmg -25% .crit 0% .launch 21 .target ~12 .is_crit_valid True .effect "Matti_Corpseclear" "Matti_NovaHeal_5" "Matti_Nova_5_Desk" "Matti_HolyAmp_Reset"
-combat_skill: .id "rsmatti_nova" .ignore_protection true
+combat_skill: .id "rsmatti_nova" .valid_modes matti_Default matti_Avenge .effect "Matti_AP" "Matti_FFS_Blocker"
 
 combat_skill: .id "rsmatti_loh" .level 0 .launch 321 .target @1234 .is_crit_valid True  .effect "Matti_LatHeal_1" "Matti_Lat_A" "Matti_LatSelf_1" "Matti_Lat_mA" "Matti_LoH_1_Desk" "Matti_HolyAmp_Reset" .generation_guaranteed true
 combat_skill: .id "rsmatti_loh" .level 1 .launch 321 .target @1234 .is_crit_valid True  .effect "Matti_LatHeal_2" "Matti_Lat_A" "Matti_LatSelf_2" "Matti_Lat_mA" "Matti_LoH_2_Desk" "Matti_HolyAmp_Reset"
 combat_skill: .id "rsmatti_loh" .level 2 .launch 321 .target @1234 .is_crit_valid True  .effect "Matti_LatHeal_3" "Matti_Lat_A" "Matti_LatSelf_3" "Matti_Lat_mA" "Matti_LoH_3_Desk" "Matti_HolyAmp_Reset"
 combat_skill: .id "rsmatti_loh" .level 3 .launch 321 .target @1234 .is_crit_valid True  .effect "Matti_LatHeal_4" "Matti_Lat_A" "Matti_LatSelf_4" "Matti_Lat_mA" "Matti_LoH_4_Desk" "Matti_HolyAmp_Reset"
 combat_skill: .id "rsmatti_loh" .level 4 .launch 321 .target @1234 .is_crit_valid True  .effect "Matti_LatHeal_5" "Matti_Lat_A" "Matti_LatSelf_5" "Matti_Lat_mA" "Matti_LoH_5_Desk" "Matti_HolyAmp_Reset"
-
+combat_skill: .id "rsmatti_loh" .valid_modes matti_Default matti_Avenge .effect "Matti_FFS_Blocker"
 
 combat_skill: .id "rsmatti_tether" .level 0 .launch 4321 .target @1234 .is_crit_valid True .self_target_valid false  .effect "Matti_Tether_1_Desk" "Matti_Guard" "Matti_Torch5" "Matti_Tether_RegenT_1" "Matti_Tether_RegenS_1"
 combat_skill: .id "rsmatti_tether" .level 1 .launch 4321 .target @1234 .is_crit_valid True .self_target_valid false  .effect "Matti_Tether_2_Desk" "Matti_Guard" "Matti_Torch6" "Matti_Tether_RegenT_1" "Matti_Tether_RegenS_1"
 combat_skill: .id "rsmatti_tether" .level 2 .launch 4321 .target @1234 .is_crit_valid True .self_target_valid false  .effect "Matti_Tether_3_Desk" "Matti_Guard" "Matti_Torch6" "Matti_Tether_RegenT_1" "Matti_Tether_RegenT_2" "Matti_Tether_RegenS_1" "Matti_Tether_RegenS_2"
 combat_skill: .id "rsmatti_tether" .level 3 .launch 4321 .target @1234 .is_crit_valid True .self_target_valid false  .effect "Matti_Tether_4_Desk" "Matti_Guard" "Matti_Torch7" "Matti_Tether_RegenT_1" "Matti_Tether_RegenT_2" "Matti_Tether_RegenS_1" "Matti_Tether_RegenS_2"
 combat_skill: .id "rsmatti_tether" .level 4 .launch 4321 .target @1234 .is_crit_valid True .self_target_valid false  .effect "Matti_Tether_5_Desk" "Matti_Guard" "Matti_Torch8" "Matti_Tether_RegenT_3" "Matti_Tether_RegenS_3"
-combat_skill: .id "rsmatti_tether" .effect "Clear Guard Performer" "Clear Guard Target"
-
-//combat_skill: .id "rsmatti_advance" .level 0 .type "melee" .atk 90%  .dmg -50% .crit 8% .launch 432 .target 234 .move 0 1 .is_crit_valid True	.effect "Stun 2" "Matti_Daze_1"
-//combat_skill: .id "rsmatti_advance" .level 1 .type "melee" .atk 90%  .dmg -50% .crit 9% .launch 432 .target 234 .move 0 1 .is_crit_valid True	.effect "Stun 3" "Matti_Daze_2"
-//combat_skill: .id "rsmatti_advance" .level 2 .type "melee" .atk 90%  .dmg -50% .crit 10% .launch 432 .target 234 .move 0 1 .is_crit_valid True	.effect "Stun 4" "Matti_Daze_3"
-//combat_skill: .id "rsmatti_advance" .level 3 .type "melee" .atk 90%  .dmg -50% .crit 11% .launch 432 .target 234 .move 0 1 .is_crit_valid True	.effect "Stun 5" "Matti_Daze_4"
-//combat_skill: .id "rsmatti_advance" .level 4 .type "melee" .atk 90%  .dmg -50% .crit 12% .launch 432 .target 234 .move 0 1 .is_crit_valid True	.effect "Stun 6" "Matti_Daze_5"
-//combat_skill: .id "rsmatti_advance" .effect "Matti_FFS_Blocker"
-
+combat_skill: .id "rsmatti_tether" .valid_modes matti_Default matti_Avenge .effect "Clear Guard Performer" "Clear Guard Target" "Matti_FFS_Blocker"
 
 combat_skill: .id "rsmatti_advance" .level 0 .type "melee" .atk 100%  .dmg -50% .crit 0% .launch 4321 .target 1234 .is_crit_valid True	.effect "Pull 3A" "Matti_Detain_Desk" "Matti_Ally_MarkSteal" "Matti_Target_GiveMark" "Matti_UnmarkSelf"
 combat_skill: .id "rsmatti_advance" .level 1 .type "melee" .atk 105%  .dmg -50% .crit 0% .launch 4321 .target 1234 .is_crit_valid True	.effect "Pull 3B" "Matti_Detain_Desk" "Matti_Ally_MarkSteal" "Matti_Target_GiveMark" "Matti_UnmarkSelf"
 combat_skill: .id "rsmatti_advance" .level 2 .type "melee" .atk 110%  .dmg -50% .crit 0% .launch 4321 .target 1234 .is_crit_valid True	.effect "Pull 3C" "Matti_Detain_Desk" "Matti_Ally_MarkSteal" "Matti_Target_GiveMark" "Matti_UnmarkSelf"
 combat_skill: .id "rsmatti_advance" .level 3 .type "melee" .atk 115%  .dmg -50% .crit 0% .launch 4321 .target 1234 .is_crit_valid True	.effect "Pull 3D" "Matti_Detain_Desk" "Matti_Ally_MarkSteal" "Matti_Target_GiveMark" "Matti_UnmarkSelf"
 combat_skill: .id "rsmatti_advance" .level 4 .type "melee" .atk 120%  .dmg -50% .crit 0% .launch 4321 .target 1234 .is_crit_valid True	.effect "Pull 3E" "Matti_Detain_Desk" "Matti_Ally_MarkSteal" "Matti_Target_GiveMark" "Matti_UnmarkSelf"
+combat_skill: .id "rsmatti_advance" .is_continue_turn true .per_turn_limit 1 .effect "Matti_AP" "Matti_FFS_Blocker" "Matti_FFS"
+combat_skill: .id "rsmatti_advance" .valid_modes matti_Default	.matti_Default_effects	"Matti_Modeto_DF" "Matti_Modeto_D"
+combat_skill: .id "rsmatti_advance" .valid_modes matti_Avenge	.matti_Avenge_effects	"Matti_Modeto_AF" "Matti_Modeto_A"
+
+combat_skill: .id "rsmatti_inspire" .level 0 .launch 4321 .target  .is_crit_valid True .valid_modes matti_Default	.matti_Default_effects	"Matti_Avenge_Desk_1" "Matti_Modeto_A" "Matti_Avenge_1" "Matti_Riposte_Tray_1" "Matti_Riposte_1"
+combat_skill: .id "rsmatti_inspire" .level 1 .launch 4321 .target  .is_crit_valid True .valid_modes matti_Default	.matti_Default_effects	"Matti_Avenge_Desk_2" "Matti_Modeto_A" "Matti_Avenge_2" "Matti_Riposte_Tray_2" "Matti_Riposte_2"
+combat_skill: .id "rsmatti_inspire" .level 2 .launch 4321 .target  .is_crit_valid True .valid_modes matti_Default	.matti_Default_effects	"Matti_Avenge_Desk_3" "Matti_Modeto_A" "Matti_Avenge_3" "Matti_Riposte_Tray_3" "Matti_Riposte_3"
+combat_skill: .id "rsmatti_inspire" .level 3 .launch 4321 .target  .is_crit_valid True .valid_modes matti_Default	.matti_Default_effects	"Matti_Avenge_Desk_4" "Matti_Modeto_A" "Matti_Avenge_4" "Matti_Riposte_Tray_4" "Matti_Riposte_4"
+combat_skill: .id "rsmatti_inspire" .level 4 .launch 4321 .target  .is_crit_valid True .valid_modes matti_Default	.matti_Default_effects	"Matti_Avenge_Desk_5" "Matti_Modeto_A" "Matti_Avenge_5" "Matti_Riposte_Tray_5" "Matti_Riposte_5"
+combat_skill: .id "rsmatti_inspire" .is_continue_turn true .per_turn_limit 1 .effect "Matti_Toggle_Desk" "Matti_FFS_Blocker"
+combat_skill: .id "rsmatti_inspire" .valid_modes matti_Avenge .matti_Avenge_effects	"Matti_Cancel_Desk" "Matti_Avenge_Cancel" "Matti_Modeto_D"
 
 
-combat_skill: .id "rsmatti_inspire" .level 0 .type "melee" .atk 100%  .dmg -65% .crit 8%	.launch 321 .target 12 .is_crit_valid True	.effect "Matti_Riot_1_Desk" "Matti_Riot_MarkT" "Matti_Torch5" "Matti_Riposte_Desk_1" "Matti_ripoReset" "Matti_Riposte_Tray_1" "Matti_Riposte_1"
-combat_skill: .id "rsmatti_inspire" .level 1 .type "melee" .atk 105%  .dmg -65% .crit 9% 	.launch 321 .target 12 .is_crit_valid True	.effect "Matti_Riot_2_Desk" "Matti_Riot_MarkT" "Matti_Torch6" "Matti_Riposte_Desk_2" "Matti_ripoReset" "Matti_Riposte_Tray_2" "Matti_Riposte_2"
-combat_skill: .id "rsmatti_inspire" .level 2 .type "melee" .atk 110%  .dmg -65% .crit 10%	.launch 321 .target 12 .is_crit_valid True	.effect "Matti_Riot_3_Desk" "Matti_Riot_MarkT" "Matti_Torch7" "Matti_Riposte_Desk_3" "Matti_ripoReset" "Matti_Riposte_Tray_3" "Matti_Riposte_3"
-combat_skill: .id "rsmatti_inspire" .level 3 .type "melee" .atk 115%  .dmg -65% .crit 11%	.launch 321 .target 12 .is_crit_valid True	.effect "Matti_Riot_4_Desk" "Matti_Riot_MarkT" "Matti_Torch7" "Matti_Riposte_Desk_4" "Matti_ripoReset" "Matti_Riposte_Tray_4" "Matti_Riposte_4"
-combat_skill: .id "rsmatti_inspire" .level 4 .type "melee" .atk 120%  .dmg -65% .crit 12%	.launch 321 .target 12 .is_crit_valid True	.effect "Matti_Riot_5_Desk" "Matti_Riot_MarkT" "Matti_Torch8" "Matti_Riposte_Desk_5" "Matti_ripoReset" "Matti_Riposte_Tray_5" "Matti_Riposte_5"
+//combat_skill: .id "rsmatti_inspire" .level 0 .type "melee" .atk 100%  .dmg -65% .crit 8%	.launch 321 .target 12 .is_crit_valid True	.effect "Matti_Riot_1_Desk" "Matti_Riot_MarkT" "Matti_Torch5" "Matti_Riposte_Desk_1" "Matti_ripoReset" "Matti_Riposte_Tray_1" "Matti_Riposte_1"
+//combat_skill: .id "rsmatti_inspire" .level 1 .type "melee" .atk 105%  .dmg -65% .crit 9% 	.launch 321 .target 12 .is_crit_valid True	.effect "Matti_Riot_2_Desk" "Matti_Riot_MarkT" "Matti_Torch6" "Matti_Riposte_Desk_2" "Matti_ripoReset" "Matti_Riposte_Tray_2" "Matti_Riposte_2"
+//combat_skill: .id "rsmatti_inspire" .level 2 .type "melee" .atk 110%  .dmg -65% .crit 10%	.launch 321 .target 12 .is_crit_valid True	.effect "Matti_Riot_3_Desk" "Matti_Riot_MarkT" "Matti_Torch7" "Matti_Riposte_Desk_3" "Matti_ripoReset" "Matti_Riposte_Tray_3" "Matti_Riposte_3"
+//combat_skill: .id "rsmatti_inspire" .level 3 .type "melee" .atk 115%  .dmg -65% .crit 11%	.launch 321 .target 12 .is_crit_valid True	.effect "Matti_Riot_4_Desk" "Matti_Riot_MarkT" "Matti_Torch7" "Matti_Riposte_Desk_4" "Matti_ripoReset" "Matti_Riposte_Tray_4" "Matti_Riposte_4"
+//combat_skill: .id "rsmatti_inspire" .level 4 .type "melee" .atk 120%  .dmg -65% .crit 12%	.launch 321 .target 12 .is_crit_valid True	.effect "Matti_Riot_5_Desk" "Matti_Riot_MarkT" "Matti_Torch8" "Matti_Riposte_Desk_5" "Matti_ripoReset" "Matti_Riposte_Tray_5" "Matti_Riposte_5"
+//combat_skill: .id "rsmatti_inspire" .valid_modes matti_Default matti_Avenge .effect "Matti_FFS_Blocker"
 
 
-//combat_skill: .id "rsmatti_inspire" .level 0 .type "melee" .atk 100%  .dmg -65% .crit 0% .launch 321 .target 12 .is_crit_valid True	.effect "Matti_AvatarSelf_1" "Matti_AvatarTransfer" "Matti_AvatarOther" "Matti_Avatar_Desk"
-//combat_skill: .id "rsmatti_inspire" .level 1 .type "melee" .atk 105%  .dmg -65% .crit 0% .launch 321 .target 12 .is_crit_valid True	.effect "Matti_AvatarSelf_2" "Matti_AvatarTransfer" "Matti_AvatarOther" "Matti_Avatar_Desk"
-//combat_skill: .id "rsmatti_inspire" .level 2 .type "melee" .atk 110%  .dmg -65% .crit 0% .launch 321 .target 12 .is_crit_valid True	.effect "Matti_AvatarSelf_3" "Matti_AvatarTransfer" "Matti_AvatarOther" "Matti_Avatar_Desk"
-//combat_skill: .id "rsmatti_inspire" .level 3 .type "melee" .atk 115%  .dmg -65% .crit 0% .launch 321 .target 12 .is_crit_valid True	.effect "Matti_AvatarSelf_4" "Matti_AvatarTransfer" "Matti_AvatarOther" "Matti_Avatar_Desk"
-//combat_skill: .id "rsmatti_inspire" .level 4 .type "melee" .atk 120%  .dmg -65% .crit 0% .launch 321 .target 12 .is_crit_valid True	.effect "Matti_AvatarSelf_5" "Matti_AvatarTransfer" "Matti_AvatarOther" "Matti_Avatar_Desk"
+combat_skill: .id "rsmatti_zeal" .level 0 .type "fumo" .atk 9999%	.dmg -75% .crit 0% .launch 4321 .target 1234  .effect "Matti_Zeal_Desk_A" "Matti_Zeal_Desk_1" "Matti_Zeal_MarkT" "Matti_Zeal_MarkS" "Matti_Zeal_Buff_1"
+combat_skill: .id "rsmatti_zeal" .level 1 .type "fumo" .atk 9999%	.dmg -75% .crit 0% .launch 4321 .target 1234  .effect "Matti_Zeal_Desk_A" "Matti_Zeal_Desk_2" "Matti_Zeal_MarkT" "Matti_Zeal_MarkS" "Matti_Zeal_Buff_2"
+combat_skill: .id "rsmatti_zeal" .level 2 .type "fumo" .atk 9999%	.dmg -75% .crit 0% .launch 4321 .target 1234  .effect "Matti_Zeal_Desk_A" "Matti_Zeal_Desk_3" "Matti_Zeal_MarkT" "Matti_Zeal_MarkS" "Matti_Zeal_Buff_3"
+combat_skill: .id "rsmatti_zeal" .level 3 .type "fumo" .atk 9999%	.dmg -75% .crit 0% .launch 4321 .target 1234  .effect "Matti_Zeal_Desk_A" "Matti_Zeal_Desk_4" "Matti_Zeal_MarkT" "Matti_Zeal_MarkS" "Matti_Zeal_Buff_4"
+combat_skill: .id "rsmatti_zeal" .level 4 .type "fumo" .atk 9999%	.dmg -75% .crit 0% .launch 4321 .target 1234  .effect "Matti_Zeal_Desk_A" "Matti_Zeal_Desk_5" "Matti_Zeal_MarkT" "Matti_Zeal_MarkS" "Matti_Zeal_Buff_5"
+combat_skill: .id "rsmatti_zeal" .valid_modes matti_Default matti_Avenge .nil true .is_crit_valid False .ignore_stealth true .can_miss false .effect "Matti_AP" "Matti_FFS_Blocker"
 
-
-//combat_skill: .id "rsmatti_inspire" .level 0 .type "ranged" .atk 100%  .dmg -67% .crit 0%  .launch 123 .target 1234 .is_crit_valid True  .effect "Pull 3A" "Matti_RallyDesk_1"
-//combat_skill: .id "rsmatti_inspire" .level 0 .effect "Matti_Rally_R1sA" "Matti_Rally_1" "Matti_Rally_R1sB"
-//combat_skill: .id "rsmatti_inspire" .level 0 .effect "Matti_Rally_R2sA" "Matti_Rally_R2oA" "Matti_Rally_1" "Matti_Rally_R2oB" "Matti_Rally_R2sB"
-//combat_skill: .id "rsmatti_inspire" .level 0 .effect "Matti_Rally_R3sA" "Matti_Rally_R3oA" "Matti_Rally_1" "Matti_Rally_R3oB" "Matti_Rally_R3sB"
-
-//combat_skill: .id "rsmatti_inspire" .level 1 .type "ranged" .atk 105%  .dmg -67% .crit 0%  .launch 123 .target 1234 .is_crit_valid True  .effect "Pull 3B"  "Matti_RallyDesk_2"
-//combat_skill: .id "rsmatti_inspire" .level 1 .effect "Matti_Rally_R1sA" "Matti_Rally_1" "Matti_Rally_R1sB"
-//combat_skill: .id "rsmatti_inspire" .level 1 .effect "Matti_Rally_R2sA" "Matti_Rally_R2oA" "Matti_Rally_1" "Matti_Rally_R2oB" "Matti_Rally_R2sB"
-//combat_skill: .id "rsmatti_inspire" .level 1 .effect "Matti_Rally_R3sA" "Matti_Rally_R3oA" "Matti_Rally_1" "Matti_Rally_R3oB" "Matti_Rally_R3sB"
-
-//combat_skill: .id "rsmatti_inspire" .level 2 .type "ranged" .atk 110%  .dmg -67% .crit 0%  .launch 123 .target 1234 .is_crit_valid True  .effect "Pull 3C"  "Matti_RallyDesk_3"
-//combat_skill: .id "rsmatti_inspire" .level 2 .effect "Matti_Rally_R1sA" "Matti_Rally_2" "Matti_Rally_R1sB"
-//combat_skill: .id "rsmatti_inspire" .level 2 .effect "Matti_Rally_R2sA" "Matti_Rally_R2oA" "Matti_Rally_2" "Matti_Rally_R2oB" "Matti_Rally_R2sB"
-//combat_skill: .id "rsmatti_inspire" .level 2 .effect "Matti_Rally_R3sA" "Matti_Rally_R3oA" "Matti_Rally_2" "Matti_Rally_R3oB" "Matti_Rally_R3sB"
-
-//combat_skill: .id "rsmatti_inspire" .level 3 .type "ranged" .atk 115%  .dmg -67% .crit 0%  .launch 123 .target 1234 .is_crit_valid True  .effect "Pull 3D"  "Matti_RallyDesk_4"
-//combat_skill: .id "rsmatti_inspire" .level 3 .effect "Matti_Rally_R1sA" "Matti_Rally_2" "Matti_Rally_R1sB"
-//combat_skill: .id "rsmatti_inspire" .level 3 .effect "Matti_Rally_R2sA" "Matti_Rally_R2oA" "Matti_Rally_2" "Matti_Rally_R2oB" "Matti_Rally_R2sB"
-//combat_skill: .id "rsmatti_inspire" .level 3 .effect "Matti_Rally_R3sA" "Matti_Rally_R3oA" "Matti_Rally_2" "Matti_Rally_R3oB" "Matti_Rally_R3sB"
-
-//combat_skill: .id "rsmatti_inspire" .level 4 .type "ranged" .atk 120%  .dmg -67% .crit 0%  .launch 123 .target 1234 .is_crit_valid True  .effect "Pull 3E"  "Matti_RallyDesk_5"
-//combat_skill: .id "rsmatti_inspire" .level 4 .effect "Matti_Rally_R1sA" "Matti_Rally_3" "Matti_Rally_R1sB"
-//combat_skill: .id "rsmatti_inspire" .level 4 .effect "Matti_Rally_R2sA" "Matti_Rally_R2oA" "Matti_Rally_3" "Matti_Rally_R2oB" "Matti_Rally_R2sB"
-//combat_skill: .id "rsmatti_inspire" .level 4 .effect "Matti_Rally_R3sA" "Matti_Rally_R3oA" "Matti_Rally_3" "Matti_Rally_R3oB" "Matti_Rally_R3sB"
-
-
-combat_skill: .id "rsmatti_zeal" .level 0 .type "fumo" .atk 9999%	.dmg -100% .crit 0% .launch 4321 .target 1234  .effect "Matti_Zeal_MarkT" "Matti_Zeal_MarkS" "Matti_Zeal_MarkSFake" "Matti_Zeal_Buff_1"
-combat_skill: .id "rsmatti_zeal" .level 1 .type "fumo" .atk 9999%	.dmg -100% .crit 0% .launch 4321 .target 1234  .effect "Matti_Zeal_MarkT" "Matti_Zeal_MarkS" "Matti_Zeal_MarkSFake" "Matti_Zeal_Buff_2"
-combat_skill: .id "rsmatti_zeal" .level 2 .type "fumo" .atk 9999%	.dmg -100% .crit 0% .launch 4321 .target 1234  .effect "Matti_Zeal_MarkT" "Matti_Zeal_MarkS" "Matti_Zeal_MarkSFake" "Matti_Zeal_Buff_3"
-combat_skill: .id "rsmatti_zeal" .level 3 .type "fumo" .atk 9999%	.dmg -100% .crit 0% .launch 4321 .target 1234  .effect "Matti_Zeal_MarkT" "Matti_Zeal_MarkS" "Matti_Zeal_MarkSFake" "Matti_Zeal_Buff_4"
-combat_skill: .id "rsmatti_zeal" .level 4 .type "fumo" .atk 9999%	.dmg -100% .crit 0% .launch 4321 .target 1234  .effect "Matti_Zeal_MarkT" "Matti_Zeal_MarkS" "Matti_Zeal_MarkSFake" "Matti_Zeal_Buff_5"
-combat_skill: .id "rsmatti_zeal" .nil true .is_crit_valid False .ignore_stealth true .can_miss false
-
-riposte_skill: .id "riposte1" .level 0 .type "ranged" .atk 140% .dmg -65% .crit 0% .launch 1234 .target 1234 .is_crit_valid True .effect "Matti_Riposte_Buff"
+riposte_skill: .id "riposte1" .level 0 .type "ranged" .atk 140% .dmg -75% .crit 0% .launch 1234 .target 1234 .is_crit_valid True .effect "Matti_Riposte_Buff" .ignore_protection true 
 
 combat_move_skill: .id "move" .level 0 .type "move" .move 1 2 .launch 4321
+
+mode: .id matti_Default		.is_raid_default true
+mode: .id matti_DefaultF	.is_raid_default true
+mode: .id matti_Avenge		.is_raid_default true	.battle_complete_combat_skill_id rsmatti_inspire .stress_damage_per_turn 5
+mode: .id matti_AvengeF		.is_raid_default true
+
 
 tag: .id "religious"
 tag: .id "light"

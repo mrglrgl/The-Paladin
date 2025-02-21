@@ -21,7 +21,7 @@
 		 "visual_rarity" : "mattimouse_common",
          "price" : 0,
          "limit" : 1,
-         "origin_dungeon" : "ruins"
+         "origin_dungeon" : "crypts"
       },
 	  {
          "id" : "matti_trinket_2",
@@ -40,7 +40,7 @@
 		 "visual_rarity" : "mattimouse_common",
          "price" : 0,
          "limit" : 1,
-         "origin_dungeon" : "ruins"
+         "origin_dungeon" : "crypts"
       },
 	  {
          "id" : "matti_trinket_3",

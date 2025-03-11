@@ -93,5 +93,5 @@ skill_selection: .can_select_combat_skills true .number_of_selected_combat_skill
 extra_battle_loot: .code "matti_loot_mice" .count 1
 extra_curio_loot: .code "matti_loot_mice" .count 1
 overstressed_modifier: .override_trait_type_ids matti_spellbound .override_trait_type_chances 1.0
-generation: .is_generation_enabled true .number_of_positive_quirks_min 1 .number_of_positive_quirks_max 2 .number_of_negative_quirks_min 1 .number_of_negative_quirks_max 2 .number_of_class_specific_camping_skills 2 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 4 .number_of_cards_in_deck 6 .card_chance 1.0
+generation: .is_generation_enabled true .number_of_positive_quirks_min 1 .number_of_positive_quirks_max 2 .number_of_negative_quirks_min 1 .number_of_negative_quirks_max 2 .number_of_class_specific_camping_skills 2 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 4 .number_of_cards_in_deck 8 .card_chance 1.0
 

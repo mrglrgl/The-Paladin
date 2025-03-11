@@ -152,11 +152,11 @@ Found]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_matti_Freeaction_desk"><![CDATA[Free Action]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_matti_begin_desk"><![CDATA[{colour_start|notable}Enter Wrath:{colour_end}]]></entry>
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_matti_Avenge_A1_desk"><![CDATA[Reflect 160%% DMG / +10 MAX HP]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_matti_Avenge_A2_desk"><![CDATA[Reflect 170%% DMG / +12 MAX HP]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_matti_Avenge_A3_desk"><![CDATA[Reflect 180%% DMG / +14 MAX HP]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_matti_Avenge_A4_desk"><![CDATA[Reflect 190%% DMG / +16 MAX HP]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_matti_Avenge_A5_desk"><![CDATA[Reflect 200%% DMG / +18 MAX HP]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_Avenge_A1_desk"><![CDATA[Reflect 130%% DMG / +10 MAX HP]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_Avenge_A2_desk"><![CDATA[Reflect 135%% DMG / +12 MAX HP]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_Avenge_A3_desk"><![CDATA[Reflect 140%% DMG / +14 MAX HP]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_Avenge_A4_desk"><![CDATA[Reflect 145%% DMG / +16 MAX HP]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_Avenge_A5_desk"><![CDATA[Reflect 150%% DMG / +18 MAX HP]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_matti_Avenge_B_desk"><![CDATA[{colour_start|stress}Stress{colour_end} +5/rd / DODGE/PROT Disabled]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_matti_cancel_desk"><![CDATA[{colour_start|notable}Cancel Wrath{colour_end}]]></entry>

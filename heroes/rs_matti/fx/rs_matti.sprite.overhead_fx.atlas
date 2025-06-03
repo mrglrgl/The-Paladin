@@ -1,0 +1,13 @@
+
+rs_matti.sprite.overhead_fx.png
+size: 550,566
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+polearm_trail
+  rotate: false
+  xy: 2, 2
+  size: 546, 562
+  orig: 546, 562
+  offset: 0, 0
+  index: -1

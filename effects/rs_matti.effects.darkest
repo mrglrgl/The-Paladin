@@ -17,6 +17,8 @@ effect: .name "Matti_Modeto_DF"	.target "performer" .set_mode matti_DefaultF .ch
 
 
 //// Vanquish \\\\
+effect: .name "Matti_Smite" .target "performer" .skill_instant true .buff_ids "matti_MarkL_60" "matti_MarkH_60" "matti_GuardL_35" "matti_GuardH_35" .on_hit true .on_miss true
+
 
 //// Novi Holy \\\\
 effect: .name "Matti_Nova_Desk" .target "performer" .skill_instant true .buff_ids "matti_nova_Desk" .on_hit true .on_miss true

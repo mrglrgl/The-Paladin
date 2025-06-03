@@ -1,19 +1,33 @@
 
 rs_matti.sprite.investigate.png
-size: 1266,894
+size: 1057,913
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-Matti_interact
-  rotate: false
+matti
+  rotate: true
   xy: 2, 2
-  size: 1186, 890
-  orig: 1186, 890
+  size: 909, 890
+  orig: 909, 890
+  offset: 0, 0
+  index: -1
+rat1
+  rotate: false
+  xy: 894, 654
+  size: 161, 257
+  orig: 161, 257
+  offset: 0, 0
+  index: -1
+rat2
+  rotate: false
+  xy: 894, 378
+  size: 127, 274
+  orig: 127, 274
   offset: 0, 0
   index: -1
 shadow
   rotate: true
-  xy: 1190, 525
+  xy: 894, 9
   size: 367, 74
   orig: 367, 74
   offset: 0, 0

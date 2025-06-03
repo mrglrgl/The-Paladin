@@ -210,6 +210,54 @@
 		{
 			"id" : "rsmatti_patrol",
 			"level" : 0,
+			"cost" : 4,
+			"use_limit" : 1,
+			"effects" : 
+			[
+				{
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1.0 },
+                    "type": "reduce_ambush_chance",
+                    "sub_type" : "",
+					"amount" : 1.0
+				},
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "b", "amount": 1.0 },
+                    "type": "buff",
+                    "sub_type" : "campingScoutingBuff",
+					"amount" :  0.2
+				},
+				{
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "c", "amount": 1.0 },
+					"type": "loot",
+					"sub_type": "matti_camp_mice",
+					"amount": 1
+				}
+			],
+			"hero_classes" : ["rs_matti"  ],
+			"upgrade_requirements" :  	
+			[
+				{
+					"code" : "0",
+					"currency_cost" :			
+					[
+						{ "type" : "gold", "amount" : 1750 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			]
+		},
+		{
+			"id" : "rsmatti_radiance",
+			"level" : 0,
 			"cost" : 3,
 			"use_limit" : 1,
 			"effects" : 
@@ -217,18 +265,34 @@
 				{ 
 					"selection" : "self",
 					"requirements" : [],
-					"chance" : { "code" : "a", "amount": 1.0 },
-                    "type": "buff",
-                    "sub_type" : "campingScoutingBuff",
-					"amount" :  0.25
+					"chance" : { "code" : "a", "amount": 1.0 }, 
+					"type" : "buff",
+					"sub_type" : "Matti_Camp_HP",
+					"amount" :  0.2
+				},
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1.0 }, 
+					"type" : "buff",
+					"sub_type" : "Matti_Camp_Regen",
+					"amount" :  2
 				},
 				{
 					"selection" : "self",
 					"requirements" : [],
-					"chance" : { "code" : "b", "amount": 1.0 },
+					"chance" : { "code" : "c", "amount": 1.0 },
 					"type": "loot",
-					"sub_type": "matti_camp_mice",
+					"sub_type": "matti_camp_regen_desk",
 					"amount": 1
+				},
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "d", "amount": 1.0 },
+                    "type": "remove_deaths_door_recovery_buffs",
+                    "sub_type" : "",
+					"amount" :  0
 				}
 			],
 			"hero_classes" : ["rs_matti"  ],

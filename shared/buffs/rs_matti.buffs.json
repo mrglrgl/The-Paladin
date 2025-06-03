@@ -2,6 +2,58 @@
    "buffs":
    [
 	  {
+         "id" : "matti_MarkL_60",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.6,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+      },
+	  {
+         "id" : "matti_MarkH_60",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.6,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+      },
+	  {
+         "id" : "matti_GuardL_35",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.35,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_guarding",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_GuardH_35",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.35,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_guarding",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
          "id" : "matti_AP",
          "stat_type" : "ignore_protection",
          "stat_sub_type" : "",
@@ -948,6 +1000,33 @@
          }
       },
 	  {
+         "id" : "Matti_Camp_HP",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "max_hp",
+         "duration" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "Matti_Camp_Regen",
+         "stat_type" : "hp_dot_heal",
+         "stat_sub_type" : "",
+         "amount" : 2,
+         "duration" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
          "id" : "Matti_Spellbound_ACC8",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "attack_rating",
@@ -1095,7 +1174,7 @@
          "id" : "matti_sus_Horror",
          "stat_type" : "stress_dot",
          "stat_sub_type" : "",
-         "amount" : 3,
+         "amount" : 4,
          "remove_if_not_active" : true,
          "rule_type" : "afflicted",
          "is_false_rule" : true,

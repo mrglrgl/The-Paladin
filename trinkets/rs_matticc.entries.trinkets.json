@@ -5,6 +5,33 @@
          "id" : "matti_trinket_cc",
          "buffs" : 
          [	
+			"matti_CC_StunR",
+			"matti_CC_DebuffR",
+			"matti_CC_BleedR",
+			"matti_CC_BlightR",
+			"matti_CC_Desk_1",
+			"matti_CC_Desk_2",
+			"matti_CC_Desk_3"
+         ],
+         "hero_class_requirements":
+         [
+            "rs_matti"
+         ],
+         "set_id" : "cc_set_matti",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard",
+		 "was_hit_additional_effects":
+		 [
+		     "Matti_Reflect_Bleed",
+			 "Matti_Reflect_Blight"
+		 ]
+      },
+	  {
+         "id" : "matti_trinket_cc_fake",
+         "buffs" : 
+         [	
 			"matti_cc_critr",
 			"matti_cc_ripostehit_afflicted",
 			"matti_cc_ripostehit_marked",

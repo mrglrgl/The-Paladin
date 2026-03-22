@@ -1,0 +1,20 @@
+
+rs_matti.sprite.shield_mark_target.png
+size: 512,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+splatter
+  rotate: false
+  xy: 1, 1
+  size: 443, 434
+  orig: 443, 434
+  offset: 0, 0
+  index: -1
+marking/mark
+  rotate: false
+  xy: 1, 437
+  size: 331, 279
+  orig: 331, 279
+  offset: 0, 0
+  index: -1

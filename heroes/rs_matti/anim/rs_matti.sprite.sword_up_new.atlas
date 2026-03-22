@@ -1,0 +1,48 @@
+
+rs_matti.sprite.sword_up_new.png
+size: 1024,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shadow
+  rotate: false
+  xy: 350, 1876
+  size: 357, 64
+  orig: 357, 64
+  offset: 0, 0
+  index: -1
+Newfx2/backring
+  rotate: false
+  xy: 545, 795
+  size: 266, 278
+  orig: 266, 278
+  offset: 0, 0
+  index: -1
+swordup/Matti_swordup
+  rotate: false
+  xy: 1, 1
+  size: 542, 1031
+  orig: 542, 1031
+  offset: 0, 0
+  index: -1
+swordup/dark
+  rotate: false
+  xy: 1, 1034
+  size: 542, 840
+  orig: 542, 840
+  offset: 0, 0
+  index: -1
+Newfx3/char_rim
+  rotate: false
+  xy: 545, 1
+  size: 311, 792
+  orig: 311, 792
+  offset: 0, 0
+  index: -1
+Newfx2/stars
+  rotate: false
+  xy: 1, 1876
+  size: 347, 106
+  orig: 347, 106
+  offset: 0, 0
+  index: -1

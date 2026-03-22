@@ -28,28 +28,15 @@
          }
       },
 	  {
-         "id" : "matti_GuardL_35",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_low",
-         "amount" : 0.35,
+         "id" : "matti_s2_CRIT",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.15,
          "remove_if_not_active" : false,
-         "rule_type" : "is_guarding",
+         "rule_type" : "monsterSize",
          "is_false_rule" : false,
          "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "matti_GuardH_35",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_high",
-         "amount" : 0.35,
-         "remove_if_not_active" : false,
-         "rule_type" : "is_guarding",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
+            "float" : 2,
             "string" : ""
          }
       },
@@ -217,78 +204,78 @@
 			"fx" : "yinyangorbfx"
 	  },
 	  {
+			"id" : "Matti_HP6",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "max_hp",
+			"amount" : 6,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			},
+			"remove_on_battle_complete": true,
+			"has_description" : false,
+			"is_clear_debuff_valid": false
+	  },
+	  {
+			"id" : "Matti_HP7",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "max_hp",
+			"amount" : 7,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			},
+			"remove_on_battle_complete": true,
+			"has_description" : false,
+			"is_clear_debuff_valid": false
+	  },
+	  {
+			"id" : "Matti_HP8",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "max_hp",
+			"amount" : 8,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			},
+			"remove_on_battle_complete": true,
+			"has_description" : false,
+			"is_clear_debuff_valid": false
+	  },
+	  {
+			"id" : "Matti_HP9",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "max_hp",
+			"amount" : 9,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			},
+			"remove_on_battle_complete": true,
+			"has_description" : false,
+			"is_clear_debuff_valid": false
+	  },
+	  {
 			"id" : "Matti_HP10",
 			"stat_type" : "combat_stat_add",
 			"stat_sub_type" : "max_hp",
 			"amount" : 10,
-			"remove_if_not_active" : false,
-			"rule_type" : "always",
-			"is_false_rule" : false,
-			"rule_data" : 
-			{
-				"float" : 0,
-				"string" : ""
-			},
-			"remove_on_battle_complete": true,
-			"has_description" : false,
-			"is_clear_debuff_valid": false
-	  },
-	  {
-			"id" : "Matti_HP12",
-			"stat_type" : "combat_stat_add",
-			"stat_sub_type" : "max_hp",
-			"amount" : 12,
-			"remove_if_not_active" : false,
-			"rule_type" : "always",
-			"is_false_rule" : false,
-			"rule_data" : 
-			{
-				"float" : 0,
-				"string" : ""
-			},
-			"remove_on_battle_complete": true,
-			"has_description" : false,
-			"is_clear_debuff_valid": false
-	  },
-	  {
-			"id" : "Matti_HP14",
-			"stat_type" : "combat_stat_add",
-			"stat_sub_type" : "max_hp",
-			"amount" : 14,
-			"remove_if_not_active" : false,
-			"rule_type" : "always",
-			"is_false_rule" : false,
-			"rule_data" : 
-			{
-				"float" : 0,
-				"string" : ""
-			},
-			"remove_on_battle_complete": true,
-			"has_description" : false,
-			"is_clear_debuff_valid": false
-	  },
-	  {
-			"id" : "Matti_HP16",
-			"stat_type" : "combat_stat_add",
-			"stat_sub_type" : "max_hp",
-			"amount" : 16,
-			"remove_if_not_active" : false,
-			"rule_type" : "always",
-			"is_false_rule" : false,
-			"rule_data" : 
-			{
-				"float" : 0,
-				"string" : ""
-			},
-			"remove_on_battle_complete": true,
-			"has_description" : false,
-			"is_clear_debuff_valid": false
-	  },
-	  {
-			"id" : "Matti_HP18",
-			"stat_type" : "combat_stat_add",
-			"stat_sub_type" : "max_hp",
-			"amount" : 18,
 			"remove_if_not_active" : false,
 			"rule_type" : "always",
 			"is_false_rule" : false,
@@ -929,6 +916,110 @@
             "string" : ""
          },
 		"is_clear_debuff_valid": false
+      },
+	  {
+         "id" : "Matti_PROT30",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "Matti_PROT35",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.33,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "Matti_PROT35",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.33,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "Matti_PROT38",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.38,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "Matti_PROT40",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.40,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "Matti_SPD4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "Matti_SPD5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 5,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "Matti_SPD6",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 6,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
       },
 	  {
          "id" : "matti_stacking_Heal",

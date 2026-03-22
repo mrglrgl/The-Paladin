@@ -128,7 +128,12 @@
          "id" : "matti_trinket_5",
          "buffs" : 
          [	
-			"matti_TPHOLDER_Cove"
+			"matti_Orn_MACC",
+			"matti_Orn_AP",
+			"matti_Orn_AP2",
+			"matti_Orn_Noguard",
+			"matti_Orn_Desk_1",
+			"matti_Orn_Desk_2"
          ],
          "hero_class_requirements":
          [
@@ -138,7 +143,13 @@
 		 "visual_rarity" : "mattimouse_rare",
          "price" : 0,
          "limit" : 1,
-         "origin_dungeon" : "cove"
+         "origin_dungeon" : "cove",
+		 "attack_skill_additional_effects":
+		 [
+		     "Matti_Orn_Ally",
+			 "Matti_Orn_Self",
+			 "Clear Guard Target"
+		 ]
       },
 	  {
          "id" : "matti_trinket_6",

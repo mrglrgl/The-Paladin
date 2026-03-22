@@ -1,0 +1,41 @@
+
+rs_matti.sprite.rainbow.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shadow
+  rotate: false
+  xy: 1, 1910
+  size: 357, 64
+  orig: 367, 74
+  offset: 0, 10
+  index: -1
+megaslash/megaslash
+  rotate: false
+  xy: 1, 694
+  size: 813, 616
+  orig: 813, 616
+  offset: 0, 0
+  index: -1
+megaslash/dark
+  rotate: false
+  xy: 1, 1312
+  size: 811, 596
+  orig: 811, 596
+  offset: 0, 0
+  index: -1
+megaslash/rimlight
+  rotate: false
+  xy: 814, 1312
+  size: 710, 389
+  orig: 710, 389
+  offset: 0, 0
+  index: -1
+megaslash/rainbow
+  rotate: false
+  xy: 1, 1
+  size: 1650, 691
+  orig: 1650, 691
+  offset: 0, 0
+  index: -1

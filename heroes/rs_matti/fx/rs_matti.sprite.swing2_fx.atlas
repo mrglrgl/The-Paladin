@@ -1,0 +1,13 @@
+
+rs_matti.sprite.swing2_fx.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+swing
+  rotate: false
+  xy: 1, 1
+  size: 750, 300
+  orig: 750, 300
+  offset: 0, 0
+  index: -1

@@ -93,10 +93,11 @@
 		<entry id="buff_stat_tooltip_upgrade_discount_matti_Aus_desk"><![CDATA[On Attack Hit: {colour_start|debuff}Steal{colour_end} 2 SPD]]></entry>
 	<entry id="str_inventory_set_title_matti_set_weald"><![CDATA[Weald Set]]></entry>
 		
-	<entry id="str_inventory_title_trinketmatti_trinket_5"><![CDATA[Orn, Dragoon]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_matti_Orn_desk_1"><![CDATA[+66%% DMG/CRT]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_matti_Orn_desk_2"><![CDATA[+33%% DMG/CRT]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_matti_Orn_desk_3"><![CDATA[{colour_start|notable}Vanquish:{colour_end} {colour_start|move}Forward{colour_end} 3]]></entry>
+	<entry id="str_inventory_title_trinketmatti_trinket_5"><![CDATA[Orn, Scalebreaker]]></entry>
+		<entry id="buff_rule_data_tooltip_matti_FakeATK"><![CDATA[Attack Skills]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_matti_Orn_desk_1"><![CDATA[Bypass/Break {colour_start|guard}Guard{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_matti_Orn_desk_2"><![CDATA[{colour_start|buff}Buff Party:{colour_end}
++25%% Armor Piercing {colour_start|skill_unselectable}(3 rds){colour_end}]]></entry>
 	
 	<entry id="str_inventory_title_trinketmatti_trinket_6"><![CDATA[Meg, Rosemage]]></entry>
 	<entry id="str_inventory_title_trinketmatti_trinket_7"><![CDATA[Varo, Commander]]></entry>
@@ -107,11 +108,15 @@ Found]]></entry>
 		
 	<entry id="str_inventory_title_trinketmatti_trinket_SI"><![CDATA[Nazrin, Collector]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_matti_Nazrin_desk_1"><![CDATA[On Kill: Loot 1 Food]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_matti_Nazrin_desk_2"><![CDATA[On Kill: Loot 1 {colour_start|notable}Regional Trinket{colour_end} from {colour_start|attacktype}Another Class{colour_end} {colour_start|skill_unselectable}(8%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_matti_Nazrin_desk_2"><![CDATA[On Kill: Loot 1 {colour_start|notable}Addon Trinket{colour_end} from the {colour_start|attacktype}Current Region{colour_end} {colour_start|skill_unselectable}(8%%){colour_end}]]></entry>
 	
 	<entry id="str_inventory_title_trinketmatti_trinket_COM"><![CDATA[False Radiance]]></entry>
 	
 	<entry id="str_inventory_title_trinketmatti_trinket_cc"><![CDATA[Bloodied Sigil]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_matti_CC_desk_1"><![CDATA[+25%% {colour_start|stun}Stun{colour_end} / {colour_start|debuff}Debuff{colour_end} Resist]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_matti_CC_desk_2"><![CDATA[-25%% {colour_start|bleed}Bleed{colour_end} / {colour_start|blight}Blight{colour_end} Resist]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_matti_CC_desk_3"><![CDATA[When Hit: Transfer {colour_start|bleed}Bleed{colour_end} / {colour_start|blight}Blight{colour_end} to Attacker]]></entry>
+	
 		<entry id="buff_stat_tooltip_upgrade_discount_matti_cc_desk_1"><![CDATA[{colour_start|riposte}Passive Riposte{colour_end} while]]></entry>
 		<entry id="buff_rule_data_tooltip_matti_amg_rule"><![CDATA[{colour_start|mark}Marked{colour_end}/{colour_start|guard}Guarding{colour_end}/{colour_start|mark}Afflicted{colour_end}]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_matti_cc_desk_2"><![CDATA[{colour_start|skill_unselectable} ACC base: 140 / DMG mod: -65%%{colour_end}]]></entry>
@@ -124,6 +129,9 @@ Found]]></entry>
 		<!-- Random Tooltips Desk -->
 				<!-- Trinkets -->	
 				<!-- Skills -->
+		<!-- Vanquish -->
+	<entry id="buff_rule_data_tooltip_matti_fakeS2"><![CDATA[Size 2+]]></entry>
+		
 		<!-- Novi Holy -->
 	<entry id="buff_rule_data_tooltip_rsmatti_nova"><![CDATA[Novi Holy]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_matti_nova_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} 10%% HP per Hit]]></entry>
@@ -156,12 +164,12 @@ Found]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_matti_Freeaction_desk"><![CDATA[Free Action]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_matti_begin_desk"><![CDATA[{colour_start|notable}Enter Wrath:{colour_end}]]></entry>
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_matti_Avenge_A1_desk"><![CDATA[Reflect 130%% DMG / +10 MAX HP]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_matti_Avenge_A2_desk"><![CDATA[Reflect 135%% DMG / +12 MAX HP]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_matti_Avenge_A3_desk"><![CDATA[Reflect 140%% DMG / +14 MAX HP]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_matti_Avenge_A4_desk"><![CDATA[Reflect 145%% DMG / +16 MAX HP]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_matti_Avenge_A5_desk"><![CDATA[Reflect 150%% DMG / +18 MAX HP]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_matti_Avenge_B_desk"><![CDATA[{colour_start|stress}Stress{colour_end} +5/rd / DODGE/PROT Disabled]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_Avenge_A1_desk"><![CDATA[Reflect 130%% DMG / +6 MAX HP]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_Avenge_A2_desk"><![CDATA[Reflect 135%% DMG / +7 MAX HP]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_Avenge_A3_desk"><![CDATA[Reflect 140%% DMG / +8 MAX HP]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_Avenge_A4_desk"><![CDATA[Reflect 145%% DMG / +9 MAX HP]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_Avenge_A5_desk"><![CDATA[Reflect 150%% DMG / +10 MAX HP]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_Avenge_B_desk"><![CDATA[Stress +5/rd / DODGE/PROT Disabled]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_matti_cancel_desk"><![CDATA[{colour_start|notable}Cancel Wrath{colour_end}]]></entry>
 	
@@ -208,11 +216,12 @@ DMG mod: -65%%]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_matti_Zeal_desk_A"><![CDATA[{colour_start|notable}Can't Miss{colour_end} / DMG mod: -75%%]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_matti_Zeal_desk_B"><![CDATA[{colour_start|mark}Mark{colour_end} Target / {colour_start|stealth}De-stealth{colour_end}]]></entry>
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_matti_Zeal_desk_1"><![CDATA[{colour_start|mark}Mark{colour_end} / +25%% PROT / +3 SPD]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_matti_Zeal_desk_2"><![CDATA[{colour_start|mark}Mark{colour_end} / +27%% PROT / +3 SPD]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_matti_Zeal_desk_3"><![CDATA[{colour_start|mark}Mark{colour_end} / +29%% PROT / +4 SPD]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_matti_Zeal_desk_4"><![CDATA[{colour_start|mark}Mark{colour_end} / +31%% PROT / +4 SPD]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_matti_Zeal_desk_5"><![CDATA[{colour_start|mark}Mark{colour_end} / +33%% PROT / +5 SPD]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_Zeal_desk_1"><![CDATA[{colour_start|mark}Mark{colour_end} / +30%% PROT / +4 SPD]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_Zeal_desk_2"><![CDATA[{colour_start|mark}Mark{colour_end} / +33%% PROT / +4 SPD]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_Zeal_desk_3"><![CDATA[{colour_start|mark}Mark{colour_end} / +35%% PROT / +5 SPD]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_Zeal_desk_4"><![CDATA[{colour_start|mark}Mark{colour_end} / +38%% PROT / +5 SPD]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_Zeal_desk_5"><![CDATA[{colour_start|mark}Mark{colour_end} / +40%% PROT / +6 SPD]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_matti_Zeal_desk_D"><![CDATA[{colour_start|notable}Unstackable{colour_end}]]></entry>
 	
 			<!-- Deprecated -->
 	

@@ -1,0 +1,34 @@
+
+rs_matti.sprite.marking.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shadow
+  rotate: false
+  xy: 1059, 443
+  size: 357, 64
+  orig: 357, 64
+  offset: 0, 0
+  index: -1
+marking/marking
+  rotate: false
+  xy: 1, 1
+  size: 528, 712
+  orig: 528, 712
+  offset: 0, 0
+  index: -1
+dark
+  rotate: false
+  xy: 531, 1
+  size: 526, 712
+  orig: 526, 712
+  offset: 0, 0
+  index: -1
+marking/rim
+  rotate: false
+  xy: 1059, 1
+  size: 231, 440
+  orig: 231, 440
+  offset: 0, 0
+  index: -1

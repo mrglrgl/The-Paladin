@@ -2,6 +2,19 @@
    "buffs":
    [
 	  {
+         "id" : "matti_s2_CRIT_Desk",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "matti_fakeS2"
+         }
+      },
+	  {
          "id" : "matti_nova_Desk",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "matti_nova_desk",
@@ -701,8 +714,7 @@
          "rule_data" : {
             "float" : 0,
             "string" : "rsmatti_holyskill"
-         },
-			"remove_on_battle_complete": true
+         }
       },
 	  {
          "id" : "matti_avatar_Desk_A",
@@ -916,6 +928,19 @@
          "id" : "matti_Zeal_Desk_5",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "matti_Zeal_desk_5",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_Zeal_Desk_D",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_Zeal_desk_D",
          "amount" : 0.01,
          "remove_if_not_active" : false,
          "rule_type" : "always",

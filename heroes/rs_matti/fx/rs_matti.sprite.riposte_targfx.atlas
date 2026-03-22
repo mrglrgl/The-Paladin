@@ -1,0 +1,62 @@
+
+rs_matti.sprite.riposte_targfx.png
+size: 880,621
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+targfx/1
+  rotate: true
+  xy: 2, 455
+  size: 164, 697
+  orig: 164, 697
+  offset: 0, 0
+  index: -1
+targfx/2
+  rotate: true
+  xy: 2, 102
+  size: 115, 517
+  orig: 115, 517
+  offset: 0, 0
+  index: -1
+targfx/3
+  rotate: true
+  xy: 2, 2
+  size: 98, 444
+  orig: 98, 444
+  offset: 0, 0
+  index: -1
+targfx/4
+  rotate: true
+  xy: 2, 331
+  size: 122, 551
+  orig: 122, 551
+  offset: 0, 0
+  index: -1
+targfx/5
+  rotate: true
+  xy: 2, 219
+  size: 110, 537
+  orig: 110, 537
+  offset: 0, 0
+  index: -1
+targfx/6
+  rotate: true
+  xy: 521, 68
+  size: 52, 253
+  orig: 52, 253
+  offset: 0, 0
+  index: -1
+targfx/Back splash
+  rotate: true
+  xy: 555, 122
+  size: 319, 323
+  orig: 319, 323
+  offset: 0, 0
+  index: -1
+targfx/Front splash
+  rotate: true
+  xy: 701, 443
+  size: 176, 177
+  orig: 176, 177
+  offset: 0, 0
+  index: -1

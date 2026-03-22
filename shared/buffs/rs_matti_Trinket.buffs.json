@@ -325,32 +325,6 @@
 		"has_description" : false
       },
 	  {
-         "id" : "matti_Orn_Desk_1",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "matti_Orn_desk_1",
-         "amount" : -0.01,
-         "remove_if_not_active" : false,
-         "rule_type" : "in_rank",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 3,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "matti_Orn_Desk_2",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "matti_Orn_desk_2",
-         "amount" : -0.01,
-         "remove_if_not_active" : false,
-         "rule_type" : "in_rank",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 2,
-            "string" : ""
-         }
-      },
-	  {
          "id" : "matti_Orn_Desk_3",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "matti_Orn_desk_3",
@@ -361,6 +335,99 @@
          "rule_data" : {
             "float" : 0,
             "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_Orn_MACC",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.12,
+         "remove_if_not_active" : false,
+         "rule_type" : "meleeonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_Orn_Noguard",
+         "stat_type" : "ignore_guard",
+         "stat_sub_type" : "",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		"has_description" : false
+      },
+	  {
+         "id" : "matti_Orn_AP",
+         "stat_type" : "ignore_protection",
+         "stat_sub_type" : "",
+         "amount" : -0.75,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_Orn_AP2",
+         "stat_type" : "ignore_protection",
+         "stat_sub_type" : "",
+         "amount" : -4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		"has_description" : false
+      },
+	  {
+         "id" : "matti_Break_AP",
+         "stat_type" : "ignore_protection",
+         "stat_sub_type" : "",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_Orn_Desk_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_Orn_desk_1",
+         "amount" : -0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "matti_FakeATK"
+         }
+      },
+	  {
+         "id" : "matti_Orn_Desk_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_Orn_desk_2",
+         "amount" : -0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "matti_FakeATK"
          }
       },
 	  {
@@ -393,6 +460,101 @@
          "id" : "matti_Nazrin_Desk_2",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "matti_Nazrin_desk_2",
+         "amount" : -0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_CC_StunR",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		"has_description" : false
+      },
+	  {
+         "id" : "matti_CC_DebuffR",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "debuff",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		"has_description" : false
+      },
+	  {
+         "id" : "matti_CC_BleedR",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : -0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		"has_description" : false
+      },
+	  {
+         "id" : "matti_CC_BlightR",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "poison",
+         "amount" : -0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		"has_description" : false
+      },
+	  {
+         "id" : "matti_CC_Desk_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_CC_desk_1",
+         "amount" : -0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_CC_Desk_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_CC_desk_2",
+         "amount" : -0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_CC_Desk_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_CC_desk_3",
          "amount" : -0.01,
          "remove_if_not_active" : false,
          "rule_type" : "always",

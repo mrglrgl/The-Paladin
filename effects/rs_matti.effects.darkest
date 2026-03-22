@@ -5,7 +5,7 @@
 ////// Skills \\\\\\
 
 //// Shared \\\\
-effect: .name "Matti_HolyAmp_Reset" .target "performer" .chance 100% .steal_buff_source_type bsrc_stun .on_hit true .on_miss true .apply_once true .queue true .has_description false
+effect: .name "Matti_HolyAmp_Reset" .target "performer" .chance 100% .steal_buff_source_type bsrc_crit .on_hit true .on_miss true .apply_once true .queue true .has_description false
 effect: .name "Matti_AP"			.target "performer" .chance 100% .skill_instant true .buff_ids "matti_AP" .duration 1  .on_hit true .on_miss true .has_description false
 effect: .name "Matti_FFS_Blocker"	.target "target" .chance 0%  .dotPoison 1 .duration 1	.on_hit false .on_miss false .has_description false
 effect: .name "Matti_FFS"			.target "performer" .chance 100% .buff_source_type bsrc_vampire .buff_ids "matti_skillblock" "matti_antipass_stress" .duration 1 .on_hit true .on_miss true .has_description false
@@ -17,7 +17,8 @@ effect: .name "Matti_Modeto_DF"	.target "performer" .set_mode matti_DefaultF .ch
 
 
 //// Vanquish \\\\
-effect: .name "Matti_Smite" .target "performer" .skill_instant true .buff_ids "matti_MarkL_60" "matti_MarkH_60" "matti_GuardL_35" "matti_GuardH_35" .on_hit true .on_miss true
+effect: .name "Matti_Smite1" .target "performer" .skill_instant true .buff_ids "matti_MarkL_60" "matti_MarkH_60" "matti_s2_CRIT_Desk" .on_hit true .on_miss true
+effect: .name "Matti_Smite2" .target "performer" .skill_instant true .buff_ids "matti_s2_CRIT" .on_hit true .on_miss true .has_description false
 
 
 //// Novi Holy \\\\
@@ -161,7 +162,7 @@ effect: .name "Matti_ripoReset" .target "performer" .chance 100% .clear_riposte 
 //effect: .name "Matti_Riposte_4"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100%	.duration -1	.on_hit true .on_miss true .has_description false
 //effect: .name "Matti_Riposte_5"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100%	.duration -1	.on_hit true .on_miss true .has_description false
 
-effect: .name "Matti_Riposte_Buff" .target "performer" .buff_ids "matti_HolyUp_NoviHeal" "matti_HolyUp_LatHeal" "matti_HolyUp_DMGL" "matti_HolyUp_DMGH" "matti_HolyAmp_Tray_Desk" .buff_duration_type till_removed .on_hit true .on_miss true .buff_source_type bsrc_stun
+effect: .name "Matti_Riposte_Buff" .target "performer" .buff_ids "matti_HolyUp_NoviHeal" "matti_HolyUp_LatHeal" "matti_HolyUp_DMGL" "matti_HolyUp_DMGH" "matti_HolyAmp_Tray_Desk" .buff_duration_type till_removed .on_hit true .on_miss true .buff_source_type bsrc_crit .queue true
 
 
 //// Defiance - DMG Reflection Version
@@ -221,20 +222,28 @@ effect: .name "Matti_Rally_R3sB"	.target "performer" 			.buff_ids "matti_Rally_n
 //// Zealous Accusation \\\\
 effect: .name "Matti_Zeal_Desk_A" .target "performer" .skill_instant true .buff_ids "matti_Zeal_Desk_A" "matti_Zeal_Desk_B" .on_hit false .on_miss false
 
-effect: .name "Matti_Zeal_Desk_1" .target "performer" .buff_ids "matti_Zeal_Desk_1" .on_hit false .on_miss false
-effect: .name "Matti_Zeal_Desk_2" .target "performer" .buff_ids "matti_Zeal_Desk_2" .on_hit false .on_miss false
-effect: .name "Matti_Zeal_Desk_3" .target "performer" .buff_ids "matti_Zeal_Desk_3" .on_hit false .on_miss false
-effect: .name "Matti_Zeal_Desk_4" .target "performer" .buff_ids "matti_Zeal_Desk_4" .on_hit false .on_miss false
-effect: .name "Matti_Zeal_Desk_5" .target "performer" .buff_ids "matti_Zeal_Desk_5" .on_hit false .on_miss false
+effect: .name "Matti_Zeal_Desk_1" .target "performer" .buff_ids "matti_Zeal_Desk_1" "matti_Zeal_Desk_D" .on_hit false .on_miss false
+effect: .name "Matti_Zeal_Desk_2" .target "performer" .buff_ids "matti_Zeal_Desk_2" "matti_Zeal_Desk_D" .on_hit false .on_miss false
+effect: .name "Matti_Zeal_Desk_3" .target "performer" .buff_ids "matti_Zeal_Desk_3" "matti_Zeal_Desk_D" .on_hit false .on_miss false
+effect: .name "Matti_Zeal_Desk_4" .target "performer" .buff_ids "matti_Zeal_Desk_4" "matti_Zeal_Desk_D" .on_hit false .on_miss false
+effect: .name "Matti_Zeal_Desk_5" .target "performer" .buff_ids "matti_Zeal_Desk_5" "matti_Zeal_Desk_D" .on_hit false .on_miss false
 
-effect: .name "Matti_Zeal_MarkS" .target "performer" .chance 100% .buff_type tag .buff_amount 100% .duration 4	.on_hit true .on_miss true .queue true
-effect: .name "Matti_Zeal_MarkT" .target "target" 	.chance 100% .unstealth 1 .tag 1 .duration 3	.on_hit true .on_miss false .queue true .has_description false
+effect: .name "Matti_Zeal_MarkS" .target "performer" .chance 100% .buff_type tag .buff_amount 100% .duration 5	.on_hit true .on_miss true .queue true
+effect: .name "Matti_Zeal_MarkT" .target "target" 	.chance 100% .unstealth 1 .tag 1 .duration 4	.on_hit true .on_miss false .queue true .has_description false
 
-effect: .name "Matti_Zeal_Buff_1" .target "performer" .chance 100% .duration 4 .combat_stat_buff 1 .protection_rating_add 25% .speed_rating_add 3	.on_hit true .on_miss true .has_description false
-effect: .name "Matti_Zeal_Buff_2" .target "performer" .chance 100% .duration 4 .combat_stat_buff 1 .protection_rating_add 27% .speed_rating_add 3	.on_hit true .on_miss true .has_description false
-effect: .name "Matti_Zeal_Buff_3" .target "performer" .chance 100% .duration 4 .combat_stat_buff 1 .protection_rating_add 29% .speed_rating_add 4	.on_hit true .on_miss true .has_description false
-effect: .name "Matti_Zeal_Buff_4" .target "performer" .chance 100% .duration 4 .combat_stat_buff 1 .protection_rating_add 31% .speed_rating_add 4	.on_hit true .on_miss true .has_description false
-effect: .name "Matti_Zeal_Buff_5" .target "performer" .chance 100% .duration 4 .combat_stat_buff 1 .protection_rating_add 33% .speed_rating_add 5	.on_hit true .on_miss true .has_description false
+//effect: .name "Matti_Zeal_Buff_1" .target "performer" .chance 100% .duration 5 .combat_stat_buff 1 .protection_rating_add 25% .speed_rating_add 3	.on_hit true .on_miss true .has_description false
+//effect: .name "Matti_Zeal_Buff_2" .target "performer" .chance 100% .duration 5 .combat_stat_buff 1 .protection_rating_add 27% .speed_rating_add 3	.on_hit true .on_miss true .has_description false
+//effect: .name "Matti_Zeal_Buff_3" .target "performer" .chance 100% .duration 5 .combat_stat_buff 1 .protection_rating_add 29% .speed_rating_add 4	.on_hit true .on_miss true .has_description false
+//effect: .name "Matti_Zeal_Buff_4" .target "performer" .chance 100% .duration 5 .combat_stat_buff 1 .protection_rating_add 31% .speed_rating_add 4	.on_hit true .on_miss true .has_description false
+//effect: .name "Matti_Zeal_Buff_5" .target "performer" .chance 100% .duration 5 .combat_stat_buff 1 .protection_rating_add 33% .speed_rating_add 5	.on_hit true .on_miss true .has_description false
+
+effect: .name "Matti_Zeal_Reset" .target "performer" .chance 100% .steal_buff_source_type bsrc_stun .on_hit true .on_miss true .apply_once true .queue true .has_description false
+
+effect: .name "Matti_Zeal_Buff_1" .target "performer" .chance 100% .duration 5 .buff_ids "Matti_PROT30" "Matti_SPD4"	.on_hit true .on_miss true .has_description false .buff_source_type bsrc_stun
+effect: .name "Matti_Zeal_Buff_2" .target "performer" .chance 100% .duration 5 .buff_ids "Matti_PROT33" "Matti_SPD4"	.on_hit true .on_miss true .has_description false .buff_source_type bsrc_stun
+effect: .name "Matti_Zeal_Buff_3" .target "performer" .chance 100% .duration 5 .buff_ids "Matti_PROT35" "Matti_SPD5"	.on_hit true .on_miss true .has_description false .buff_source_type bsrc_stun
+effect: .name "Matti_Zeal_Buff_4" .target "performer" .chance 100% .duration 5 .buff_ids "Matti_PROT38" "Matti_SPD5"	.on_hit true .on_miss true .has_description false .buff_source_type bsrc_stun
+effect: .name "Matti_Zeal_Buff_5" .target "performer" .chance 100% .duration 5 .buff_ids "Matti_PROT40" "Matti_SPD6"	.on_hit true .on_miss true .has_description false .buff_source_type bsrc_stun
 
 
 
@@ -247,8 +256,16 @@ effect: .name "Matti_SusRally"	.target "target" .chance 100% .buff_ids "matti_su
 // Trinkets
 //effect: .name "Matti_Riposte_Buff" .target "performer" .buff_ids "matti_stacking_Heal" "matti_stacking_DMGL" "matti_stacking_DMGH" .duration 8 .on_hit true .on_miss true
 
+effect: .name "Matti_Orn_Ally" .target "performer_group_other" 	.chance 100% .duration 3  .buff_ids "matti_Break_AP"	.on_hit true .on_miss true .has_description false .apply_once true
+effect: .name "Matti_Orn_Self" .target "performer" 				.chance 100% .duration 4  .buff_ids "matti_Break_AP"	.on_hit true .on_miss true .has_description false .apply_once true
+
+
 effect: .name "Matti_Trip_Self" .target "performer" .chance 100% .duration 4  .combat_stat_buff 1 .speed_rating_add 2	.on_hit true .on_miss false .has_description false
 effect: .name "Matti_Trip_Targ" .target "target" 	.chance 999% .duration 3  .combat_stat_buff 1 .speed_rating_add -2	.on_hit true .on_miss false .has_description false
+
+effect: .name "Matti_Reflect_Bleed" .target "target" 	.chance 999% .steal_buff_stat_type hp_dot_bleed  .swap_source_and_target true 	.on_hit true .on_miss true .has_description false
+effect: .name "Matti_Reflect_Blight" .target "target" 	.chance 999% .steal_buff_stat_type hp_dot_poison  .swap_source_and_target true 	.on_hit true .on_miss true .has_description false
+
 
 // Nazrin
 effect: .name "Matti_Nazrin_Loot"	.target "performer" .chance 100% .summon_count 1 .summon_limits 1 .summon_can_spawn_loot true .summon_monsters matti_nazrin_s0_A .summon_chances 1.0 .summon_does_roll_initiatives 0 .on_hit true .on_miss true .has_description false

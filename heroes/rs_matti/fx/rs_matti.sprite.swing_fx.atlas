@@ -1,0 +1,27 @@
+
+rs_matti.sprite.swing_fx.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+swing
+  rotate: false
+  xy: 1, 545
+  size: 750, 300
+  orig: 750, 300
+  offset: 0, 0
+  index: -1
+3qewrewerf/new_shadow
+  rotate: false
+  xy: 1, 1
+  size: 814, 542
+  orig: 814, 542
+  offset: 0, 0
+  index: -1
+3qewrewerf/shield_rim
+  rotate: false
+  xy: 753, 545
+  size: 151, 217
+  orig: 151, 217
+  offset: 0, 0
+  index: -1

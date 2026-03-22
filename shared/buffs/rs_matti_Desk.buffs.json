@@ -714,7 +714,8 @@
          "rule_data" : {
             "float" : 0,
             "string" : "rsmatti_holyskill"
-         }
+         },
+			"remove_on_battle_complete": true
       },
 	  {
          "id" : "matti_avatar_Desk_A",

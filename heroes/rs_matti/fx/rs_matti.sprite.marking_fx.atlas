@@ -1,20 +1,20 @@
 
-rs_matti.sprite.marking.png
+rs_matti.sprite.marking_fx.png
 size: 1024,1024
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-shadow
-  rotate: false
-  xy: 1, 715
-  size: 357, 64
-  orig: 357, 64
-  offset: 0, 0
-  index: -1
-marking/marking
+dark
   rotate: false
   xy: 1, 1
-  size: 528, 712
-  orig: 528, 712
+  size: 526, 712
+  orig: 526, 712
+  offset: 0, 0
+  index: -1
+marking/rim
+  rotate: false
+  xy: 529, 1
+  size: 231, 440
+  orig: 231, 440
   offset: 0, 0
   index: -1

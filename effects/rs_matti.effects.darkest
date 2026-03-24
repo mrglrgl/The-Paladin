@@ -237,7 +237,7 @@ effect: .name "Matti_Zeal_MarkT" .target "target" 	.chance 100% .unstealth 1 .ta
 //effect: .name "Matti_Zeal_Buff_4" .target "performer" .chance 100% .duration 5 .combat_stat_buff 1 .protection_rating_add 31% .speed_rating_add 4	.on_hit true .on_miss true .has_description false
 //effect: .name "Matti_Zeal_Buff_5" .target "performer" .chance 100% .duration 5 .combat_stat_buff 1 .protection_rating_add 33% .speed_rating_add 5	.on_hit true .on_miss true .has_description false
 
-effect: .name "Matti_Zeal_Reset" .target "performer" .chance 100% .steal_buff_source_type bsrc_stun .on_hit true .on_miss true .apply_once true .queue true .has_description false
+effect: .name "Matti_Zeal_Reset" .target "performer" .chance 100% .steal_buff_source_type bsrc_stun .on_hit true .on_miss true .apply_once true .has_description false
 
 effect: .name "Matti_Zeal_Buff_1" .target "performer" .chance 100% .duration 5 .buff_ids "Matti_PROT30" "Matti_SPD4"	.on_hit true .on_miss true .has_description false .buff_source_type bsrc_stun
 effect: .name "Matti_Zeal_Buff_2" .target "performer" .chance 100% .duration 5 .buff_ids "Matti_PROT33" "Matti_SPD4"	.on_hit true .on_miss true .has_description false .buff_source_type bsrc_stun

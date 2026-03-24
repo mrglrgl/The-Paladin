@@ -1,27 +1,41 @@
 
 rs_matti.sprite.afflicted.png
-size: 2015,1186
+size: 3145,3118
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-afflicted
-  rotate: false
-  xy: 1345, 297
-  size: 668, 887
-  orig: 668, 887
-  offset: 0, 0
-  index: -1
 background
   rotate: false
-  xy: 2, 57
-  size: 1341, 1127
-  orig: 1341, 1127
+  xy: 1667, 261
+  size: 1476, 1127
+  orig: 1476, 1127
   offset: 0, 0
   index: -1
 crown
-  rotate: false
-  xy: 1345, 2
+  rotate: true
+  xy: 1372, 1354
   size: 369, 293
   orig: 369, 293
+  offset: 0, 0
+  index: -1
+gradient
+  rotate: true
+  xy: 2, 1725
+  size: 1391, 1743
+  orig: 1391, 1743
+  offset: 0, 0
+  index: -1
+larato
+  rotate: false
+  xy: 2, 2
+  size: 1368, 1721
+  orig: 1368, 1721
+  offset: 0, 0
+  index: -1
+rimlight
+  rotate: false
+  xy: 1747, 1390
+  size: 1380, 1726
+  orig: 1380, 1726
   offset: 0, 0
   index: -1

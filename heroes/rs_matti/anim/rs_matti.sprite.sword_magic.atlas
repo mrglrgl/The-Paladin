@@ -1,6 +1,6 @@
 
 rs_matti.sprite.sword_magic.png
-size: 2048,1024
+size: 512,1024
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
@@ -16,54 +16,5 @@ sword_magic/sword_magic
   xy: 1, 1
   size: 442, 819
   orig: 442, 819
-  offset: 0, 0
-  index: -1
-sword_magic/dark
-  rotate: false
-  xy: 879, 1
-  size: 441, 816
-  orig: 441, 816
-  offset: 0, 0
-  index: -1
-sword_magic/rim
-  rotate: false
-  xy: 445, 1
-  size: 432, 835
-  orig: 432, 835
-  offset: 0, 0
-  index: -1
-sword_magic/star_3
-  rotate: false
-  xy: 360, 838
-  size: 120, 136
-  orig: 120, 136
-  offset: 0, 0
-  index: -1
-sword_magic/star_2
-  rotate: false
-  xy: 101, 888
-  size: 98, 117
-  orig: 98, 117
-  offset: 0, 0
-  index: -1
-sword_magic/star_1
-  rotate: false
-  xy: 1, 888
-  size: 98, 121
-  orig: 98, 121
-  offset: 0, 0
-  index: -1
-sword_magic/halo
-  rotate: false
-  xy: 879, 819
-  size: 172, 109
-  orig: 172, 109
-  offset: 0, 0
-  index: -1
-sword_magic/particles
-  rotate: false
-  xy: 1322, 1
-  size: 423, 359
-  orig: 423, 359
   offset: 0, 0
   index: -1

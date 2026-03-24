@@ -1,0 +1,125 @@
+
+rs_matti.sprite.gang_fx.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+rats_2/rings
+  rotate: false
+  xy: 582, 668
+  size: 185, 188
+  orig: 185, 188
+  offset: 0, 0
+  index: -1
+rats_2/hero_dark
+  rotate: false
+  xy: 582, 1
+  size: 397, 665
+  orig: 397, 665
+  offset: 0, 0
+  index: -1
+rats_2/rim
+  rotate: false
+  xy: 1, 1
+  size: 579, 686
+  orig: 579, 686
+  offset: 0, 0
+  index: -1
+rats_2/mouse_7
+  rotate: false
+  xy: 914, 668
+  size: 108, 172
+  orig: 108, 172
+  offset: 0, 0
+  index: -1
+rats_2/mouse_6
+  rotate: false
+  xy: 499, 858
+  size: 93, 165
+  orig: 93, 165
+  offset: 0, 0
+  index: -1
+rats_2/mouse_5
+  rotate: false
+  xy: 205, 858
+  size: 151, 130
+  orig: 151, 130
+  offset: 0, 0
+  index: -1
+rats_2/mouse_4
+  rotate: false
+  xy: 1, 858
+  size: 202, 114
+  orig: 202, 114
+  offset: 0, 0
+  index: -1
+rats_2/mouse_3
+  rotate: false
+  xy: 914, 842
+  size: 97, 172
+  orig: 97, 172
+  offset: 0, 0
+  index: -1
+rats_2/mouse_2
+  rotate: false
+  xy: 769, 668
+  size: 143, 173
+  orig: 143, 173
+  offset: 0, 0
+  index: -1
+rats_2/mouse_1
+  rotate: false
+  xy: 1, 689
+  size: 99, 114
+  orig: 99, 114
+  offset: 0, 0
+  index: -1
+rats_2/mouse_1_dark
+  rotate: false
+  xy: 401, 689
+  size: 72, 113
+  orig: 72, 113
+  offset: 0, 0
+  index: -1
+rats_2/mouse_2_dark
+  rotate: false
+  xy: 769, 843
+  size: 143, 173
+  orig: 143, 173
+  offset: 0, 0
+  index: -1
+rats_2/mouse_3_dark
+  rotate: false
+  xy: 213, 689
+  size: 93, 111
+  orig: 93, 111
+  offset: 0, 0
+  index: -1
+rats_2/mouse_4_dark
+  rotate: false
+  xy: 102, 689
+  size: 109, 101
+  orig: 109, 101
+  offset: 0, 0
+  index: -1
+rats_2/mouse_5_dark
+  rotate: false
+  xy: 358, 858
+  size: 139, 111
+  orig: 139, 111
+  offset: 0, 0
+  index: -1
+rats_2/mouse_6_dark
+  rotate: false
+  xy: 308, 689
+  size: 91, 100
+  orig: 91, 100
+  offset: 0, 0
+  index: -1
+rats_2/mouse_7_dark
+  rotate: false
+  xy: 594, 858
+  size: 108, 115
+  orig: 108, 115
+  offset: 0, 0
+  index: -1

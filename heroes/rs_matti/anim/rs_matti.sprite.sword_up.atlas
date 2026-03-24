@@ -1,20 +1,20 @@
 
-rs_matti.sprite.marking.png
-size: 1024,1024
+rs_matti.sprite.sword_up.png
+size: 1024,2048
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 shadow
   rotate: false
-  xy: 1, 715
+  xy: 545, 1
   size: 357, 64
   orig: 357, 64
   offset: 0, 0
   index: -1
-marking/marking
+swordup/Matti_swordup
   rotate: false
   xy: 1, 1
-  size: 528, 712
-  orig: 528, 712
+  size: 542, 1031
+  orig: 542, 1031
   offset: 0, 0
   index: -1

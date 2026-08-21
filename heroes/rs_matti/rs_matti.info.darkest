@@ -72,7 +72,7 @@ combat_skill: .id "rsmatti_zeal" .level 3 .type "fumo" .atk 200%	.dmg -75% .crit
 combat_skill: .id "rsmatti_zeal" .level 4 .type "fumo" .atk 200%	.dmg -75% .crit 0% .launch 4321 .target 1234  .effect "Matti_Zeal_Desk_A" "Matti_Zeal_Desk_5" "Matti_Zeal_MarkT" "Matti_Zeal_Reset" "Matti_Zeal_MarkS" "Matti_Zeal_Buff_5"
 combat_skill: .id "rsmatti_zeal" .valid_modes matti_Default matti_Avenge .nil true .is_crit_valid False .ignore_stealth true .can_miss false .effect "Matti_AP" "Matti_FFS_Blocker"
 
-riposte_skill: .id "riposte1" .level 0 .type "ranged" .atk 140% .dmg -75% .crit 0% .launch 1234 .target 1234 .is_crit_valid True .effect "Matti_Riposte_Buff" .ignore_protection true 
+riposte_skill: .id "riposte1" .level 0 .type "ranged" .atk 140% .dmg -65% .crit 0% .launch 1234 .target 1234 .is_crit_valid True .effect "Matti_Riposte_Buff" .ignore_protection true 
 
 combat_move_skill: .id "move" .level 0 .type "move" .move 1 2 .launch 4321
 

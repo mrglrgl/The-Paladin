@@ -101,11 +101,11 @@ effect: .name "Matti_UnmarkSelf" .target "performer" .chance 100% .untag 1 .on_h
 
 
 //// Uprising \\\\
-effect: .name "Matti_Avenge_1"  .target "performer" .chance 100% .buff_ids "Matti_Reflect_1" "Matti_HP10" "Matti_NoDODGE" "Matti_NoPROT"	.buff_source_type bsrc_flashback_start .duration -1 .on_hit true .on_miss true .has_description false
-effect: .name "Matti_Avenge_2"  .target "performer" .chance 100% .buff_ids "Matti_Reflect_2" "Matti_HP12" "Matti_NoDODGE" "Matti_NoPROT"	.buff_source_type bsrc_flashback_start .duration -1 .on_hit true .on_miss true .has_description false
-effect: .name "Matti_Avenge_3"  .target "performer" .chance 100% .buff_ids "Matti_Reflect_3" "Matti_HP14" "Matti_NoDODGE" "Matti_NoPROT"	.buff_source_type bsrc_flashback_start .duration -1 .on_hit true .on_miss true .has_description false
-effect: .name "Matti_Avenge_4"  .target "performer" .chance 100% .buff_ids "Matti_Reflect_4" "Matti_HP16" "Matti_NoDODGE" "Matti_NoPROT"	.buff_source_type bsrc_flashback_start .duration -1 .on_hit true .on_miss true .has_description false
-effect: .name "Matti_Avenge_5"  .target "performer" .chance 100% .buff_ids "Matti_Reflect_5" "Matti_HP18" "Matti_NoDODGE" "Matti_NoPROT"	.buff_source_type bsrc_flashback_start .duration -1 .on_hit true .on_miss true .has_description false
+effect: .name "Matti_Avenge_1"  .target "performer" .chance 100% .buff_ids "Matti_Reflect_1" "Matti_HP6" "Matti_NoDODGE" "Matti_NoPROT"	.buff_source_type bsrc_flashback_start .duration -1 .on_hit true .on_miss true .has_description false
+effect: .name "Matti_Avenge_2"  .target "performer" .chance 100% .buff_ids "Matti_Reflect_2" "Matti_HP7" "Matti_NoDODGE" "Matti_NoPROT"	.buff_source_type bsrc_flashback_start .duration -1 .on_hit true .on_miss true .has_description false
+effect: .name "Matti_Avenge_3"  .target "performer" .chance 100% .buff_ids "Matti_Reflect_3" "Matti_HP8" "Matti_NoDODGE" "Matti_NoPROT"	.buff_source_type bsrc_flashback_start .duration -1 .on_hit true .on_miss true .has_description false
+effect: .name "Matti_Avenge_4"  .target "performer" .chance 100% .buff_ids "Matti_Reflect_4" "Matti_HP9" "Matti_NoDODGE" "Matti_NoPROT"	.buff_source_type bsrc_flashback_start .duration -1 .on_hit true .on_miss true .has_description false
+effect: .name "Matti_Avenge_5"  .target "performer" .chance 100% .buff_ids "Matti_Reflect_5" "Matti_HP10" "Matti_NoDODGE" "Matti_NoPROT"	.buff_source_type bsrc_flashback_start .duration -1 .on_hit true .on_miss true .has_description false
 
 effect: .name "Matti_Toggle_Desk"  .target "performer" .chance 100% .buff_ids "matti_Freeaction_Desk" .on_hit false .on_miss false .skill_instant true
 

@@ -1,7 +1,7 @@
 
 -------------------------------------------------------------------------------
-Parsing project file - C:\Users\danaw\Desktop\Matti Mod\project.xml
-Mod Data Directory = c:/Users/danaw/Desktop/Matti Mod/
+Parsing project file - C:\Users\Dana\Desktop\Matti Mod\project.xml
+Mod Data Directory = c:/Users/Dana/Desktop/Matti Mod/
 
 -------------------------------------------------------------------------------
 Processing Map Files files...
@@ -54,7 +54,7 @@ DMG mod: -65%%
 Exporting .loc2 files
 
 -------------------------------------------------------------------------------
-Searching for preview icon file c:/Users/danaw/Desktop/Matti Mod/preview_icon.png...FOUND!
+Searching for preview icon file c:/Users/Dana/Desktop/Matti Mod/preview_icon.png...FOUND!
 <UploadMode> - Set to dont_submit
 
 
@@ -62,12 +62,6 @@ Searching for preview icon file c:/Users/danaw/Desktop/Matti Mod/preview_icon.pn
 Modded files...
 
 heroes/rs_matti/rs_matti_A/anim/rs_matti.sprite.afflicted.png
-heroes/rs_matti/rs_matti_A/anim/rs_matti.sprite.attack_banner.png
-heroes/rs_matti/rs_matti_A/anim/rs_matti.sprite.attack_charge.png
-heroes/rs_matti/rs_matti_A/anim/rs_matti.sprite.attack_heal.png
-heroes/rs_matti/rs_matti_A/anim/rs_matti.sprite.attack_scroll.png
-heroes/rs_matti/rs_matti_A/anim/rs_matti.sprite.attack_stun.png
-heroes/rs_matti/rs_matti_A/anim/rs_matti.sprite.attack_sword.png
 heroes/rs_matti/rs_matti_A/anim/rs_matti.sprite.camp.png
 heroes/rs_matti/rs_matti_A/anim/rs_matti.sprite.combat.png
 heroes/rs_matti/rs_matti_A/anim/rs_matti.sprite.combat.zip
@@ -79,26 +73,12 @@ heroes/rs_matti/rs_matti_A/anim/rs_matti.sprite.investigate.png
 heroes/rs_matti/rs_matti_A/anim/rs_matti.sprite.marking.png
 heroes/rs_matti/rs_matti_A/anim/rs_matti.sprite.overhead.png
 heroes/rs_matti/rs_matti_A/anim/rs_matti.sprite.rainbow.png
-heroes/rs_matti/rs_matti_A/anim/rs_matti.sprite.shield_marking.png
 heroes/rs_matti/rs_matti_A/anim/rs_matti.sprite.swing.png
 heroes/rs_matti/rs_matti_A/anim/rs_matti.sprite.sword_magic.png
-heroes/rs_matti/rs_matti_A/anim/rs_matti.sprite.sword_magic_alt.png
-heroes/rs_matti/rs_matti_A/anim/rs_matti.sprite.sword_up_new.png
+heroes/rs_matti/rs_matti_A/anim/rs_matti.sprite.sword_up.png
 heroes/rs_matti/rs_matti_A/anim/rs_matti.sprite.walk.png
 heroes/rs_matti/anim/rs_matti.sprite.afflicted.atlas
 heroes/rs_matti/anim/rs_matti.sprite.afflicted.skel
-heroes/rs_matti/anim/rs_matti.sprite.attack_banner.atlas
-heroes/rs_matti/anim/rs_matti.sprite.attack_banner.skel
-heroes/rs_matti/anim/rs_matti.sprite.attack_charge.atlas
-heroes/rs_matti/anim/rs_matti.sprite.attack_charge.skel
-heroes/rs_matti/anim/rs_matti.sprite.attack_heal.atlas
-heroes/rs_matti/anim/rs_matti.sprite.attack_heal.skel
-heroes/rs_matti/anim/rs_matti.sprite.attack_scroll.atlas
-heroes/rs_matti/anim/rs_matti.sprite.attack_scroll.skel
-heroes/rs_matti/anim/rs_matti.sprite.attack_stun.atlas
-heroes/rs_matti/anim/rs_matti.sprite.attack_stun.skel
-heroes/rs_matti/anim/rs_matti.sprite.attack_sword.atlas
-heroes/rs_matti/anim/rs_matti.sprite.attack_sword.skel
 heroes/rs_matti/anim/rs_matti.sprite.camp.atlas
 heroes/rs_matti/anim/rs_matti.sprite.camp.skel
 heroes/rs_matti/anim/rs_matti.sprite.combat.atlas
@@ -119,63 +99,38 @@ heroes/rs_matti/anim/rs_matti.sprite.overhead.atlas
 heroes/rs_matti/anim/rs_matti.sprite.overhead.skel
 heroes/rs_matti/anim/rs_matti.sprite.rainbow.atlas
 heroes/rs_matti/anim/rs_matti.sprite.rainbow.skel
-heroes/rs_matti/anim/rs_matti.sprite.shield_marking.atlas
-heroes/rs_matti/anim/rs_matti.sprite.shield_marking.skel
 heroes/rs_matti/anim/rs_matti.sprite.swing.atlas
 heroes/rs_matti/anim/rs_matti.sprite.swing.skel
 heroes/rs_matti/anim/rs_matti.sprite.sword_magic.atlas
 heroes/rs_matti/anim/rs_matti.sprite.sword_magic.skel
-heroes/rs_matti/anim/rs_matti.sprite.sword_magic_alt.atlas
-heroes/rs_matti/anim/rs_matti.sprite.sword_magic_alt.skel
-heroes/rs_matti/anim/rs_matti.sprite.sword_up_new.atlas
-heroes/rs_matti/anim/rs_matti.sprite.sword_up_new.skel
+heroes/rs_matti/anim/rs_matti.sprite.sword_up.atlas
+heroes/rs_matti/anim/rs_matti.sprite.sword_up.skel
 heroes/rs_matti/anim/rs_matti.sprite.walk.atlas
 heroes/rs_matti/anim/rs_matti.sprite.walk.skel
-heroes/rs_matti/fx/rs_matti.sprite.battle_heal.atlas
-heroes/rs_matti/fx/rs_matti.sprite.battle_heal.png
-heroes/rs_matti/fx/rs_matti.sprite.battle_heal.skel
+heroes/rs_matti/fx/rs_matti.sprite.backdraft_target.atlas
+heroes/rs_matti/fx/rs_matti.sprite.backdraft_target.png
+heroes/rs_matti/fx/rs_matti.sprite.backdraft_target.skel
 heroes/rs_matti/fx/rs_matti.sprite.battle_heal_target.atlas
 heroes/rs_matti/fx/rs_matti.sprite.battle_heal_target.png
 heroes/rs_matti/fx/rs_matti.sprite.battle_heal_target.skel
-heroes/rs_matti/fx/rs_matti.sprite.brand_tainted_target.atlas
-heroes/rs_matti/fx/rs_matti.sprite.brand_tainted_target.png
-heroes/rs_matti/fx/rs_matti.sprite.brand_tainted_target.skel
-heroes/rs_matti/fx/rs_matti.sprite.bulwark_of_faith.atlas
-heroes/rs_matti/fx/rs_matti.sprite.bulwark_of_faith.png
-heroes/rs_matti/fx/rs_matti.sprite.bulwark_of_faith.skel
-heroes/rs_matti/fx/rs_matti.sprite.cripple_them.atlas
-heroes/rs_matti/fx/rs_matti.sprite.cripple_them.png
-heroes/rs_matti/fx/rs_matti.sprite.cripple_them.skel
-heroes/rs_matti/fx/rs_matti.sprite.cripple_them_target.atlas
-heroes/rs_matti/fx/rs_matti.sprite.cripple_them_target.png
-heroes/rs_matti/fx/rs_matti.sprite.cripple_them_target.skel
-heroes/rs_matti/fx/rs_matti.sprite.gods_illumination_target.atlas
-heroes/rs_matti/fx/rs_matti.sprite.gods_illumination_target.png
-heroes/rs_matti/fx/rs_matti.sprite.gods_illumination_target.skel
-heroes/rs_matti/fx/rs_matti.sprite.holy_lance.atlas
-heroes/rs_matti/fx/rs_matti.sprite.holy_lance.png
-heroes/rs_matti/fx/rs_matti.sprite.holy_lance.skel
-heroes/rs_matti/fx/rs_matti.sprite.inspiring_cry.atlas
-heroes/rs_matti/fx/rs_matti.sprite.inspiring_cry.png
-heroes/rs_matti/fx/rs_matti.sprite.inspiring_cry.skel
-heroes/rs_matti/fx/rs_matti.sprite.intimidate.atlas
-heroes/rs_matti/fx/rs_matti.sprite.intimidate.png
-heroes/rs_matti/fx/rs_matti.sprite.intimidate.skel
+heroes/rs_matti/fx/rs_matti.sprite.gang_fx.atlas
+heroes/rs_matti/fx/rs_matti.sprite.gang_fx.png
+heroes/rs_matti/fx/rs_matti.sprite.gang_fx.skel
+heroes/rs_matti/fx/rs_matti.sprite.marking_fx.atlas
+heroes/rs_matti/fx/rs_matti.sprite.marking_fx.png
+heroes/rs_matti/fx/rs_matti.sprite.marking_fx.skel
 heroes/rs_matti/fx/rs_matti.sprite.overhead_fx.atlas
 heroes/rs_matti/fx/rs_matti.sprite.overhead_fx.png
 heroes/rs_matti/fx/rs_matti.sprite.overhead_fx.skel
+heroes/rs_matti/fx/rs_matti.sprite.rainbow_fx.atlas
+heroes/rs_matti/fx/rs_matti.sprite.rainbow_fx.png
+heroes/rs_matti/fx/rs_matti.sprite.rainbow_fx.skel
 heroes/rs_matti/fx/rs_matti.sprite.riposte_targfx.atlas
 heroes/rs_matti/fx/rs_matti.sprite.riposte_targfx.png
 heroes/rs_matti/fx/rs_matti.sprite.riposte_targfx.skel
 heroes/rs_matti/fx/rs_matti.sprite.shield_mark_target.atlas
 heroes/rs_matti/fx/rs_matti.sprite.shield_mark_target.png
 heroes/rs_matti/fx/rs_matti.sprite.shield_mark_target.skel
-heroes/rs_matti/fx/rs_matti.sprite.smite.atlas
-heroes/rs_matti/fx/rs_matti.sprite.smite.png
-heroes/rs_matti/fx/rs_matti.sprite.smite.skel
-heroes/rs_matti/fx/rs_matti.sprite.stunning_blow.atlas
-heroes/rs_matti/fx/rs_matti.sprite.stunning_blow.png
-heroes/rs_matti/fx/rs_matti.sprite.stunning_blow.skel
 heroes/rs_matti/fx/rs_matti.sprite.stunning_blow_target.atlas
 heroes/rs_matti/fx/rs_matti.sprite.stunning_blow_target.png
 heroes/rs_matti/fx/rs_matti.sprite.stunning_blow_target.skel
@@ -185,12 +140,15 @@ heroes/rs_matti/fx/rs_matti.sprite.swing2_fx.skel
 heroes/rs_matti/fx/rs_matti.sprite.swing_fx.atlas
 heroes/rs_matti/fx/rs_matti.sprite.swing_fx.png
 heroes/rs_matti/fx/rs_matti.sprite.swing_fx.skel
+heroes/rs_matti/fx/rs_matti.sprite.sword_magic_fx.atlas
+heroes/rs_matti/fx/rs_matti.sprite.sword_magic_fx.png
+heroes/rs_matti/fx/rs_matti.sprite.sword_magic_fx.skel
+heroes/rs_matti/fx/rs_matti.sprite.sword_up_fx.atlas
+heroes/rs_matti/fx/rs_matti.sprite.sword_up_fx.png
+heroes/rs_matti/fx/rs_matti.sprite.sword_up_fx.skel
 heroes/rs_matti/fx/rs_matti.sprite.yinyangorbfx.atlas
 heroes/rs_matti/fx/rs_matti.sprite.yinyangorbfx.png
 heroes/rs_matti/fx/rs_matti.sprite.yinyangorbfx.skel
-heroes/rs_matti/fx/rs_matti.sprite.zealous_accusation.atlas
-heroes/rs_matti/fx/rs_matti.sprite.zealous_accusation.png
-heroes/rs_matti/fx/rs_matti.sprite.zealous_accusation.skel
 heroes/rs_matti/icons_equip/eqp_armour_0.png
 heroes/rs_matti/icons_equip/eqp_armour_1.png
 heroes/rs_matti/icons_equip/eqp_armour_2.png
@@ -276,5 +234,5 @@ project.xml
 *******************************************************************************
 WARNING MOD WILL NOT BE UPLOADED
 *******************************************************************************
-Saving project file C:\Users\danaw\Desktop\Matti Mod\project.xml
+Saving project file C:\Users\Dana\Desktop\Matti Mod\project.xml
 

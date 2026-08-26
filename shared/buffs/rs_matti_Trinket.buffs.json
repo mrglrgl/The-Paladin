@@ -431,6 +431,86 @@
          }
       },
 	  {
+         "id" : "matti_Meg_Healup",
+         "stat_type" : "hp_heal_amount",
+         "stat_sub_type" : "",
+         "amount" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_Meg_MHP",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "max_hp",
+         "amount" : -0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_Meg_Combatcheck",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "max_hp",
+         "amount" : 0.75,
+         "remove_if_not_active" : false,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 9,
+            "string" : "mattifakeasdf"
+         },
+		"description_tooltip_id" : "buff_tooltip_matti_meg_emptyhp"
+      },
+	  {
+         "id" : "matti_Varo_ActFirst",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 9999,
+         "remove_if_not_active" : false,
+         "rule_type" : "firstroundonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "description_tooltip_id" : "buff_tooltip_matti_varo_actfirst"
+      },
+	  {
+         "id" : "matti_Varo_Desk_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_Varo_desk_1",
+         "amount" : -0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "matti_Varo_Desk_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_Varo_desk_2",
+         "amount" : -0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
          "id" : "matti_Nazrin_Scouting",
          "stat_type" : "scouting_chance",
          "stat_sub_type" : "",

@@ -267,31 +267,15 @@
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 }, 
 					"type" : "buff",
-					"sub_type" : "Matti_Camp_HP",
-					"amount" :  0.2
+					"sub_type" : "Matti_Camp_Torchburn",
+					"amount" :  -0.4
 				},
 				{ 
-					"selection" : "self",
+					"selection" : "party_other",
 					"requirements" : [],
-					"chance" : { "code" : "a", "amount": 1.0 }, 
+					"chance" : { "code" : "b", "amount": 1.0 }, 
 					"type" : "buff",
-					"sub_type" : "Matti_Camp_Regen",
-					"amount" :  2
-				},
-				{
-					"selection" : "self",
-					"requirements" : [],
-					"chance" : { "code" : "c", "amount": 1.0 },
-					"type": "loot",
-					"sub_type": "matti_camp_regen_desk",
-					"amount": 1
-				},
-				{ 
-					"selection" : "self",
-					"requirements" : [],
-					"chance" : { "code" : "d", "amount": 1.0 },
-                    "type": "remove_deaths_door_recovery_buffs",
-                    "sub_type" : "",
+					"sub_type" : "Matti_Camp_Firestarter",
 					"amount" :  0
 				}
 			],

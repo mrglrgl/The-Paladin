@@ -1061,6 +1061,108 @@
          }
       },
 	  {
+         "id" : "matti_varo_COBRA_A",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_COBRA_A",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "clear_buffs_on_rule_active" : [ "matti_varo_COBRA_C", "matti_varo_COBRA_C2", "matti_varo_StressVMarked", "matti_varo_CritIfMarked" ],
+		 "remove_on_battle_complete": true,
+		 "suppress_apply_poptext" : true,
+		 "has_description" : false
+      },
+	  {
+         "id" : "matti_varo_COBRA_B",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_COBRA_B",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "clear_buffs_on_rule_active" : [ "matti_varo_COBRA_A" ],
+		 "remove_on_battle_complete": true,
+		 "suppress_apply_poptext" : true,
+		 "has_description" : false
+      },
+	  {
+         "id" : "matti_varo_COBRA_C",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_COBRA_C",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "clear_buffs_on_rule_active" : [ "matti_varo_COBRA_B" ],
+		 "remove_on_battle_complete": true,
+		 "suppress_apply_poptext" : true,
+		 "has_description" : false
+      },
+	  {
+         "id" : "matti_varo_COBRA_C2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_COBRA_C",
+         "amount" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "clear_buffs_on_rule_active" : [ "matti_varo_COBRA_B" ],
+		 "remove_on_battle_complete": true,
+		 "suppress_apply_poptext" : true,
+		 "has_description" : false
+      },
+	  {
+         "id" : "matti_varo_StressVMarked",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_StressvMark",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         },
+		 "remove_on_battle_complete": true,
+		 "is_clear_debuff_valid" : false,
+		 "suppress_apply_poptext" : true,
+		 "description_tooltip_id" : "buff_tooltip_matti_varo_tray",
+         "attack_additional_effect_ids" : [ "Matti_Varo_Stressheal" ]
+      },
+	  {
+         "id" : "matti_varo_CritIfMarked",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : -0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         },
+		 "remove_on_battle_complete": true,
+		 "is_clear_debuff_valid" : false,
+		 "suppress_apply_poptext" : true
+      },
+	  {
          "id" : "Matti_Camp_DMGL_Guarded",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_low",
@@ -1091,10 +1193,12 @@
          }
       },
 	  {
-         "id" : "Matti_Camp_HP",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "max_hp",
-         "duration" : -1,
+         "id" : "Matti_Camp_Torchburn",
+         "stat_type" : "torchlight_burn_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.4,
+         "duration_type" : "combat_end",
+         "duration" : 4,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -1104,18 +1208,23 @@
          }
       },
 	  {
-         "id" : "Matti_Camp_Regen",
-         "stat_type" : "hp_dot_heal",
+         "id" : "Matti_Camp_Firestarter",
+         "stat_type" : "tag_blocked",
          "stat_sub_type" : "",
-         "amount" : 2,
-         "duration" : -1,
+         "amount" : 0,
+         "duration_type" : "combat_end",
+         "duration" : 4,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
             "string" : ""
-         }
+         },
+         "is_clear_debuff_valid" : false,
+         "has_description" : false,
+         "description_tooltip_id" : "buff_tooltip_matti_camp_firestarter",
+         "attack_additional_effect_ids" : [ "Matti_Camp_Firestarter_Effect" ]
       },
 	  {
          "id" : "Matti_Spellbound_ACC8",

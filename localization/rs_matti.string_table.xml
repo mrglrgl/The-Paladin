@@ -23,6 +23,7 @@
 	
 	<entry id="camping_skill_name_rsmatti_radiance"><![CDATA[RADIANCE]]></entry>
 	<entry id="rs_matti+str_bark_rsmatti_radiance"><![CDATA[Comrades... lend me the strength to persevere!]]></entry>
+	<entry id="buff_tooltip_matti_camp_firestarter"><![CDATA[On Attack Hit: {colour_start|burn}Burn{colour_end} 2]]></entry>
 	<entry id="camping_skill_effect_loot_matti_camp_regen_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} 2 pts/rd (Until Camp)]]></entry>
 
 		<!--Combat Skills-->
@@ -100,7 +101,12 @@
 +25%% Armor Piercing {colour_start|skill_unselectable}(3 rds){colour_end}]]></entry>
 	
 	<entry id="str_inventory_title_trinketmatti_trinket_6"><![CDATA[Meg, Rosemage]]></entry>
+		<entry id="buff_tooltip_matti_meg_emptyhp"><![CDATA[Combat Start: +75% empty MAX HP]]></entry>
 	<entry id="str_inventory_title_trinketmatti_trinket_7"><![CDATA[Varo, Commander]]></entry>
+		<entry id="buff_tooltip_matti_varo_actfirst"><![CDATA[Acts First on First Round]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_matti_Varo_desk_1"><![CDATA[{colour_start|attacktype}All Enemies:{colour_end} -15%% CRT while {colour_start|mark}Marked{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_matti_Varo_desk_2"><![CDATA[{colour_start|attacktype}Other Heroes:{colour_end} {colour_start|stress}Stress{colour_end} -3 on Attack vs {colour_start|mark}Marked{colour_end}]]></entry>
+		<entry id="buff_tooltip_matti_varo_tray"><![CDATA[{colour_start|stress}Stress{colour_end} -3 on Attack vs {colour_start|mark}Marked{colour_end}]]></entry>
 	<entry id="str_inventory_set_title_matti_set_warrens"><![CDATA[Warrens Set]]></entry>
 		
 	<entry id="buff_stat_tooltip_upgrade_discount_matti_TPHOLDER_desk"><![CDATA[{colour_start|notable}Effects coming Soon!{colour_end}

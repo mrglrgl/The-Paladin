@@ -253,6 +253,10 @@ effect: .name "Matti_SusMiss"	.target "target" .chance 100% .buff_ids "matti_sus
 effect: .name "Matti_SusDef"	.target "target" .chance 100% .buff_ids "matti_sus_DODGE" "matti_sus_PROT"	"matti_sus_Horror"	.duration 2 .on_hit true .on_miss true
 effect: .name "Matti_SusRally"	.target "target" .chance 100% .buff_ids "matti_sus_DMGL" "matti_sus_DMGH"	"matti_sus_Horror"	.duration 2 .on_hit true .on_miss true
 
+// Campskills
+effect: .name "Matti_Camp_Firestarter_Effect" .target "target" .chance 100% .dotBurn 2 .dot_irresistible true .on_hit true .on_miss false .can_apply_on_death true
+
+
 // Trinkets
 //effect: .name "Matti_Riposte_Buff" .target "performer" .buff_ids "matti_stacking_Heal" "matti_stacking_DMGL" "matti_stacking_DMGH" .duration 8 .on_hit true .on_miss true
 
@@ -265,6 +269,17 @@ effect: .name "Matti_Trip_Targ" .target "target" 	.chance 999% .duration 3  .com
 
 effect: .name "Matti_Reflect_Bleed" .target "target" 	.chance 999% .steal_buff_stat_type hp_dot_bleed  .swap_source_and_target true 	.on_hit true .on_miss true .has_description false
 effect: .name "Matti_Reflect_Blight" .target "target" 	.chance 999% .steal_buff_stat_type hp_dot_poison  .swap_source_and_target true 	.on_hit true .on_miss true .has_description false
+
+// Varo
+effect: .name "Matti_Varo_Ally_A"	.target "performer_group_other" .chance 100% .buff_ids "matti_varo_COBRA_A"								.duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .buff_source_type bsrc_quest_failure .has_description false
+effect: .name "Matti_Varo_Ally_B"	.target "performer_group_other" .chance 100% .buff_ids "matti_varo_COBRA_B"								.duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .buff_source_type bsrc_quest_failure .has_description false
+effect: .name "Matti_Varo_Ally_C"	.target "performer_group_other" .chance 100% .buff_ids "matti_varo_COBRA_C" "matti_varo_StressVMarked"	.duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .buff_source_type bsrc_quest_failure .has_description false
+
+effect: .name "Matti_Varo_Stressheal" .target "performer" .chance 100% .healstress 3 .on_hit true .on_miss true .queue true
+
+effect: .name "Matti_Varo_Enemy_A"	.target "target_enemy_group" .chance 1000% .buff_ids "matti_varo_COBRA_A"								.duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .buff_source_type bsrc_quest_failure .has_description false
+effect: .name "Matti_Varo_Enemy_B"	.target "target_enemy_group" .chance 1000% .buff_ids "matti_varo_COBRA_B"								.duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .buff_source_type bsrc_quest_failure .has_description false
+effect: .name "Matti_Varo_Enemy_C"	.target "target_enemy_group" .chance 1000% .buff_ids "matti_varo_COBRA_C2" "matti_varo_CritIfMarked"		.duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .buff_source_type bsrc_quest_failure .has_description false
 
 
 // Nazrin

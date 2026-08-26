@@ -155,7 +155,9 @@
          "id" : "matti_trinket_6",
          "buffs" : 
          [	
-			"matti_TPHOLDER_Warrens"
+			"matti_Meg_Healup",
+			"matti_Meg_MHP",
+			"matti_Meg_Combatcheck"
          ],
          "hero_class_requirements":
          [
@@ -172,7 +174,9 @@
          "id" : "matti_trinket_7",
          "buffs" : 
          [	
-			"matti_TPHOLDER_Warrens"
+			"matti_Varo_ActFirst",
+			"matti_Varo_Desk_1",
+			"matti_Varo_Desk_2"
          ],
          "hero_class_requirements":
          [
@@ -183,7 +187,25 @@
 		 "visual_rarity" : "mattimouse_very_rare",
          "price" : 0,
          "limit" : 1,
-         "origin_dungeon" : "warrens"
+         "origin_dungeon" : "warrens",
+		 "turn_end_additional_effects":
+		 [
+		     "Matti_Varo_Ally_A",
+			 "Matti_Varo_Ally_B",
+			 "Matti_Varo_Ally_C",
+			 "Matti_Varo_Enemy_A",
+			 "Matti_Varo_Enemy_B",
+			 "Matti_Varo_Enemy_C"
+		 ],
+		 "round_end_additional_effects":
+		 [
+		     "Matti_Varo_Ally_A",
+			 "Matti_Varo_Ally_B",
+			 "Matti_Varo_Ally_C",
+			 "Matti_Varo_Enemy_A",
+			 "Matti_Varo_Enemy_B",
+			 "Matti_Varo_Enemy_C"
+		 ]
       },
 	  {
          "id" : "matti_trinket_SI",

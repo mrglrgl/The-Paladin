@@ -190,21 +190,8 @@
          "origin_dungeon" : "warrens",
 		 "turn_end_additional_effects":
 		 [
-		     "Matti_Varo_Ally_A",
-			 "Matti_Varo_Ally_B",
-			 "Matti_Varo_Ally_C",
-			 "Matti_Varo_Enemy_A",
-			 "Matti_Varo_Enemy_B",
-			 "Matti_Varo_Enemy_C"
-		 ],
-		 "round_end_additional_effects":
-		 [
-		     "Matti_Varo_Ally_A",
-			 "Matti_Varo_Ally_B",
-			 "Matti_Varo_Ally_C",
-			 "Matti_Varo_Enemy_A",
-			 "Matti_Varo_Enemy_B",
-			 "Matti_Varo_Enemy_C"
+		     "Matti_Varo_Ally",
+			 "Matti_Varo_Enemy"
 		 ]
       },
 	  {

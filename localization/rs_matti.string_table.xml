@@ -13,19 +13,20 @@
 	
 	<entry id="camping_skill_name_rsmatti_marching_orders"><![CDATA[ROUSE THE RABBLE]]></entry>
 	<entry id="rs_matti+str_bark_rsmatti_marching_orders"><![CDATA[Give no quarter - these fiends will give none in return!]]></entry>
-	<entry id="rs_matti+str_bark_rsmatti_marching_orders"><![CDATA[If we fight together, we will not fail!]]></entry>
+	<entry id="buff_tooltip_matti_camp_firestarter"><![CDATA[On Attack Hit: {colour_start|burn}Burn{colour_end} 2]]></entry>
 	
 	<entry id="camping_skill_name_rsmatti_militia_training"><![CDATA[MILITIA TRAINING]]></entry>
 	<entry id="rs_matti+str_bark_rsmatti_militia_training"><![CDATA[Remain vigilant! Never abandon your weapon or partner.]]></entry>
+	<entry id="rs_matti+str_bark_rsmatti_militia_training"><![CDATA[If we stand together, we will not fail!]]></entry>
+	
+	<entry id="camping_skill_name_rsmatti_radiance"><![CDATA[SPIRIT TETHER]]></entry>
+	<entry id="rs_matti+str_bark_rsmatti_radiance"><![CDATA[With hearts as one, we persevere...]]></entry>
+	<entry id="buff_tooltip_matti_link_emptyhp"><![CDATA[On Combat Start: +50% empty max HP]]></entry>
+	<entry id="buff_tooltip_matti_camp_linktarg"><![CDATA[On Attack: {colour_start|healhp}Heal{colour_end} {colour_start|attacktype}Paladin{colour_end} 5% max HP]]></entry>
 	
 	<entry id="camping_skill_name_rsmatti_patrol"><![CDATA[CHURCHMOUSE PATROL]]></entry>
 	<entry id="rs_matti+str_bark_rsmatti_patrol"><![CDATA[Where've you been? I was getting worried...]]></entry>
 	
-	<entry id="camping_skill_name_rsmatti_radiance"><![CDATA[RADIANCE]]></entry>
-	<entry id="rs_matti+str_bark_rsmatti_radiance"><![CDATA[Comrades... lend me the strength to persevere!]]></entry>
-	<entry id="buff_tooltip_matti_camp_firestarter"><![CDATA[On Attack Hit: {colour_start|burn}Burn{colour_end} 2]]></entry>
-	<entry id="camping_skill_effect_loot_matti_camp_regen_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} 2 pts/rd (Until Camp)]]></entry>
-
 		<!--Combat Skills-->
 	<entry id="combat_skill_name_rs_matti_rsmatti_smite"><![CDATA[Vanquish]]></entry>
 	<entry id="combat_skill_name_rs_matti_rsmatti_nova"><![CDATA[Novi Holy]]></entry>

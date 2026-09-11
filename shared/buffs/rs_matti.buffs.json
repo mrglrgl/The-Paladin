@@ -1061,9 +1061,9 @@
          }
       },
 	  {
-         "id" : "matti_varo_COBRA_A",
+         "id" : "matti_varo_COBRA",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "matti_COBRA_A",
+         "stat_sub_type" : "matti_COBRA",
          "amount" : 1,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -1072,58 +1072,7 @@
             "float" : 0,
             "string" : ""
          },
-         "clear_buffs_on_rule_active" : [ "matti_varo_COBRA_C", "matti_varo_COBRA_C2", "matti_varo_StressVMarked", "matti_varo_CritIfMarked" ],
-		 "remove_on_battle_complete": true,
-		 "suppress_apply_poptext" : true,
-		 "has_description" : false
-      },
-	  {
-         "id" : "matti_varo_COBRA_B",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "matti_COBRA_B",
-         "amount" : 1,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         },
-         "clear_buffs_on_rule_active" : [ "matti_varo_COBRA_A" ],
-		 "remove_on_battle_complete": true,
-		 "suppress_apply_poptext" : true,
-		 "has_description" : false
-      },
-	  {
-         "id" : "matti_varo_COBRA_C",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "matti_COBRA_C",
-         "amount" : 1,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         },
-         "clear_buffs_on_rule_active" : [ "matti_varo_COBRA_B" ],
-		 "remove_on_battle_complete": true,
-		 "suppress_apply_poptext" : true,
-		 "has_description" : false
-      },
-	  {
-         "id" : "matti_varo_COBRA_C2",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "matti_COBRA_C",
-         "amount" : -1,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         },
-         "clear_buffs_on_rule_active" : [ "matti_varo_COBRA_B" ],
+         "clear_buffs_on_rule_active" : [ "matti_varo_StressVMarked", "matti_varo_CritIfMarked", "matti_varo_COBRA" ],
 		 "remove_on_battle_complete": true,
 		 "suppress_apply_poptext" : true,
 		 "has_description" : false
@@ -1225,6 +1174,41 @@
          "has_description" : false,
          "description_tooltip_id" : "buff_tooltip_matti_camp_firestarter",
          "attack_additional_effect_ids" : [ "Matti_Camp_Firestarter_Effect" ]
+      },
+	  {
+         "id" : "matti_Link_Combatcheck",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "max_hp",
+         "amount" : 0.5,
+		 "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 9,
+            "string" : "mattifakeasdf"
+         },
+		"description_tooltip_id" : "buff_tooltip_matti_link_emptyhp"
+      },
+	  {
+         "id" : "Matti_Camp_LinkTarg",
+         "stat_type" : "tag_blocked",
+         "stat_sub_type" : "",
+         "amount" : 0,
+         "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid" : false,
+         "has_description" : false,
+         "description_tooltip_id" : "buff_tooltip_matti_camp_linktarg",
+         "attack_additional_effect_ids" : [ "Matti_Link_s0" ]
       },
 	  {
          "id" : "Matti_Spellbound_ACC8",

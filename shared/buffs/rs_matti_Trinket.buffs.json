@@ -368,7 +368,7 @@
          "id" : "matti_Orn_AP",
          "stat_type" : "ignore_protection",
          "stat_sub_type" : "",
-         "amount" : -0.75,
+         "amount" : -0.66,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -392,10 +392,10 @@
 		"has_description" : false
       },
 	  {
-         "id" : "matti_Break_AP",
+         "id" : "Matti_AP_Break",
          "stat_type" : "ignore_protection",
          "stat_sub_type" : "",
-         "amount" : 0.25,
+         "amount" : 0.33,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -410,12 +410,10 @@
          "stat_sub_type" : "matti_Orn_desk_1",
          "amount" : -0.01,
          "remove_if_not_active" : false,
-         "rule_type" : "skill",
+         "rule_type" : "always",
          "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "matti_FakeATK"
-         }
+         "rule_data" : { "float" : 0, "string" : "" },
+			"combat_start_additional_effect_ids" : [ "Matti_Orn_AP_Effect" ]
       },
 	  {
          "id" : "matti_Orn_Desk_2",
@@ -524,30 +522,26 @@
          }
       },
 	  {
-         "id" : "matti_Nazrin_Desk_1",
+         "id" : "matti_Nazrin_Loot_Food",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "matti_Nazrin_desk_1",
          "amount" : -0.01,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
+         "rule_data" : { "float" : 0, "string" : "" },
+			"battle_finished_successfully_additional_effect_ids" : [ "Matti_Nazrin_Loot_Food" ]
       },
 	  {
-         "id" : "matti_Nazrin_Desk_2",
+         "id" : "matti_Nazrin_Loot_Trinket",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "matti_Nazrin_desk_2",
          "amount" : -0.01,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
+         "rule_data" : { "float" : 0, "string" : "" },
+			"battle_finished_successfully_additional_effect_ids" : [ "Matti_Nazrin_Loot_Trinket" ]
       },
 	  {
          "id" : "matti_CC_StunR",

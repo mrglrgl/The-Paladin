@@ -97,9 +97,9 @@
 		
 	<entry id="str_inventory_title_trinketmatti_trinket_5"><![CDATA[Orn, Scalebreaker]]></entry>
 		<entry id="buff_rule_data_tooltip_matti_FakeATK"><![CDATA[Attack Skills]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_matti_Orn_desk_1"><![CDATA[Bypass/Break {colour_start|guard}Guard{colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_matti_Orn_desk_2"><![CDATA[{colour_start|buff}Buff Party:{colour_end}
-+25%% Armor Piercing {colour_start|skill_unselectable}(3 rds){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_matti_Orn_desk_1"><![CDATA[Other Heroes: +33%% Armor Piercing]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_matti_Orn_desk_2"><![CDATA[Bypass/Break {colour_start|guard}Guard{colour_end}]]></entry>
+
 	
 	<entry id="str_inventory_title_trinketmatti_trinket_6"><![CDATA[Meg, Rosemage]]></entry>
 		<entry id="buff_tooltip_matti_meg_emptyhp"><![CDATA[Combat Start: +75% empty MAX HP]]></entry>
@@ -114,8 +114,11 @@
 Found]]></entry>
 		
 	<entry id="str_inventory_title_trinketmatti_trinket_SI"><![CDATA[Nazrin, Collector]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_matti_Nazrin_desk_1"><![CDATA[On Kill: Loot 1 Food]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_matti_Nazrin_desk_2"><![CDATA[On Kill: Loot 1 {colour_start|notable}Addon Trinket{colour_end} from the {colour_start|attacktype}Current Region{colour_end} {colour_start|skill_unselectable}(8%%){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_matti_Nazrin_desk_1"><![CDATA[Loot 2 Food per Combat]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_matti_Nazrin_desk_2"><![CDATA[Every 4th Combat: Loot a random {colour_start|notable}Trinket{colour_end}
+{colour_start|skill_unselectable}From the current Mod/DLC Region!{colour_end}]]></entry>
+
+	<entry id="buff_stat_tooltip_quirk_tag_evolution_duration_matti_NazTray"><![CDATA[Nazrin's Clues: %d]]></entry>
 	
 	<entry id="str_inventory_title_trinketmatti_trinket_COM"><![CDATA[False Radiance]]></entry>
 	
@@ -147,7 +150,6 @@ Found]]></entry>
 	
 		<!-- Lat Holy -->
 	<entry id="buff_rule_data_tooltip_rsmatti_loh"><![CDATA[{colour_start|notable}Lat Holy{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_matti_dualcast_desk"><![CDATA[{colour_start|notable}Usable Twice per Round{colour_end}]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_matti_echo_desk"><![CDATA[{colour_start|notable}If non-self Target:{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_matti_selfheal_3_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} Self 3 HP]]></entry>
@@ -180,24 +182,12 @@ Found]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_matti_cancel_desk"><![CDATA[{colour_start|notable}Cancel Wrath{colour_end}]]></entry>
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_matti_riot_1_desk"><![CDATA[{colour_start|mark}Mark{colour_end} Target / {colour_start|notable}Torch{colour_end} +5]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_matti_riot_2_desk"><![CDATA[{colour_start|mark}Mark{colour_end} Target / {colour_start|notable}Torch{colour_end} +6]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_matti_riot_3_desk"><![CDATA[{colour_start|mark}Mark{colour_end} Target / {colour_start|notable}Torch{colour_end} +7]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_matti_riot_4_desk"><![CDATA[{colour_start|mark}Mark{colour_end} Target / {colour_start|notable}Torch{colour_end} +7]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_matti_riot_5_desk"><![CDATA[{colour_start|mark}Mark{colour_end} Target / {colour_start|notable}Torch{colour_end} +8]]></entry>
-	
 	<entry id="buff_stat_tooltip_upgrade_discount_matti_ripoStats_1_desk"><![CDATA[{colour_start|riposte}Activate Riposte{colour_end} {colour_start|skill_unselectable}(ACC: 140 / DMG mod: -65%%){colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_matti_ripoStats_2_desk"><![CDATA[{colour_start|riposte}Activate Riposte{colour_end} {colour_start|skill_unselectable}(ACC: 145 / DMG mod: -65%%){colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_matti_ripoStats_3_desk"><![CDATA[{colour_start|riposte}Activate Riposte{colour_end} {colour_start|skill_unselectable}(ACC: 150 / DMG mod: -65%%){colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_matti_ripoStats_4_desk"><![CDATA[{colour_start|riposte}Activate Riposte{colour_end} {colour_start|skill_unselectable}(ACC: 155 / DMG mod: -65%%){colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_matti_ripoStats_5_desk"><![CDATA[{colour_start|riposte}Activate Riposte{colour_end} {colour_start|skill_unselectable}(ACC: 160 / DMG mod: -65%%){colour_end}]]></entry>
-	
-	<entry id="buff_stat_tooltip_upgrade_discount_matti_ripoEffect_1_desk"><![CDATA[{colour_start|stun}Stun{colour_end} vs {colour_start|mark}Marked{colour_end} {colour_start|skill_unselectable}(110%% base){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_matti_ripoEffect_2_desk"><![CDATA[{colour_start|stun}Stun{colour_end} vs {colour_start|mark}Marked{colour_end} {colour_start|skill_unselectable}(120%% base){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_matti_ripoEffect_3_desk"><![CDATA[{colour_start|stun}Stun{colour_end} vs {colour_start|mark}Marked{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_matti_ripoEffect_4_desk"><![CDATA[{colour_start|stun}Stun{colour_end} vs {colour_start|mark}Marked{colour_end} {colour_start|skill_unselectable}(140%% base){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_matti_ripoEffect_5_desk"><![CDATA[{colour_start|stun}Stun{colour_end} vs {colour_start|mark}Marked{colour_end} {colour_start|skill_unselectable}(150%% base){colour_end}]]></entry>
-	
+		
 	<entry id="buff_stat_tooltip_upgrade_discount_matti_ripoHoly_desk"><![CDATA[Next {colour_start|attacktype}Holy{colour_end} Skill: +15%% DMG/{colour_start|healhp}Healing{colour_end}]]></entry>
 
 			<!-- Riposte Tray -->

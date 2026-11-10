@@ -1112,6 +1112,39 @@
 		 "suppress_apply_poptext" : true
       },
 	  {
+         "id" : "matti_NazTrack",
+         "stat_type" : "effect_chance",
+         "stat_sub_type" : "Matti_Nazrin_Loot_Trinket",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : { "float" : 0, "string" : "" },
+			"has_description" : false,
+			"suppress_apply_poptext" : true
+      },
+	  {
+         "id" : "matti_NazTray",
+         "stat_type" : "quirk_tag_evolution_duration",
+         "stat_sub_type" : "matti_NazTray",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : { "float" : 0, "string" : "" }
+      },
+	  {
+         "id" : "matti_NazCOBRA",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "null",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : { "float" : 0, "string" : "" },
+			"clear_buffs_on_rule_active" : [ "matti_NazTrack", "matti_NazTray", "matti_NazCOBRA" ]
+      },
+	  {
          "id" : "Matti_Camp_DMGL_Guarded",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_low",

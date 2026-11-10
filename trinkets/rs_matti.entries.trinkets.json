@@ -101,30 +101,6 @@
          "origin_dungeon" : "weald"
       },
 	  {
-         "id" : "matti_trinket_55",
-         "buffs" : 
-         [	
-			"matti_Orn_DMGL_R4",
-			"matti_Orn_DMGH_R4",
-			"matti_Orn_CRT_R4",
-			"matti_Orn_DMGL_R3",
-			"matti_Orn_DMGH_R3",
-			"matti_Orn_CRT_R3",
-			"matti_Orn_Desk_1",
-			"matti_Orn_Desk_2",
-			"matti_spawnblock"
-         ],
-         "hero_class_requirements":
-         [
-            "rs_matti"
-         ],
-         "rarity" : "mattimouse",
-		 "visual_rarity" : "mattimouse_rare",
-         "price" : 0,
-         "limit" : 1,
-         "origin_dungeon" : "cove"
-      },
-	  {
          "id" : "matti_trinket_5",
          "buffs" : 
          [	
@@ -146,8 +122,6 @@
          "origin_dungeon" : "cove",
 		 "attack_skill_additional_effects":
 		 [
-		     "Matti_Orn_Ally",
-			 "Matti_Orn_Self",
 			 "Clear Guard Target"
 		 ]
       },
@@ -199,8 +173,8 @@
          "buffs" : 
          [	
 			"matti_Nazrin_Scouting",
-			"matti_Nazrin_Desk_1",
-			"matti_Nazrin_Desk_2"
+			"matti_Nazrin_Loot_Food",
+			"matti_Nazrin_Loot_Trinket"
          ],
          "hero_class_requirements":
          [
@@ -210,11 +184,7 @@
 		 "visual_rarity" : "mattimouse_sakura",
          "price" : 0,
          "limit" : 1,
-         "origin_dungeon" : "ship",
-		 "kill_performer_additional_effects":
-		 [
-		     "Matti_Nazrin_Loot"
-		 ]
+         "origin_dungeon" : "ship"
       }
    ]
 }

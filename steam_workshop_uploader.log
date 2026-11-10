@@ -160,11 +160,6 @@ heroes/rs_matti/icons_equip/eqp_weapon_2.png
 heroes/rs_matti/icons_equip/eqp_weapon_3.png
 heroes/rs_matti/icons_equip/eqp_weapon_4.png
 heroes/rs_matti/rs_matti_A/rs_matti_portrait_roster.png
-monsters/matti_nazrin_s0/anim/matti_nazrin_s0.sprite.combat.atlas
-monsters/matti_nazrin_s0/anim/matti_nazrin_s0.sprite.combat.png
-monsters/matti_nazrin_s0/anim/matti_nazrin_s0.sprite.combat.skel
-monsters/matti_nazrin_s0/matti_nazrin_s0_A/matti_nazrin_s0_A.art.darkest
-monsters/matti_nazrin_s0/matti_nazrin_s0_A/matti_nazrin_s0_A.info.darkest
 monsters/matti_soulink_s0/anim/matti_soulink_s0.sprite.combat.atlas
 monsters/matti_soulink_s0/anim/matti_soulink_s0.sprite.combat.png
 monsters/matti_soulink_s0/anim/matti_soulink_s0.sprite.combat.skel

@@ -518,10 +518,10 @@
 			"has_description" : false
       },
 	  {
-         "id" : "matti_avatar_reflect_1",
-         "stat_type" : "damage_reflect_percent",
+         "id" : "Matti_Zeal_Mark",
+         "stat_type" : "tag",
          "stat_sub_type" : "",
-         "amount" : 1.3,
+         "amount" : 1,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -531,391 +531,20 @@
          }
       },
 	  {
-         "id" : "matti_avatar_reflect_2",
-         "stat_type" : "damage_reflect_percent",
-         "stat_sub_type" : "",
-         "amount" : 1.35,
+         "id" : "Matti_Zeal_COBRA",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "null",
+         "amount" : 1,
          "remove_if_not_active" : false,
          "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "matti_avatar_reflect_3",
-         "stat_type" : "damage_reflect_percent",
-         "stat_sub_type" : "",
-         "amount" : 1.4,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "matti_avatar_reflect_4",
-         "stat_type" : "damage_reflect_percent",
-         "stat_sub_type" : "",
-         "amount" : 1.45,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "matti_avatar_reflect_5",
-         "stat_type" : "damage_reflect_percent",
-         "stat_sub_type" : "",
-         "amount" : 1.5,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "matti_avatar_heal_1",
-         "stat_type" : "hp_heal_received_percent",
-         "stat_sub_type" : "",
-         "amount" : 0.25,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "matti_avatar_heal_2",
-         "stat_type" : "hp_heal_received_percent",
-         "stat_sub_type" : "",
-         "amount" : 0.27,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "matti_avatar_heal_3",
-         "stat_type" : "hp_heal_received_percent",
-         "stat_sub_type" : "",
-         "amount" : 0.29,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "matti_avatar_heal_4",
-         "stat_type" : "hp_heal_received_percent",
-         "stat_sub_type" : "",
-         "amount" : 0.31,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "matti_avatar_heal_5",
-         "stat_type" : "hp_heal_received_percent",
-         "stat_sub_type" : "",
-         "amount" : 0.33,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "matti_rally_Stun_1",
-         "stat_type" : "resistance",
-         "stat_sub_type" : "stun",
-         "amount" : 0.25,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "matti_rally_Stun_2",
-         "stat_type" : "resistance",
-         "stat_sub_type" : "stun",
-         "amount" : 0.27,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "matti_rally_Stun_3",
-         "stat_type" : "resistance",
-         "stat_sub_type" : "stun",
-         "amount" : 0.29,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "matti_rally_Stun_4",
-         "stat_type" : "resistance",
-         "stat_sub_type" : "stun",
-         "amount" : 0.31,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "matti_rally_Stun_5",
-         "stat_type" : "resistance",
-         "stat_sub_type" : "stun",
-         "amount" : 0.33,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "matti_rally_Debuff_1",
-         "stat_type" : "resistance",
-         "stat_sub_type" : "debuff",
-         "amount" : 0.2,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "matti_rally_Debuff_2",
-         "stat_type" : "resistance",
-         "stat_sub_type" : "debuff",
-         "amount" : 0.22,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "matti_rally_Debuff_3",
-         "stat_type" : "resistance",
-         "stat_sub_type" : "debuff",
-         "amount" : 0.25,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "matti_rally_Debuff_4",
-         "stat_type" : "resistance",
-         "stat_sub_type" : "debuff",
-         "amount" : 0.27,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "matti_rally_Debuff_5",
-         "stat_type" : "resistance",
-         "stat_sub_type" : "debuff",
-         "amount" : 0.3,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "matti_Rally_not_R1A",
-         "stat_type" : "stress_heal_percent",
-         "stat_sub_type" : "",
-         "amount" : -50,
-         "remove_if_not_active" : false,
-         "rule_type" : "in_rank",
-         "is_false_rule" : true,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         },
-		"is_clear_debuff_valid": false
-      },
-	  {
-         "id" : "matti_Rally_not_R2A",
-         "stat_type" : "stress_heal_percent",
-         "stat_sub_type" : "",
-         "amount" : -50,
-         "remove_if_not_active" : false,
-         "rule_type" : "in_rank",
-         "is_false_rule" : true,
-         "rule_data" : {
-            "float" : 1,
-            "string" : ""
-         },
-		"is_clear_debuff_valid": false
-      },
-	  {
-         "id" : "matti_Rally_not_R3A",
-         "stat_type" : "stress_heal_percent",
-         "stat_sub_type" : "",
-         "amount" : -50,
-         "remove_if_not_active" : false,
-         "rule_type" : "in_rank",
-         "is_false_rule" : true,
-         "rule_data" : {
-            "float" : 2,
-            "string" : ""
-         },
-		"is_clear_debuff_valid": false
-      },
-	  {
-         "id" : "matti_Rally_not_R1B",
-         "stat_type" : "stress_heal_percent",
-         "stat_sub_type" : "",
-         "amount" : 50,
-         "remove_if_not_active" : false,
-         "rule_type" : "in_rank",
-         "is_false_rule" : true,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         },
-		"is_clear_debuff_valid": false
-      },
-	  {
-         "id" : "matti_Rally_not_R2B",
-         "stat_type" : "stress_heal_percent",
-         "stat_sub_type" : "",
-         "amount" : 50,
-         "remove_if_not_active" : false,
-         "rule_type" : "in_rank",
-         "is_false_rule" : true,
-         "rule_data" : {
-            "float" : 1,
-            "string" : ""
-         },
-		"is_clear_debuff_valid": false
-      },
-	  {
-         "id" : "matti_Rally_not_R3B",
-         "stat_type" : "stress_heal_percent",
-         "stat_sub_type" : "",
-         "amount" : 50,
-         "remove_if_not_active" : false,
-         "rule_type" : "in_rank",
-         "is_false_rule" : true,
-         "rule_data" : {
-            "float" : 2,
-            "string" : ""
-         },
-		"is_clear_debuff_valid": false
-      },
-	  {
-         "id" : "matti_RallyBlock_R1A",
-         "stat_type" : "stress_heal_received_percent",
-         "stat_sub_type" : "",
-         "amount" : -50,
-         "remove_if_not_active" : false,
-         "rule_type" : "in_rank",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
             "string" : ""
          },
-		"is_clear_debuff_valid": false
-      },
-	  {
-         "id" : "matti_RallyBlock_R2A",
-         "stat_type" : "stress_heal_received_percent",
-         "stat_sub_type" : "",
-         "amount" : -50,
-         "remove_if_not_active" : false,
-         "rule_type" : "in_rank",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 1,
-            "string" : ""
-         },
-		"is_clear_debuff_valid": false
-      },
-	  {
-         "id" : "matti_RallyBlock_R1B",
-         "stat_type" : "stress_heal_received_percent",
-         "stat_sub_type" : "",
-         "amount" : 50,
-         "remove_if_not_active" : false,
-         "rule_type" : "in_rank",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         },
-		"is_clear_debuff_valid": false
-      },
-	  {
-         "id" : "matti_RallyBlock_R2B",
-         "stat_type" : "stress_heal_received_percent",
-         "stat_sub_type" : "",
-         "amount" : 50,
-         "remove_if_not_active" : false,
-         "rule_type" : "in_rank",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 1,
-            "string" : ""
-         },
-		"is_clear_debuff_valid": false
+         "clear_buffs_on_rule_active" : [ "Matti_PROT30", "Matti_PROT33", "Matti_PROT35", "Matti_PROT38", "Matti_PROT40", "Matti_SPD4", "Matti_SPD5", "Matti_SPD6", "Matti_Zeal_COBRA" ],
+		 "suppress_apply_poptext" : true,
+		 "has_description" : false
       },
 	  {
          "id" : "Matti_PROT30",
@@ -1061,7 +690,7 @@
          }
       },
 	  {
-         "id" : "matti_varo_COBRA",
+         "id" : "matti_varo_COBRA1",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "matti_COBRA",
          "amount" : 1,
@@ -1072,7 +701,24 @@
             "float" : 0,
             "string" : ""
          },
-         "clear_buffs_on_rule_active" : [ "matti_varo_StressVMarked", "matti_varo_CritIfMarked", "matti_varo_COBRA" ],
+         "clear_buffs_on_rule_active" : [ "matti_varo_CritIfMarked" ],
+		 "remove_on_battle_complete": true,
+		 "suppress_apply_poptext" : true,
+		 "has_description" : false
+      },
+	  {
+         "id" : "matti_varo_COBRA2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "matti_COBRA",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "clear_buffs_on_rule_active" : [ "matti_varo_CritIfMarked", "matti_varo_COBRA2" ],
 		 "remove_on_battle_complete": true,
 		 "suppress_apply_poptext" : true,
 		 "has_description" : false

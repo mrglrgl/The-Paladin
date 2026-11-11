@@ -149,8 +149,8 @@
          "buffs" : 
          [	
 			"matti_Varo_ActFirst",
-			"matti_Varo_Desk_1",
-			"matti_Varo_Desk_2"
+			"matti_Varo_Heroes",
+			"matti_Varo_Enemies"
          ],
          "hero_class_requirements":
          [
@@ -161,12 +161,7 @@
 		 "visual_rarity" : "mattimouse_very_rare",
          "price" : 0,
          "limit" : 1,
-         "origin_dungeon" : "warrens",
-		 "turn_end_additional_effects":
-		 [
-		     "Matti_Varo_Ally",
-			 "Matti_Varo_Enemy"
-		 ]
+         "origin_dungeon" : "warrens"
       },
 	  {
          "id" : "matti_trinket_SI",

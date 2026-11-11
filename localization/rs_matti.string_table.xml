@@ -48,23 +48,23 @@
     
 	
 		<!-- Upgrades -->
-	<entry id="rs_matti_weapon_0"><![CDATA[Weapon 1
+	<entry id="rs_matti_weapon_0"><![CDATA[Rusty Needle
 {colour_start|notable}Armor Piercing{colour_end}]]></entry>
-    <entry id="rs_matti_weapon_1"><![CDATA[Weapon 2
+    <entry id="rs_matti_weapon_1"><![CDATA[Sharpened Needle
 {colour_start|notable}Armor Piercing{colour_end}]]></entry>
-    <entry id="rs_matti_weapon_2"><![CDATA[Weapon 3
+    <entry id="rs_matti_weapon_2"><![CDATA[Wooden Sword
 {colour_start|notable}Armor Piercing{colour_end}]]></entry>
-    <entry id="rs_matti_weapon_3"><![CDATA[Weapon 4
+    <entry id="rs_matti_weapon_3"><![CDATA[Steel Sword
 {colour_start|notable}Armor Piercing{colour_end}]]></entry>
-    <entry id="rs_matti_weapon_4"><![CDATA["Weapon 5"
+    <entry id="rs_matti_weapon_4"><![CDATA["Luminous Avenger"
 {colour_start|notable}Armor Piercing{colour_end}]]></entry>
-    <entry id="upgrade_tree_name_rs_matti.weapon"><![CDATA[Weapon]]></entry>
-    <entry id="rs_matti_armour_0"><![CDATA[Armor 1]]></entry>
-    <entry id="rs_matti_armour_1"><![CDATA[Armor 2]]></entry>
-    <entry id="rs_matti_armour_2"><![CDATA[Armor 3]]></entry>
-    <entry id="rs_matti_armour_3"><![CDATA[Armor 4]]></entry>
-    <entry id="rs_matti_armour_4"><![CDATA["Armor 5"]]></entry>
-    <entry id="upgrade_tree_name_rs_matti.armour"><![CDATA[Armor]]></entry>
+    <entry id="upgrade_tree_name_rs_matti.weapon"><![CDATA[Sword]]></entry>
+    <entry id="rs_matti_armour_0"><![CDATA[Ratty Acorn Cap]]></entry>
+    <entry id="rs_matti_armour_1"><![CDATA[Reinforced Acorn Cap]]></entry>
+    <entry id="rs_matti_armour_2"><![CDATA[Pot Lid]]></entry>
+    <entry id="rs_matti_armour_3"><![CDATA[Steel Shield]]></entry>
+    <entry id="rs_matti_armour_4"><![CDATA["Guardian of the Meek"]]></entry>
+    <entry id="upgrade_tree_name_rs_matti.armour"><![CDATA[Shield]]></entry>
     <entry id="action_verbose_body_guild_rs_matti"><![CDATA[Matti Guild]]></entry>
     <entry id="action_verbose_body_blacksmith_rs_matti"><![CDATA[Matti Blacksmith]]></entry>
     <entry id="action_verbose_body_camping_trainer_rs_matti"><![CDATA[Matti Camp]]></entry>
@@ -97,14 +97,13 @@
 		
 	<entry id="str_inventory_title_trinketmatti_trinket_5"><![CDATA[Orn, Scalebreaker]]></entry>
 		<entry id="buff_rule_data_tooltip_matti_FakeATK"><![CDATA[Attack Skills]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_matti_Orn_desk_1"><![CDATA[Other Heroes: +33%% Armor Piercing]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_matti_Orn_desk_1"><![CDATA[{colour_start|attacktype}Other Heroes:{colour_end} +33%% Armor Piercing]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_matti_Orn_desk_2"><![CDATA[Bypass/Break {colour_start|guard}Guard{colour_end}]]></entry>
 
 	
 	<entry id="str_inventory_title_trinketmatti_trinket_6"><![CDATA[Meg, Rosemage]]></entry>
 		<entry id="buff_tooltip_matti_meg_emptyhp"><![CDATA[Combat Start: +75% empty MAX HP]]></entry>
 	<entry id="str_inventory_title_trinketmatti_trinket_7"><![CDATA[Varo, Commander]]></entry>
-		<entry id="buff_tooltip_matti_varo_actfirst"><![CDATA[Acts First on First Round]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_matti_Varo_desk_1"><![CDATA[{colour_start|attacktype}All Enemies:{colour_end} -15%% CRT while {colour_start|mark}Marked{colour_end}]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_matti_Varo_desk_2"><![CDATA[{colour_start|attacktype}Other Heroes:{colour_end} {colour_start|stress}Stress{colour_end} -3 on Attack vs {colour_start|mark}Marked{colour_end}]]></entry>
 		<entry id="buff_tooltip_matti_varo_tray"><![CDATA[{colour_start|stress}Stress{colour_end} -3 on Attack vs {colour_start|mark}Marked{colour_end}]]></entry>
@@ -219,22 +218,6 @@ DMG mod: -65%%]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_matti_Zeal_desk_4"><![CDATA[{colour_start|mark}Mark{colour_end} / +38%% PROT / +5 SPD]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_matti_Zeal_desk_5"><![CDATA[{colour_start|mark}Mark{colour_end} / +40%% PROT / +6 SPD]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_matti_Zeal_desk_D"><![CDATA[{colour_start|notable}Unstackable{colour_end}]]></entry>
-	
-			<!-- Deprecated -->
-	
-	<entry id="buff_stat_tooltip_upgrade_discount_matti_avatar_desk_A"><![CDATA[{colour_start|debuff}Transfer to{colour_end} {colour_start|buff}each Ally:{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_matti_avatar_desk_B"><![CDATA[15%% PROT / 10 DODGE]]></entry>
-	
-	<entry id="buff_stat_tooltip_upgrade_discount_matti_party_desk"><![CDATA[All Heroes:]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_matti_rally_desk_A1"><![CDATA[Clear {colour_start|stun}Stun{colour_end} / +25%% {colour_start|stun}Stun{colour_end} Resist]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_matti_rally_desk_A2"><![CDATA[Clear {colour_start|stun}Stun{colour_end} / +27%% {colour_start|stun}Stun{colour_end} Resist]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_matti_rally_desk_A3"><![CDATA[Clear {colour_start|stun}Stun{colour_end} / +29%% {colour_start|stun}Stun{colour_end} Resist]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_matti_rally_desk_A4"><![CDATA[Clear {colour_start|stun}Stun{colour_end} / +31%% {colour_start|stun}Stun{colour_end} Resist]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_matti_rally_desk_A5"><![CDATA[Clear {colour_start|stun}Stun{colour_end} / +33%% {colour_start|stun}Stun{colour_end} Resist]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_matti_rally_desk_B1"><![CDATA[{colour_start|stress}Stress{colour_end} -4 if behind {colour_start|specificclass}Paladin{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_matti_rally_desk_B2"><![CDATA[{colour_start|stress}Stress{colour_end} -5 if behind {colour_start|specificclass}Paladin{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_matti_rally_desk_B3"><![CDATA[{colour_start|stress}Stress{colour_end} -6 if behind {colour_start|specificclass}Paladin{colour_end}]]></entry>
-
 
 		<!-- Camp Item -->				
 		<!-- Crit -->

@@ -56,11 +56,11 @@ combat_skill: .id "rsmatti_inspire" .level 4 .launch 4321 .target  .is_crit_vali
 combat_skill: .id "rsmatti_inspire" .is_continue_turn true .per_turn_limit 1 .effect "Matti_Toggle_Desk" "Matti_FFS_Blocker"
 combat_skill: .id "rsmatti_inspire" .valid_modes matti_Avenge .matti_Avenge_effects	"Matti_Cancel_Desk" "Matti_Avenge_Cancel" "Matti_Modeto_D"
 
-combat_skill: .id "rsmatti_zeal" .level 0 .type "fumo" .atk 200%	.dmg -75% .crit 0% .launch 4321 .target 1234  .effect "Matti_Zeal_Desk_A" "Matti_Zeal_Desk_1" "Matti_Zeal_MarkT" "Matti_Zeal_Reset" "Matti_Zeal_MarkS" "Matti_Zeal_Buff_1"
-combat_skill: .id "rsmatti_zeal" .level 1 .type "fumo" .atk 200%	.dmg -75% .crit 0% .launch 4321 .target 1234  .effect "Matti_Zeal_Desk_A" "Matti_Zeal_Desk_2" "Matti_Zeal_MarkT" "Matti_Zeal_Reset" "Matti_Zeal_MarkS" "Matti_Zeal_Buff_2"
-combat_skill: .id "rsmatti_zeal" .level 2 .type "fumo" .atk 200%	.dmg -75% .crit 0% .launch 4321 .target 1234  .effect "Matti_Zeal_Desk_A" "Matti_Zeal_Desk_3" "Matti_Zeal_MarkT" "Matti_Zeal_Reset" "Matti_Zeal_MarkS" "Matti_Zeal_Buff_3"
-combat_skill: .id "rsmatti_zeal" .level 3 .type "fumo" .atk 200%	.dmg -75% .crit 0% .launch 4321 .target 1234  .effect "Matti_Zeal_Desk_A" "Matti_Zeal_Desk_4" "Matti_Zeal_MarkT" "Matti_Zeal_Reset" "Matti_Zeal_MarkS" "Matti_Zeal_Buff_4"
-combat_skill: .id "rsmatti_zeal" .level 4 .type "fumo" .atk 200%	.dmg -75% .crit 0% .launch 4321 .target 1234  .effect "Matti_Zeal_Desk_A" "Matti_Zeal_Desk_5" "Matti_Zeal_MarkT" "Matti_Zeal_Reset" "Matti_Zeal_MarkS" "Matti_Zeal_Buff_5"
+combat_skill: .id "rsmatti_zeal" .level 0 .type "fumo" .atk 200%	.dmg -75% .crit 0% .launch 4321 .target 1234  .effect "Matti_Zeal_Desk_A" "Matti_Zeal_Desk_1" "Matti_Zeal_MarkT" "Matti_Zeal_Buff_1"
+combat_skill: .id "rsmatti_zeal" .level 1 .type "fumo" .atk 200%	.dmg -75% .crit 0% .launch 4321 .target 1234  .effect "Matti_Zeal_Desk_A" "Matti_Zeal_Desk_2" "Matti_Zeal_MarkT" "Matti_Zeal_Buff_2"
+combat_skill: .id "rsmatti_zeal" .level 2 .type "fumo" .atk 200%	.dmg -75% .crit 0% .launch 4321 .target 1234  .effect "Matti_Zeal_Desk_A" "Matti_Zeal_Desk_3" "Matti_Zeal_MarkT" "Matti_Zeal_Buff_3"
+combat_skill: .id "rsmatti_zeal" .level 3 .type "fumo" .atk 200%	.dmg -75% .crit 0% .launch 4321 .target 1234  .effect "Matti_Zeal_Desk_A" "Matti_Zeal_Desk_4" "Matti_Zeal_MarkT" "Matti_Zeal_Buff_4"
+combat_skill: .id "rsmatti_zeal" .level 4 .type "fumo" .atk 200%	.dmg -75% .crit 0% .launch 4321 .target 1234  .effect "Matti_Zeal_Desk_A" "Matti_Zeal_Desk_5" "Matti_Zeal_MarkT" "Matti_Zeal_Buff_5"
 combat_skill: .id "rsmatti_zeal" .valid_modes matti_Default matti_Avenge .nil true .is_crit_valid False .ignore_stealth true .can_miss false .effect "Matti_AP" "Matti_FFS_Blocker"
 
 riposte_skill: .id "riposte1" .level 0 .type "ranged" .atk 140% .dmg -65% .crit 0% .launch 1234 .target 1234 .is_crit_valid True .effect "Matti_Riposte_Buff" .ignore_protection true 

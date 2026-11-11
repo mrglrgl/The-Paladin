@@ -472,41 +472,38 @@
          "id" : "matti_Varo_ActFirst",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "speed_rating",
-         "amount" : 9999,
+         "amount" : 8,
          "remove_if_not_active" : false,
          "rule_type" : "firstroundonly",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
             "string" : ""
-         },
-		 "description_tooltip_id" : "buff_tooltip_matti_varo_actfirst"
+         }
       },
 	  {
-         "id" : "matti_Varo_Desk_1",
+         "id" : "matti_Varo_Heroes",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "matti_Varo_desk_1",
          "amount" : -0.01,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
+         "rule_data" : { "float" : 0, "string" : "" },
+			"combat_start_additional_effect_ids" : [ "Matti_Varo_Ally" ]
       },
 	  {
-         "id" : "matti_Varo_Desk_2",
+         "id" : "matti_Varo_Enemies",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "matti_Varo_desk_2",
          "amount" : -0.01,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
+         "rule_data" : { "float" : 0, "string" : "" },
+			"combat_start_additional_effect_ids" : [ "Matti_Varo_Enemy_1", "Matti_Varo_Enemy_2" ],
+			"round_end_additional_effect_ids" : [ "Matti_Varo_Enemy_1", "Matti_Varo_Enemy_2" ],
+			"turn_start_additional_effect_ids" : [ "Matti_Varo_Enemy_1", "Matti_Varo_Enemy_2" ]
       },
 	  {
          "id" : "matti_Nazrin_Scouting",
